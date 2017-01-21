@@ -19,11 +19,30 @@ MonoBehaviour:
     spriteCollectionGUID: 3593e5cd5c92a6347883103add8f5c4b
     spriteCollectionDataGUID: adbc947814e40004b807ff136e9f9065
     spriteNames:
-    - TrafficCopMockup
+    - 
+    - Background
     spriteTextureGUIDs:
-    - 01d6453fa1e56434b97faa7d79c5b6a1
+    - 
+    - a09d4b66352ce4345af70f44d18e8656
     spriteTextureTimeStamps:
-    - 1484954618.43291
+    - 0
+    - 1484999921
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: VehicleSpriteCollection
+    spriteCollectionGUID: 28d626acb6e09ec4794db9e951195f4c
+    spriteCollectionDataGUID: 6da6f4ec9c555f342b7f40600f8c5318
+    spriteNames:
+    - Cheeseboy_Placeholder_01 (1)
+    - Monkey_Placeholder_01 (1)
+    spriteTextureGUIDs:
+    - 30900a46f25d3cc48965338f4e0fa585
+    - fce016ebffae8a049aa5c2da921b94de
+    spriteTextureTimeStamps:
+    - 1485000204
+    - 1485000213
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

@@ -9,30 +9,30 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010360967048}
+  m_RootGameObject: {fileID: 1000010943466132}
   m_IsPrefabParent: 1
---- !u!1 &1000010360967048
+--- !u!1 &1000010943466132
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4000014219248712}
-  - 114: {fileID: 114000010502055274}
+  - 4: {fileID: 4000012004543080}
+  - 114: {fileID: 114000014250468328}
   m_Layer: 0
-  m_Name: WorldSpriteCollection
+  m_Name: VehicleSpriteCollection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000014219248712
+--- !u!4 &4000012004543080
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010360967048}
+  m_GameObject: {fileID: 1000010943466132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000010502055274
+--- !u!114 &114000014250468328
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010360967048}
+  m_GameObject: {fileID: 1000010943466132}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
@@ -55,35 +55,35 @@ MonoBehaviour:
   materialIdsValid: 1
   needMaterialInstance: 0
   spriteDefinitions:
-  - name: 
+  - name: Cheeseboy_Placeholder_01 (1)
     boundsData:
-    - {x: 0.31, y: -0.31, z: 0}
-    - {x: 0.64, y: 0.64, z: 0}
+    - {x: 0.017499983, y: 1.045, z: 0}
+    - {x: 3.6950002, y: 2.05, z: 0}
     untrimmedBoundsData:
-    - {x: 0.31, y: -0.31, z: 0}
-    - {x: 0.64, y: 0.64, z: 0}
-    texelSize: {x: 0.01, y: 0.01}
+    - {x: 0, y: 1.06, z: 0}
+    - {x: 3.75, y: 2.12, z: 0}
+    texelSize: {x: 0.005, y: 0.005}
     positions:
-    - {x: -0.01, y: -0.63, z: 0}
-    - {x: 0.63, y: -0.63, z: 0}
-    - {x: -0.01, y: 0.00999999, z: 0}
-    - {x: 0.63, y: 0.00999999, z: 0}
+    - {x: -1.83, y: 0.02, z: 0}
+    - {x: 1.865, y: 0.02, z: 0}
+    - {x: -1.83, y: 2.07, z: 0}
+    - {x: 1.865, y: 2.07, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: 0.94043016, y: 0.0009770507}
-    - {x: 0.9414058, y: 0.0009770507}
-    - {x: 0.94043016, y: 0.0019526368}
-    - {x: 0.9414058, y: 0.0019526368}
+    - {x: 0.0019541015, y: 0.3193364}
+    - {x: 0.72363186, y: 0.3193364}
+    - {x: 0.0019541015, y: 0.5195308}
+    - {x: 0.72363186, y: 0.5195308}
     normalizedUvs:
     - {x: 0, y: 0}
-    - {x: 1, y: 0}
+    - {x: 0.99999994, y: 0}
     - {x: 0, y: 1}
-    - {x: 1, y: 1}
+    - {x: 0.99999994, y: 1}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 7ff5fb0419a47db4885a38274d6cb611, type: 2}
+    material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
     materialId: 0
-    sourceTextureGUID: 
+    sourceTextureGUID: 30900a46f25d3cc48965338f4e0fa585
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -102,35 +102,35 @@ MonoBehaviour:
     polygonCollider2D: []
     edgeCollider2D: []
     attachPoints: []
-  - name: Background
+  - name: Monkey_Placeholder_01 (1)
     boundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 19.199999, y: 10.8, z: 0}
+    - {x: 0.027499974, y: 1.7549999, z: 0}
+    - {x: 3.505, y: 3.2399998, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 19.199999, y: 10.8, z: 0}
-    texelSize: {x: 0.01, y: 0.01}
+    - {x: 0, y: 1.7674999, z: 0}
+    - {x: 3.75, y: 3.5349998, z: 0}
+    texelSize: {x: 0.005, y: 0.005}
     positions:
-    - {x: -9.599999, y: -5.4, z: 0}
-    - {x: 9.599999, y: -5.4, z: 0}
-    - {x: -9.599999, y: 5.4, z: 0}
-    - {x: 9.599999, y: 5.4, z: 0}
+    - {x: -1.725, y: 0.13499999, z: 0}
+    - {x: 1.78, y: 0.13499999, z: 0}
+    - {x: -1.725, y: 3.3749998, z: 0}
+    - {x: 1.78, y: 3.3749998, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: 0.0009770507, y: 0.0009770507}
-    - {x: 0.9384761, y: 0.0009770507}
-    - {x: 0.0009770507, y: 0.52831984}
-    - {x: 0.9384761, y: 0.52831984}
+    - {x: 0.0019541015, y: 0.0009770507}
+    - {x: 0.6865225, y: 0.0009770507}
+    - {x: 0.0019541015, y: 0.31738234}
+    - {x: 0.6865225, y: 0.31738234}
     normalizedUvs:
     - {x: 0, y: 0}
-    - {x: 1, y: 0}
-    - {x: 0, y: 1}
-    - {x: 1, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 0.99999994, y: 0.99999994}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 7ff5fb0419a47db4885a38274d6cb611, type: 2}
+    material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
     materialId: 0
-    sourceTextureGUID: a09d4b66352ce4345af70f44d18e8656
+    sourceTextureGUID: fce016ebffae8a049aa5c2da921b94de
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -152,22 +152,22 @@ MonoBehaviour:
   premultipliedAlpha: 0
   material: {fileID: 0}
   materials:
-  - {fileID: 2100000, guid: 7ff5fb0419a47db4885a38274d6cb611, type: 2}
+  - {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
   textures:
-  - {fileID: 2800000, guid: 1549161c49d106a4a9434bda0a694f2e, type: 3}
+  - {fileID: 2800000, guid: 633970033637e244e8ed84f12a30c896, type: 3}
   pngTextures: []
   materialPngTextureId: 00000000
   textureFilterMode: 1
   textureMipMaps: 0
   allowMultipleAtlases: 0
-  spriteCollectionGUID: 3593e5cd5c92a6347883103add8f5c4b
-  spriteCollectionName: WorldSpriteCollection
+  spriteCollectionGUID: 28d626acb6e09ec4794db9e951195f4c
+  spriteCollectionName: VehicleSpriteCollection
   assetName: 
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 50
-  buildKey: 1545070307
-  dataGuid: adbc947814e40004b807ff136e9f9065
+  buildKey: 1530403935
+  dataGuid: 6da6f4ec9c555f342b7f40600f8c5318
   managedSpriteCollection: 0
   hasPlatformData: 0
   spriteCollectionPlatforms: []

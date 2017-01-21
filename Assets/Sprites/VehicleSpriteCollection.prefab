@@ -9,30 +9,30 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010619400098}
+  m_RootGameObject: {fileID: 1000013811021214}
   m_IsPrefabParent: 1
---- !u!1 &1000010619400098
+--- !u!1 &1000013811021214
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 4000012289845634}
-  - 114: {fileID: 114000012099309832}
+  - 4: {fileID: 4000011588168718}
+  - 114: {fileID: 114000011783469190}
   m_Layer: 0
-  m_Name: WorldSpriteCollection
+  m_Name: VehicleSpriteCollection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &4000012289845634
+--- !u!4 &4000011588168718
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010619400098}
+  m_GameObject: {fileID: 1000013811021214}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114000012099309832
+--- !u!114 &114000011783469190
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010619400098}
+  m_GameObject: {fileID: 1000013811021214}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84c7a4b4ee15890498f818262bca0312, type: 3}
@@ -73,20 +73,20 @@ MonoBehaviour:
   forcedTextureWidth: 2048
   forcedTextureHeight: 2048
   textureCompression: 0
-  atlasWidth: 2048
+  atlasWidth: 1024
   atlasHeight: 2048
   forceSquareAtlas: 0
-  atlasWastage: 50.27418
+  atlasWastage: 63.414097
   allowMultipleAtlases: 0
   removeDuplicates: 1
   textureParams:
-  - name: 
+  - name: Cheeseboy_Placeholder_01 (1)
     disableTrimming: 0
     additive: 0
-    scale: {x: 1, y: 1, z: 1}
-    texture: {fileID: 0}
+    scale: {x: 0.5, y: 0.5, z: 0.5}
+    texture: {fileID: 2800000, guid: 30900a46f25d3cc48965338f4e0fa585, type: 3}
     materialId: 0
-    anchor: 4
+    anchor: 7
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}
@@ -121,13 +121,13 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  - name: Background
+  - name: Monkey_Placeholder_01 (1)
     disableTrimming: 0
     additive: 0
-    scale: {x: 1, y: 1, z: 1}
-    texture: {fileID: 2800000, guid: a09d4b66352ce4345af70f44d18e8656, type: 3}
+    scale: {x: 0.5, y: 0.5, z: 0.5}
+    texture: {fileID: 2800000, guid: fce016ebffae8a049aa5c2da921b94de, type: 3}
     materialId: 0
-    anchor: 4
+    anchor: 7
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}
@@ -162,15 +162,15 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  spriteCollection: {fileID: 114000010502055274, guid: adbc947814e40004b807ff136e9f9065,
+  spriteCollection: {fileID: 114000014250468328, guid: 6da6f4ec9c555f342b7f40600f8c5318,
     type: 2}
   premultipliedAlpha: 0
   altMaterials:
-  - {fileID: 2100000, guid: 7ff5fb0419a47db4885a38274d6cb611, type: 2}
+  - {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
   atlasMaterials:
-  - {fileID: 2100000, guid: 7ff5fb0419a47db4885a38274d6cb611, type: 2}
+  - {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
   atlasTextures:
-  - {fileID: 2800000, guid: 1549161c49d106a4a9434bda0a694f2e, type: 3}
+  - {fileID: 2800000, guid: 633970033637e244e8ed84f12a30c896, type: 3}
   atlasTextureFiles: []
   useTk2dCamera: 0
   targetHeight: 640
