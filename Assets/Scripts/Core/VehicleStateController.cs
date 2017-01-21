@@ -21,7 +21,6 @@ public class VehicleStateController  {
         }
     }
 
-
     public void OnLaneClosed()
     {
         if (CurrentState != null)
@@ -48,8 +47,6 @@ public class VehicleStateController  {
         public void Init(Vehicle vehicle)
         {
             Vehicle = vehicle;
-
-
         }
 
         public virtual void OnEnter()

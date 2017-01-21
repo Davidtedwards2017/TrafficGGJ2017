@@ -12,22 +12,22 @@ public class VehicleFactoryInEditor : Editor {
         VehicleFactory myScript = (VehicleFactory)target;
         if (GUILayout.Button("Spawn From SE"))
         {
-            myScript.SpawnRandomVehicle(DataTypes.Direction.SouthEast);
+            myScript.SpawnRandomVehicle(DataTypes.Direction.South);
         }
 
         if (GUILayout.Button("Spawn From NE"))
         {
-            myScript.SpawnRandomVehicle(DataTypes.Direction.NorthEast);
+            myScript.SpawnRandomVehicle(DataTypes.Direction.East);
         }
 
         if (GUILayout.Button("Spawn From SW"))
         {
-            myScript.SpawnRandomVehicle(DataTypes.Direction.SouthWest);
+            myScript.SpawnRandomVehicle(DataTypes.Direction.West);
         }
 
         if (GUILayout.Button("Spawn From NW"))
         {
-            myScript.SpawnRandomVehicle(DataTypes.Direction.NorthWest);
+            myScript.SpawnRandomVehicle(DataTypes.Direction.North);
         }
     }
 

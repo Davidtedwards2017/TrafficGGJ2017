@@ -11,6 +11,8 @@ public class Vehicle : MonoBehaviour {
     public StreetController Street;
     public Vehicle NextVehicle;
 
+    public float Patience = 2.0f;
+
     VehicleStateController StateCtrl = new VehicleStateController();
     
     public Tween MovementTween;
@@ -128,7 +130,7 @@ public class Vehicle : MonoBehaviour {
 
     public StoppingAtIntersectionState StoppingAtIntersection = new StoppingAtIntersectionState();
     public class StoppingAtIntersectionState : VehicleStateController.VehicleState
-    {
+    {   
         public override void OnEnter()
         {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.StopLightPosition;
@@ -136,6 +138,14 @@ public class Vehicle : MonoBehaviour {
 
         public override void OnUpdate()
         {
+            Vehicle.Patience -= Time.deltaTime;
+
+            if(Vehicle.Patience <= 0)
+            {
+                MessageController.SendMessage("VehicleLostPatience", Vehicle);
+                Vehicle.StateCtrl.ChangeState(Vehicle.DrivingPastIntersection);
+            }
+
             if (Vehicle.NextVehicle != null)
             {
                 if ((Vehicle.NextVehicle.StateCtrl.CurrentState is StoppingAtIntersectionState))

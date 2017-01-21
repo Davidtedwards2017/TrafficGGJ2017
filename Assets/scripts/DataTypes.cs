@@ -5,10 +5,10 @@ public class DataTypes {
 
     public enum Direction
     {
-        NorthWest,
-        NorthEast,
-        SouthWest,
-        SouthEast
+        North,
+        East,
+        West,
+        South
     }
 
 }
