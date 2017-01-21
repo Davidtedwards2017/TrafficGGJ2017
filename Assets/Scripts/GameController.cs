@@ -16,8 +16,6 @@ public class GameController : Singleton<GameController>
 
     public string displayState = "";
 
-    public static bool tutorialEnabled = false;
-
     static bool _controlsEnabled = false;
 
     public static bool controlsEnabled
@@ -44,12 +42,8 @@ public class GameController : Singleton<GameController>
 
     [Space(10)]
     public bool paused = false;
-    public bool pausePlayer = false; //!< Whether a pause was initiated with the player
 
     public static bool isQuitting = false;
-
-    public Transform leftUtilityTeleport;
-    public Transform rightUtilityTeleport;
 
     void Awake()
     {
@@ -239,12 +233,10 @@ public class GameController : Singleton<GameController>
     {
         if (paused)
         {
-            pausePlayer = false;
             UnPause();
         }
         else
         {
-            pausePlayer = true;
             Pause();
         }
 
