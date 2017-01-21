@@ -5,7 +5,6 @@ using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-[RequireComponent(typeof(LineRenderer))]
 /// Manages game state and player input.
 public class GameController : Singleton<GameController>
 {
