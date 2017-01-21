@@ -2,8 +2,19 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System;
+using System.Linq;
 
 public static class GenericExtensions {
+
+    public static T GetRandom<T>(this IEnumerable<T> collection)
+    {
+        if(collection == null || !collection.Any())
+        {
+            return default(T);
+        }
+
+        return collection.ElementAt(UnityEngine.Random.Range(0, collection.Count()));
+    }
 
 	public static void AddIfUnique<T>(this List<T> collection, T entry)
     {

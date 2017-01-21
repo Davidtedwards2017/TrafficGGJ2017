@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 public class IntersectionController : Singleton<IntersectionController> {
 
-    public StreetController NorthEastStreet;
-    public StreetController NorthWestStreet;
-    public StreetController SouthEastStreet;
-    public StreetController SouthWestStreet;
+    public StreetController[] Streets;
+
+    public StreetController GetStreet(DataTypes.Direction direction)
+    {
+        return Streets.FirstOrDefault(s => s.Direction.Equals(direction));
+    }
 
     // Use this for initialization
     void Start () {

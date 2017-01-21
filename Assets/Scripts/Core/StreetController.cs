@@ -9,7 +9,7 @@ public class StreetController : MonoBehaviour {
     public DataTypes.Direction Direction;
     public LanePath LanePathData;
 
-    public Queue<Vehicle> Vehicles;
+    private Vehicle m_LastVehicle;
 
     // Use this for initialization
     void Start () {
@@ -20,6 +20,13 @@ public class StreetController : MonoBehaviour {
 	void Update () {
 	    
 	}
+
+    public void VehicleSpawned(Vehicle vehicle)
+    {
+        vehicle.Street = this;
+        vehicle.NextVehicle = m_LastVehicle;
+        m_LastVehicle = vehicle;
+    }
 
     public void OnDirectionInputChanged(object[] args)
     {

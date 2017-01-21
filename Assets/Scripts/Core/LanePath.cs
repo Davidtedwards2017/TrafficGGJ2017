@@ -40,6 +40,7 @@ public class LanePath : MonoBehaviour {
 
     public void Update()
     {
+        UpdateLaneProperties();
         if (ShowDebugLines)
         {
             Debug.DrawLine(LaneStartPosition, LaneEndPosition, Color.blue);

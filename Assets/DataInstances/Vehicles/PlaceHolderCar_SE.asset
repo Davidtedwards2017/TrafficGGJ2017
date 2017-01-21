@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20cbd553a2de7b14ab7c61e03bed0b14, type: 3}
+  m_Name: PlaceHolderCar_SE
+  m_EditorClassIdentifier: 
+  Asset: {fileID: 1000011713047694, guid: b3eed7d373efc45468ff99d8ca1e340a, type: 2}
+  Direction: 3
+  Size: 1

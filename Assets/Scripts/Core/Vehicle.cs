@@ -51,6 +51,7 @@ public class Vehicle : MonoBehaviour {
         DrivingTowardsIntersection.Init(this);
         StoppingAtIntersection.Init(this);
         DrivingPastIntersection.Init(this);
+        Crashing.Init(this);
 
         StateCtrl.ChangeState(DrivingTowardsIntersection);
 	}
@@ -106,6 +107,14 @@ public class Vehicle : MonoBehaviour {
 
         public override void OnUpdate()
         {
+            if (Vehicle.NextVehicle != null)
+            {
+                if (!(Vehicle.NextVehicle.StateCtrl.CurrentState is CrashingState))
+                {
+                    Vehicle.TargetPosition = Vehicle.NextVehicle.GetTaleGatingPostion();
+                }
+            }
+            
             if (Vehicle.HasPassedStopLight())
             {
                 Vehicle.StateCtrl.ChangeState(Vehicle.DrivingPastIntersection);
@@ -125,6 +134,17 @@ public class Vehicle : MonoBehaviour {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.StopLightPosition;
         }
 
+        public override void OnUpdate()
+        {
+            if (Vehicle.NextVehicle != null)
+            {
+                if ((Vehicle.NextVehicle.StateCtrl.CurrentState is StoppingAtIntersectionState))
+                {
+                    Vehicle.TargetPosition = Vehicle.NextVehicle.GetTaleGatingPostion();
+                }
+            }
+        }
+
         public override void OnLaneOpened()
         {
             Vehicle.StateCtrl.ChangeState(Vehicle.DrivingTowardsIntersection);
@@ -138,8 +158,37 @@ public class Vehicle : MonoBehaviour {
         {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.LaneEndPosition;
         }
+
+        public override void OnUpdate()
+        {
+            if (Vehicle.NextVehicle != null)
+            {
+                if (!(Vehicle.NextVehicle.StateCtrl.CurrentState is CrashingState))
+                {
+                    Vehicle.TargetPosition = Vehicle.NextVehicle.GetTaleGatingPostion();
+                }
+            }
+            else
+            {
+                Vehicle.TargetPosition = Vehicle.Street.LanePathData.LaneEndPosition;
+            }
+
+            if(Vector3.Distance(Vehicle.TargetPosition, Vehicle.transform.position) < 0.1f)
+            {
+                MessageController.SendMessage("VehicleReachedDestination", Vehicle);
+                Destroy(Vehicle.gameObject);
+            }
+        }
     }
 
+    public CrashingState Crashing = new CrashingState();
+    public class CrashingState : VehicleStateController.VehicleState
+    {
+        public override void OnEnter()
+        {
+            MessageController.SendMessage("VehicleCrashed", Vehicle);
+        }
+    }
 
 
 
