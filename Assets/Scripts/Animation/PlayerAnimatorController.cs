@@ -57,12 +57,13 @@ public class PlayerAnimatorController : MonoBehaviour {
                 break;
         }
 
-        PlayAnimation(tentacle, animName);
+        if(tentacle != null) PlayAnimation(tentacle, animName);
     }
 
     void PlayAnimation(tk2dSpriteAnimator anim, string name, bool mayTransitionToSameAnimation = false)
     {
-        
+        //Debug.Log(anim);
+
         if (anim.IsPlaying(name) && !mayTransitionToSameAnimation) return;
 
         anim.Play(name);
