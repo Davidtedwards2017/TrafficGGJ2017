@@ -23,6 +23,7 @@ GameObject:
   - 23: {fileID: 23000013572685204}
   - 114: {fileID: 114000010562330202}
   - 114: {fileID: 114000013699643892}
+  - 114: {fileID: 114000010630628990}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -267,6 +268,24 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
+--- !u!114 &114000010630628990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011038759236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65f92df415e5f64fbca7cfff29abff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Intensity: 0
+  XStr: 0.01
+  XSpeed: 500
+  XtimingOffset: 0
+  YStr: 0.01
+  YSpeed: 500
+  YtimingOffset: 0
 --- !u!114 &114000011912658938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -308,6 +327,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010562330202}
   groundFxPoint: {fileID: 4000013575413228}
+  crashMaterial: {fileID: 2100000, guid: 271b8d01a3ac2554cbd43a8fcffe2c20, type: 2}
+  wiggle: {fileID: 0}
 --- !u!119 &119000012344370082
 Projector:
   m_ObjectHideFlags: 1

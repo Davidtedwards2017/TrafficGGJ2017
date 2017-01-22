@@ -26,6 +26,10 @@ public class VehicleAnimatorController : MonoBehaviour
 
     public event ColorEventHandler OnColorChanged;
 
+    public Material crashMaterial;
+
+    public Wiggle wiggle;
+
     //private Player player;
     // Use this for initialization
     void Awake()
@@ -35,6 +39,7 @@ public class VehicleAnimatorController : MonoBehaviour
         //anim = GetComponent<tk2dSpriteAnimator>();
         sprite = GetComponent<tk2dSprite>();
         vehicle = GetComponentInParent<Vehicle>();
+        if (wiggle == null) wiggle = GetComponent<Wiggle>();
         //anim.AnimationEventTriggered += HandleAnimationEvent;
     }
 
@@ -76,9 +81,20 @@ public class VehicleAnimatorController : MonoBehaviour
         sprite.FlipX = (direction == DataTypes.Direction.East || direction == DataTypes.Direction.North);
     }
 
-    internal void HandleCollision()
+    public void HandlePatience(float patience)
+    {
+        Color newColor = Color.Lerp(Color.red, Color.white, patience);
+
+        sprite.color = newColor;
+
+        //wiggle.Intensity = 0.1f + 0.6f * (1 / patience);
+        wiggle.Intensity = (1 / patience);
+    }
+
+    internal void HandleCrash()
     {
         //sprite.enabled = false;
+        //GetComponent<MeshRenderer>().material = crashMaterial;
     }
 
     void HandleAnimationEvent(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip, int frameNumber)

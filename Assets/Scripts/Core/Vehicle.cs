@@ -82,6 +82,7 @@ public class Vehicle : MonoBehaviour
         StateCtrl.ChangeState(DrivingTowardsIntersection);
 
         patience.OnValueBelowHalf += PlayHonk;
+        patience.OnValueChangeTo += anim.HandlePatience;
     }
 
     public void OnCollisionEnter(Collision collision)
@@ -95,7 +96,7 @@ public class Vehicle : MonoBehaviour
     void Crash()
     {
         rigidbody.useGravity = true;
-        anim.HandleCollision();
+        anim.HandleCrash();
 
         Instantiate(crashFX, transform.position, Quaternion.identity);
         audioSource.PlayOneShot(AudioManager.instance.crashes.PickRandom());
@@ -259,6 +260,8 @@ public class Vehicle : MonoBehaviour
                 MessageController.SendMessage("VehicleReachedDestination", Vehicle);
                 Destroy(Vehicle.gameObject);
             }
+
+            Vehicle.patience.value += Time.deltaTime * 3f;
         }
     }
 

@@ -14,24 +14,31 @@ public class Wiggle : MonoBehaviour {
     public float YSpeed = 1f;
     public float YtimingOffset = 0.0f;
 
-    private float count;
+    //private float count;
 
     private Vector3 startingPosition;
+    private Vector3 offset;
 
     // Use this for initialization
 	void Start () {
-        startingPosition = transform.position;
+        startingPosition = transform.localPosition;
 	}
-	
-	// Update is called once per frame
-	void Update () 
+
+    // Update is called once per frame
+    void Update()
     {
-        count += Time.deltaTime;
+        //count += Time.deltaTime;
 
-        Vector3 newPos = transform.position;
-        newPos.x = startingPosition.x + Mathf.Sin(Time.time * (XSpeed * Intensity) + XtimingOffset) * XStr * Intensity;
-        newPos.y = startingPosition.y + Mathf.Sin(Time.time * (YSpeed * Intensity) + YtimingOffset) * YStr * Intensity;
+        offset.x = Mathf.Sin(Time.time * (XSpeed * Intensity) + XtimingOffset) * XStr * Intensity;
+        offset.y = Mathf.Sin(Time.time * (YSpeed * Intensity) + YtimingOffset) * YStr * Intensity;
 
-        transform.position = newPos;
-	}
+        if(offset.sqrMagnitude > 0.001f)
+        {
+            transform.localPosition = startingPosition + offset;
+
+        } else
+        {
+            transform.localPosition = startingPosition;
+        }
+    }
 }
