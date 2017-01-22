@@ -11,7 +11,7 @@ public class GameController : Singleton<GameController>
 {
 
     [Flags]
-    public enum State { None = 1, MainMenu = 2, Playing = 4, EndPlaying = 8 };
+    public enum State { None = 1, Splash = 16, MainMenu = 2, Playing = 4, EndPlaying = 8 };
 
     public static StateManager<State> state = StateManager<State>.CreateNew();
 
@@ -53,7 +53,7 @@ public class GameController : Singleton<GameController>
     {
 
         Initialize();
-        state.value = State.MainMenu;
+        state.value = State.Splash;
     }
 
     public static CoroutineManager.Item CurrentSequence = new CoroutineManager.Item();
@@ -63,6 +63,8 @@ public class GameController : Singleton<GameController>
     /// </summary>
     static void Initialize()
     {
+        state.values[State.Splash].OnEnter += OnEnterSpashScreen;
+
         state.values[State.MainMenu].OnEnter += OnEnterStateMainMenu;
 
         state.values[State.Playing].OnEnter += OnEnterPlayingState;
@@ -109,6 +111,17 @@ public class GameController : Singleton<GameController>
         }
     }
 
+
+    public static void OnEnterSpashScreen()
+    {
+        CurrentSequence.value = instance.SplashScreenSequence();
+    }
+
+    IEnumerator SplashScreenSequence()
+    {
+        yield return SplashScreen.instance.DisplaySequence();
+        state.value = State.MainMenu;
+    }
 
     public static void OnEnterStateMainMenu()
     {
