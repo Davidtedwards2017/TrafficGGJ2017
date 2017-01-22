@@ -5,6 +5,8 @@ using DG.Tweening;
 [RequireComponent(typeof(AudioSource))]
 public class Vehicle : MonoBehaviour
 {
+    public string vehicleName = "vehicleName";
+
     public float DestructionAmount = 0.0f;
     public bool ShowDebugLines = true;
 

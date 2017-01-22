@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vehicleName: vehicleName
   DestructionAmount: 0.01
   ShowDebugLines: 1
   TaleGatingDistance: 2
@@ -253,6 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010562330202}
+  anim: {fileID: 0}
   groundFxPoint: {fileID: 4000013575413228}
   crashMaterial: {fileID: 0}
   MaxAngerIntensity: 0.3

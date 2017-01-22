@@ -73,7 +73,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011713047694}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8696014, y: 0, z: -7.155307}
+  m_LocalPosition: {x: 6.25, y: 0, z: -1.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -101,7 +101,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011038759236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.05, z: 0}
+  m_LocalPosition: {x: -0.008, y: -0.05, z: 0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -120,7 +120,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
+  - {fileID: 2100000, guid: 506e02457e3165a49b97194b3f369908, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -255,11 +255,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000014250468328, guid: 6da6f4ec9c555f342b7f40600f8c5318,
+  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.2, y: 0.2, z: 0.2}
-  _spriteId: 2
+  _spriteId: 154
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -279,6 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vehicleName: DickCheney
   DestructionAmount: 0.01
   ShowDebugLines: 1
   TaleGatingDistance: 2
@@ -332,8 +333,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010562330202}
+  anim: {fileID: 0}
   groundFxPoint: {fileID: 4000013575413228}
-  crashMaterial: {fileID: 2100000, guid: 271b8d01a3ac2554cbd43a8fcffe2c20, type: 2}
+  crashMaterial: {fileID: 2100000, guid: 1d82f62e203f509468924aa27720c35a, type: 2}
   MaxAngerIntensity: 0.4
   wiggle: {fileID: 0}
 --- !u!119 &119000012344370082
