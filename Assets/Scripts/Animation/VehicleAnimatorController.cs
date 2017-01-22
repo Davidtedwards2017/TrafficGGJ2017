@@ -12,6 +12,8 @@ public class VehicleAnimatorController : MonoBehaviour
 
     public tk2dSprite sprite;
 
+    public tk2dSpriteAnimator anim;
+
     private Vehicle vehicle;
 
     // State variable to see if the vehicle is moving.
