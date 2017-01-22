@@ -1436,7 +1436,7 @@ MonoBehaviour:
   StartNode: {fileID: 932800643}
   EndNode: {fileID: 2084548547}
   StopLightPosition: {x: 0, y: 0, z: 0}
-  PercentTowardStop: 0.52
+  PercentTowardStop: 0.47
 --- !u!1 &932800642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,7 +1514,7 @@ MonoBehaviour:
   StartNode: {fileID: 1077344974}
   EndNode: {fileID: 1097750545}
   StopLightPosition: {x: 0, y: 0, z: 0}
-  PercentTowardStop: 0.6
+  PercentTowardStop: 0.57
 --- !u!1 &1056431311
 GameObject:
   m_ObjectHideFlags: 0
