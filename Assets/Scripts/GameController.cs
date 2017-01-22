@@ -42,6 +42,8 @@ public class GameController : Singleton<GameController>
     public MinMaxEventFloat Destruction = new MinMaxEventFloat(0, 1, 0);
     CoroutineManager.Item matchTimerSequence = new CoroutineManager.Item();
 
+    public float GameTime;
+
     [Space(10)]
     public bool paused = false;
 
@@ -134,11 +136,18 @@ public class GameController : Singleton<GameController>
     public static void OnEnterPlayingState()
     {
         CurrentSequence.value = instance.PlayingStateSequence();
+        instance.Destruction.OnValueMax += instance.ShouldEndGame;
+    }
+
+    public void ShouldEndGame()
+    {
+        state.value = State.EndPlaying;
     }
 
     public static void OnExitPlayingState()
     {
 
+        instance.Destruction.OnValueMax -= instance.ShouldEndGame;
         CurrentSequence.value = null;
     }
 
@@ -166,6 +175,7 @@ public class GameController : Singleton<GameController>
         while(true)
         {
             yield return new WaitForSeconds(0.1f);
+            GameTime += 0.1f;
             VehicleFactory.instance.IncreseDifficulty();
         }
     }

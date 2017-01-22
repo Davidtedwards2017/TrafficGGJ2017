@@ -55,14 +55,14 @@ public class MinMaxFloat
     /// </summary>
     public virtual void SetToMin()
     {
-        _value = _min;
+        value = _min;
     }
     /// <summary>
     /// Sets value to maximum.
     /// </summary>
     public virtual void SetToMax()
     {
-        _value = _max;
+        value = _max;
     }
 
     /// <summary>
