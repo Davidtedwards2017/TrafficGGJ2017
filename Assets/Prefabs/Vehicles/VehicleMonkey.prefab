@@ -214,7 +214,7 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 1
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -231,7 +231,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -290,6 +290,10 @@ MonoBehaviour:
     _max: 3
   anim: {fileID: 114000013699643892}
   crashFX: {fileID: 1000010694773694, guid: bdc86fda0e7d6ee4b950f809e45a2f26, type: 2}
+  honkSound: {fileID: 8300000, guid: 7e38c1447a1321e4c971e4b1e334c7ae, type: 3}
+  movementSound: {fileID: 0}
+  startSound: {fileID: 0}
+  stopSound: {fileID: 0}
   Speed: 5
 --- !u!114 &114000013699643892
 MonoBehaviour:

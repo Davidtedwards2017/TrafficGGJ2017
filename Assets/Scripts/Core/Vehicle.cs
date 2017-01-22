@@ -26,6 +26,11 @@ public class Vehicle : MonoBehaviour
 
     public GameObject crashFX;
 
+    public AudioClip honkSound;
+    public AudioClip movementSound;
+    public AudioClip startSound;
+    public AudioClip stopSound;
+
     public Tween MovementTween;
     private Vector3 m_TargetPosition;
     public Vector3 TargetPosition
@@ -75,6 +80,8 @@ public class Vehicle : MonoBehaviour
 
 
         StateCtrl.ChangeState(DrivingTowardsIntersection);
+
+        patience.OnValueBelowHalf += PlayHonk;
     }
 
     public void OnCollisionEnter(Collision collision)
@@ -92,6 +99,24 @@ public class Vehicle : MonoBehaviour
 
         Instantiate(crashFX, transform.position, Quaternion.identity);
         audioSource.PlayOneShot(AudioManager.instance.crashes.PickRandom());
+    }
+
+    void PlayHonk()
+    {
+        AudioClip clip = honkSound != null ? honkSound : AudioManager.instance.horns.PickRandom();
+        audioSource.PlayOneShot(clip);
+    }
+
+    void PlayStartMotor()
+    {
+        AudioClip clip = startSound != null ? startSound : AudioManager.instance.motorStarts.PickRandom();
+        audioSource.PlayOneShot(clip);
+    }
+
+    void PlayHitBrakes()
+    {
+        AudioClip clip = stopSound != null ? stopSound : AudioManager.instance.skids.PickRandom();
+        audioSource.PlayOneShot(clip);
     }
 
     public void InitializeAnimator(DataTypes.Direction direction)

@@ -145,7 +145,7 @@ public class GameController : Singleton<GameController>
     public static void OnEnterEndPlayingState()
     {
         //state.value = State.MainMenu;
-        AudioManager.PlayAudio(AudioManager.instance.victory);
+        //AudioManager.PlayAudio(AudioManager.instance.victory);
 
 
         CurrentSequence.value = instance.EndGameStateSequence();
@@ -224,7 +224,7 @@ public class GameController : Singleton<GameController>
             Pause();
         }
 
-        AudioManager.PlayAudio(AudioManager.instance.pause);
+        //AudioManager.PlayAudio(AudioManager.instance.pause);
     }
 
     public void Pause()

@@ -14,8 +14,12 @@ public class AudioManager : Singleton<AudioManager> {
 	public AudioClip cancel;
 	
 	[Header("General")]
-	public AudioClip victory;
-	public AudioClip pause;
+	//public AudioClip victory;
+	//public AudioClip pause;
+    public AudioClip[] horns;
+    public AudioClip[] motorStarts;
+    public AudioClip[] motorLoops;
+    public AudioClip[] skids;
 
     [Header("Impacts")]
     public AudioClip[] crashes;
