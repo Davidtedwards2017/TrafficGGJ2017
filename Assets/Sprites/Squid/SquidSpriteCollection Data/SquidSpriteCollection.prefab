@@ -1,0 +1,785 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012624508460}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012624508460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010837941310}
+  - 114: {fileID: 114000011351486980}
+  m_Layer: 0
+  m_Name: SquidSpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010837941310
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012624508460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011351486980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012624508460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Squid_Arm1_02
+    boundsData:
+    - {x: 1.2600001, y: 4.06, z: 0}
+    - {x: 2.34, y: 2.04, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: 0.090000145, y: 3.04, z: 0}
+    - {x: 2.43, y: 3.04, z: 0}
+    - {x: 0.090000145, y: 5.08, z: 0}
+    - {x: 2.43, y: 5.08, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2519541, y: 0.36181688}
+    - {x: 0.48046777, y: 0.36181688}
+    - {x: 0.2519541, y: 0.4614253}
+    - {x: 0.48046777, y: 0.4614253}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 795227dbd7f54a141b554c0d1395ecd9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm2_02
+    boundsData:
+    - {x: 1.47, y: 2.155, z: 0}
+    - {x: 2.6599998, y: 1.71, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: 0.14000012, y: 1.3, z: 0}
+    - {x: 2.8, y: 1.3, z: 0}
+    - {x: 0.14000012, y: 3.01, z: 0}
+    - {x: 2.8, y: 3.01, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.4599614}
+    - {x: 0.0019541015, y: 0.5898433}
+    - {x: 0.16894433, y: 0.4599614}
+    - {x: 0.16894433, y: 0.5898433}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0047c22c298e62642ad8472ce19d25d1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm2_03
+    boundsData:
+    - {x: 1.32, y: 2.295, z: 0}
+    - {x: 2.34, y: 1.41, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: 0.1500002, y: 1.59, z: 0}
+    - {x: 2.49, y: 1.59, z: 0}
+    - {x: 0.1500002, y: 3, z: 0}
+    - {x: 2.49, y: 3, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5488291, y: 0.2573247}
+    - {x: 0.5488291, y: 0.37158155}
+    - {x: 0.6865225, y: 0.2573247}
+    - {x: 0.6865225, y: 0.37158155}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1b804a13c6f394d4180345530b1e1f2e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm1_01
+    boundsData:
+    - {x: 1.5699999, y: 4.105, z: 0}
+    - {x: 3, y: 2.21, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: 0.07000001, y: 3, z: 0}
+    - {x: 3.07, y: 3, z: 0}
+    - {x: 0.07000001, y: 5.21, z: 0}
+    - {x: 3.07, y: 5.21, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.14599659}
+    - {x: 0.2949209, y: 0.14599659}
+    - {x: 0.0019541015, y: 0.25390577}
+    - {x: 0.2949209, y: 0.25390577}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ce6e6265a444c342a63304ec02f46ac
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm4_01
+    boundsData:
+    - {x: -1.5999999, y: 4.2, z: 0}
+    - {x: 2.52, y: 2.1000001, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -2.86, y: 3.1499999, z: 0}
+    - {x: -0.33999985, y: 3.1499999, z: 0}
+    - {x: -2.86, y: 5.25, z: 0}
+    - {x: -0.33999985, y: 5.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2988291, y: 0.2573247}
+    - {x: 0.5449209, y: 0.2573247}
+    - {x: 0.2988291, y: 0.3598628}
+    - {x: 0.5449209, y: 0.3598628}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: e9eb0e5244da25740889b80ee1a5794a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm4_03
+    boundsData:
+    - {x: -1.0999998, y: 4.065, z: 0}
+    - {x: 1.54, y: 1.7299998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.8699998, y: 3.2, z: 0}
+    - {x: -0.3299998, y: 3.2, z: 0}
+    - {x: -1.8699998, y: 4.93, z: 0}
+    - {x: -0.3299998, y: 4.93, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6835947, y: 0.45898485}
+    - {x: 0.6835947, y: 0.5341792}
+    - {x: 0.8525381, y: 0.45898485}
+    - {x: 0.8525381, y: 0.5341792}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 967c119a0283ba74d805257ea63e36ba
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm3_01
+    boundsData:
+    - {x: -1.6649998, y: 2.13, z: 0}
+    - {x: 2.93, y: 2.24, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.1299999, y: 1.01, z: 0}
+    - {x: -0.19999982, y: 1.01, z: 0}
+    - {x: -3.1299999, y: 3.25, z: 0}
+    - {x: -0.19999982, y: 3.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2988291, y: 0.14599659}
+    - {x: 0.58496, y: 0.14599659}
+    - {x: 0.2988291, y: 0.25537062}
+    - {x: 0.58496, y: 0.25537062}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2445505f3fea25544964bf2d25d275c9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm3_03
+    boundsData:
+    - {x: -1.1899998, y: 2.4850001, z: 0}
+    - {x: 2.08, y: 1.49, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -2.2299998, y: 1.74, z: 0}
+    - {x: -0.14999984, y: 1.74, z: 0}
+    - {x: -2.2299998, y: 3.23, z: 0}
+    - {x: -0.14999984, y: 3.23, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17285255, y: 0.46337938}
+    - {x: 0.37597558, y: 0.46337938}
+    - {x: 0.17285255, y: 0.53613234}
+    - {x: 0.37597558, y: 0.53613234}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1899bb0e80301164d96e573490b48406
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm4_02
+    boundsData:
+    - {x: -1.3349998, y: 4.13, z: 0}
+    - {x: 2.0100002, y: 1.9199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -2.34, y: 3.17, z: 0}
+    - {x: -0.3299998, y: 3.17, z: 0}
+    - {x: -2.34, y: 5.0899997, z: 0}
+    - {x: -0.3299998, y: 5.0899997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.69043064, y: 0.36328173}
+    - {x: 0.8867178, y: 0.36328173}
+    - {x: 0.69043064, y: 0.45703077}
+    - {x: 0.8867178, y: 0.45703077}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 11eba1d483d780c4f8cd81222c8020cc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm3_02
+    boundsData:
+    - {x: -1.4399998, y: 2.21, z: 0}
+    - {x: 2.52, y: 2.1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -2.6999998, y: 1.16, z: 0}
+    - {x: -0.17999987, y: 1.16, z: 0}
+    - {x: -2.6999998, y: 3.26, z: 0}
+    - {x: -0.17999987, y: 3.26, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.35546923}
+    - {x: 0.24804589, y: 0.35546923}
+    - {x: 0.0019541015, y: 0.45800734}
+    - {x: 0.24804589, y: 0.45800734}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 14336a517e74aad48be8be62f34a476c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm2_01
+    boundsData:
+    - {x: 1.6500002, y: 2.02, z: 0}
+    - {x: 3.0000002, y: 1.9999999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: 0.1500002, y: 1.0200001, z: 0}
+    - {x: 3.1500003, y: 1.0200001, z: 0}
+    - {x: 0.1500002, y: 3.02, z: 0}
+    - {x: 3.1500003, y: 3.02, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.25585985}
+    - {x: 0.2949209, y: 0.25585985}
+    - {x: 0.0019541015, y: 0.35351515}
+    - {x: 0.2949209, y: 0.35351515}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6a13e9dfc9e2ced499bc2060a940653b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: 
+    boundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.31, y: -0.31, z: 0}
+    - {x: 0.64, y: 0.64, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -0.01, y: -0.63, z: 0}
+    - {x: 0.63, y: -0.63, z: 0}
+    - {x: -0.01, y: 0.00999999, z: 0}
+    - {x: 0.63, y: 0.00999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9316416, y: 0.0009770507}
+    - {x: 0.9335928, y: 0.0009770507}
+    - {x: 0.9316416, y: 0.0019526368}
+    - {x: 0.9335928, y: 0.0019526368}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_BodyIdle_01
+    boundsData:
+    - {x: 0.12500012, y: 3.63, z: 0}
+    - {x: 2.93, y: 7.12, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.3399999, y: 0.07, z: 0}
+    - {x: 1.5900002, y: 0.07, z: 0}
+    - {x: -1.3399999, y: 7.19, z: 0}
+    - {x: 1.5900002, y: 7.19, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0009770507}
+    - {x: 0.0019541015, y: 0.14404248}
+    - {x: 0.6972647, y: 0.0009770507}
+    - {x: 0.6972647, y: 0.14404248}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 268e5bc34c7bd64429c933ffff1fc0ff
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_Arm1_03
+    boundsData:
+    - {x: 1.0800002, y: 3.94, z: 0}
+    - {x: 2, y: 1.8199997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: 0.08000008, y: 3.0300002, z: 0}
+    - {x: 2.0800002, y: 3.0300002, z: 0}
+    - {x: 0.08000008, y: 4.85, z: 0}
+    - {x: 2.0800002, y: 4.85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.48437598, y: 0.37353563}
+    - {x: 0.67968655, y: 0.37353563}
+    - {x: 0.48437598, y: 0.46240187}
+    - {x: 0.67968655, y: 0.46240187}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 284ea80f6cef1374aa3fa2fbe4db1d97
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Squid_BodyIdle_02
+    boundsData:
+    - {x: 0.01000011, y: 3.7400002, z: 0}
+    - {x: 2.3200002, y: 7.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0050001144, y: 3.75, z: 0}
+    - {x: 6.35, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -1.15, y: 0.05, z: 0}
+    - {x: 1.1700002, y: 0.05, z: 0}
+    - {x: -1.15, y: 7.4300003, z: 0}
+    - {x: 1.1700002, y: 7.4300003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7011728, y: 0.0009770507}
+    - {x: 0.9277334, y: 0.0009770507}
+    - {x: 0.7011728, y: 0.36132765}
+    - {x: 0.9277334, y: 0.36132765}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 17039bd24a46ca445b1f683e4db134cd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 512c1c7fe6153754fbb569546ea8ab1c, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 5ff33f773f4724b4380507795e5c0b8e, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: b6500ddabaa7e8c4a98eb2c8aeae7c0f
+  spriteCollectionName: SquidSpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 615774614
+  dataGuid: ae80f673d926e9f499ac65ea8960daae
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

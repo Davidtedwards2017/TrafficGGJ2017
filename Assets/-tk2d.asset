@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Name: -tk2d
   m_EditorClassIdentifier: 
   version: 4
-  spriteAnimationIndex: []
+  spriteAnimationIndex:
+  - assetGUID: 546ad20afc3c01843ab64542ee9c6cf4
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex: []
   spriteCollectionIndex:
   - name: WorldSpriteCollection
@@ -110,6 +114,61 @@ MonoBehaviour:
     - 1485010765
     - 1484999909
     - 1485013932
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: SquidSpriteCollection
+    spriteCollectionGUID: b6500ddabaa7e8c4a98eb2c8aeae7c0f
+    spriteCollectionDataGUID: ae80f673d926e9f499ac65ea8960daae
+    spriteNames:
+    - Squid_Arm1_02
+    - Squid_Arm2_02
+    - Squid_Arm2_03
+    - Squid_Arm1_01
+    - Squid_Arm4_01
+    - Squid_Arm4_03
+    - Squid_Arm3_01
+    - Squid_Arm3_03
+    - Squid_Arm4_02
+    - Squid_Arm3_02
+    - Squid_Arm2_01
+    - 
+    - Squid_BodyIdle_01
+    - Squid_Arm1_03
+    - Squid_BodyIdle_02
+    spriteTextureGUIDs:
+    - 795227dbd7f54a141b554c0d1395ecd9
+    - 0047c22c298e62642ad8472ce19d25d1
+    - 1b804a13c6f394d4180345530b1e1f2e
+    - 4ce6e6265a444c342a63304ec02f46ac
+    - e9eb0e5244da25740889b80ee1a5794a
+    - 967c119a0283ba74d805257ea63e36ba
+    - 2445505f3fea25544964bf2d25d275c9
+    - 1899bb0e80301164d96e573490b48406
+    - 11eba1d483d780c4f8cd81222c8020cc
+    - 14336a517e74aad48be8be62f34a476c
+    - 6a13e9dfc9e2ced499bc2060a940653b
+    - 
+    - 268e5bc34c7bd64429c933ffff1fc0ff
+    - 284ea80f6cef1374aa3fa2fbe4db1d97
+    - 17039bd24a46ca445b1f683e4db134cd
+    spriteTextureTimeStamps:
+    - 1485087734
+    - 1485087694
+    - 1485087684
+    - 1485087742
+    - 1485087646
+    - 1485087622
+    - 1485087672
+    - 1485087656
+    - 1485087632
+    - 1485087664
+    - 1485087704
+    - 0
+    - 1485087612
+    - 1485087714
+    - 1485087596
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
