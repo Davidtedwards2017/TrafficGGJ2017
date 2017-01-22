@@ -29,7 +29,7 @@ public class StateManager<T>
     }
 
     //Dictionary of Enum to State object
-    public Dictionary<T, State> values 
+    public Dictionary<T, State> values
     {
         get; private set;
     }
@@ -91,9 +91,11 @@ public class StateManager<T>
 
         //Assign values a Dictionary of the Enum type to State
         this.values = new Dictionary<T, State>();
-        
+
         //Assign stateLookup a Dictionary of object to State
         stateLookup = new Dictionary<object, State>();
+
+        //State defaultState = null;
 
         //For each value in the Enum,
         for (int i = 0; i < values.Length; i++)
@@ -106,7 +108,10 @@ public class StateManager<T>
             this.values.Add((T)values.GetValue(i), stateLookup[mapping.state]);
         }
         //Assign the default state as the first item in the Enum
-        this.value = default(T); 
+        //this.value = default(T); 
+        //this.value = (T)values.GetEnumerator().Current;
+        //this.value = defaultState;
+
     }
 
     public class State

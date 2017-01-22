@@ -763,7 +763,7 @@ Transform:
   m_GameObject: {fileID: 359228700}
   m_LocalRotation: {x: 0, y: 0.048675474, z: 0, w: 0.99881464}
   m_LocalPosition: {x: 0.62, y: 0, z: 4.79}
-  m_LocalScale: {x: 1.4170178, y: 0.001, z: 23}
+  m_LocalScale: {x: 1.4170178, y: 0.001, z: 30}
   m_LocalEulerAnglesHint: {x: 0, y: 5.58, z: 0}
   m_Children:
   - {fileID: 360239833}
@@ -848,12 +848,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowDebugLines: 1
-  DistanceFromStartToStopLight: 0
-  LaneVectorDirection: {x: 0, y: 0, z: 0}
+  DistanceFromStartToStopLight: 5.465175
+  LaneVectorDirection: {x: -0.0790142, y: 0, z: -0.9968735}
   StartNode: {fileID: 1281294636}
   EndNode: {fileID: 2075521852}
-  StopLightPosition: {x: 0, y: 0, z: 0}
-  PercentTowardStop: 0.12
+  StopLightPosition: {x: -1.7508912, y: 0, z: 3.306273}
+  PercentTowardStop: 0.2
 --- !u!1 &411397111
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +966,7 @@ Transform:
   m_GameObject: {fileID: 458769628}
   m_LocalRotation: {x: 0, y: -0.071671575, z: 0, w: 0.9974283}
   m_LocalPosition: {x: -0.93, y: 0, z: 4.36}
-  m_LocalScale: {x: 1.4170178, y: 0.001, z: 25}
+  m_LocalScale: {x: 1.4170178, y: 0.001, z: 35}
   m_LocalEulerAnglesHint: {x: 0, y: -8.22, z: 0}
   m_Children:
   - {fileID: 1331630151}
@@ -1643,7 +1643,7 @@ Transform:
   m_GameObject: {fileID: 830124615}
   m_LocalRotation: {x: 0, y: 0.047890957, z: 0, w: 0.9988526}
   m_LocalPosition: {x: -0.56, y: 0, z: -5.21}
-  m_LocalScale: {x: 1.4170178, y: 0.001, z: 23}
+  m_LocalScale: {x: 1.4170178, y: 0.001, z: 30}
   m_LocalEulerAnglesHint: {x: 0, y: 5.49, z: 0}
   m_Children:
   - {fileID: 1030920467}
@@ -1744,11 +1744,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowDebugLines: 1
-  DistanceFromStartToStopLight: 0
-  LaneVectorDirection: {x: 0, y: 0, z: 0}
+  DistanceFromStartToStopLight: 14.981183
+  LaneVectorDirection: {x: -0.98942345, y: 0, z: -0.14505579}
   StartNode: {fileID: 932800643}
   EndNode: {fileID: 2084548547}
-  StopLightPosition: {x: 0, y: 0, z: 0}
+  StopLightPosition: {x: 3.0699415, y: 0.0044000004, z: 1.4917204}
   PercentTowardStop: 0.47
 --- !u!1 &932800642
 GameObject:
@@ -1822,12 +1822,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowDebugLines: 1
-  DistanceFromStartToStopLight: 0
-  LaneVectorDirection: {x: 0, y: 0, z: 0}
+  DistanceFromStartToStopLight: 15.04428
+  LaneVectorDirection: {x: 0.09567201, y: 0, z: 0.99541295}
   StartNode: {fileID: 1077344974}
   EndNode: {fileID: 1097750545}
-  StopLightPosition: {x: 0, y: 0, z: 0}
-  PercentTowardStop: 0.57
+  StopLightPosition: {x: -0.42105103, y: 0.0044000004, z: -3.7643147}
+  PercentTowardStop: 0.55
 --- !u!1 &1056431311
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,12 +2283,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowDebugLines: 1
-  DistanceFromStartToStopLight: 0
-  LaneVectorDirection: {x: 0, y: 0, z: 0}
+  DistanceFromStartToStopLight: 7.649965
+  LaneVectorDirection: {x: 0.98972595, y: 0, z: 0.14297742}
   StartNode: {fileID: 490411926}
   EndNode: {fileID: 734120314}
-  StopLightPosition: {x: 0, y: 0, z: 0}
-  PercentTowardStop: 0.14
+  StopLightPosition: {x: -4.1860995, y: 0.0044000004, z: -1.228118}
+  PercentTowardStop: 0.24
 --- !u!1 &1384673788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,7 +2405,7 @@ Transform:
   m_GameObject: {fileID: 1453359814}
   m_LocalRotation: {x: 0, y: -0.07271597, z: 0, w: 0.9973527}
   m_LocalPosition: {x: 0.73, y: 0, z: -5.04}
-  m_LocalScale: {x: 1.4170178, y: 0.001, z: 25}
+  m_LocalScale: {x: 1.4170178, y: 0.001, z: 35}
   m_LocalEulerAnglesHint: {x: 0, y: -8.34, z: 0}
   m_Children:
   - {fileID: 917507972}
