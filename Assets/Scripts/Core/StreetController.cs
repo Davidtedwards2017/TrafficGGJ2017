@@ -40,12 +40,10 @@ public class StreetController : MonoBehaviour {
 
         if(Open)
         {
-            Debug.Log(string.Format("{0} lane opened", Direction));
             MessageController.SendMessage("LaneOpened", Direction);
         }
         else
         {
-            Debug.Log(string.Format("{0} lane closed", Direction));
             MessageController.SendMessage("LaneClosed", Direction);
         }
     }
