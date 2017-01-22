@@ -124,6 +124,7 @@ public class Vehicle : MonoBehaviour
     {
         if(collision.collider.gameObject.layer == LayerMask.NameToLayer("Vehicle"))
         {
+            StateCtrl.ChangeState(Crashing);
             Crash();
         }
     }
@@ -135,6 +136,8 @@ public class Vehicle : MonoBehaviour
 
         Instantiate(crashFX, transform.position, Quaternion.identity);
         audioSource.PlayOneShot(AudioManager.instance.crashes.PickRandom());
+
+        
     }
 
     void PlayHonk()
@@ -240,7 +243,7 @@ public class Vehicle : MonoBehaviour
 
         public override void OnUpdate()
         {
-            if(Vector3.Distance(Vehicle.transform.position, Vehicle.Street.LanePathData.StopLightPosition) < 1.0f)
+            if(Vector3.Distance(Vehicle.transform.position, Vehicle.TargetPosition) < 1.0f)
             {
                 Vehicle.patience.value -= Time.deltaTime;
             }
