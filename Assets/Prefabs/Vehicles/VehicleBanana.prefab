@@ -43,7 +43,7 @@ GameObject:
   - 65: {fileID: 65000011635447348}
   - 54: {fileID: 54000013057447880}
   m_Layer: 0
-  m_Name: PlaceholderCar
+  m_Name: VehicleBanana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011713047694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.87}
+  m_LocalPosition: {x: 1.9053092, y: 8.7060475e-17, z: -3.9208553}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -184,7 +184,7 @@ MonoBehaviour:
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.5, y: 0.5, z: 0.5}
-  _spriteId: 0
+  _spriteId: 3
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -252,7 +252,7 @@ Projector:
   m_FieldOfView: 30
   m_AspectRatio: 1.7
   m_Orthographic: 1
-  m_OrthographicSize: 0.73
+  m_OrthographicSize: 0.96
   m_Material: {fileID: 2100000, guid: e30ff3588e719f34bbf0c66f22d97487, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2

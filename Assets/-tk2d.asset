@@ -41,6 +41,8 @@ MonoBehaviour:
     - Banana_Placeholder_01
     - ChillBird_Placeholder_01
     - MailFish_Placeholder_01
+    - Sub_Placeholder_01
+    - Motorcycle_Placeholder
     spriteTextureGUIDs:
     - 30900a46f25d3cc48965338f4e0fa585
     - fce016ebffae8a049aa5c2da921b94de
@@ -48,6 +50,8 @@ MonoBehaviour:
     - 6a5200660374c7c49821d585a7653d11
     - 0c6567acb3418764ba654d193de1ed4a
     - deeaeebde36e6c9489bac89732528475
+    - 57a281e9d7f678047a63b9d65526ebe2
+    - b9132b4ad7137d84cb8a489449c3e109
     spriteTextureTimeStamps:
     - 1485005899.06706
     - 1485005899.09108
@@ -55,6 +59,8 @@ MonoBehaviour:
     - 1485008068
     - 1485008091
     - 1485008084
+    - 1485017746
+    - 1485015096
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

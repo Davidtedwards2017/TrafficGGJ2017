@@ -71,15 +71,15 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: 0.0009770507, y: 0.5375979}
-    - {x: 0.36181593, y: 0.5375979}
-    - {x: 0.0009770507, y: 0.6376951}
-    - {x: 0.36181593, y: 0.6376951}
+    - {x: 0.36523485, y: 0.5375979}
+    - {x: 0.36523485, y: 0.71801734}
+    - {x: 0.5654292, y: 0.5375979}
+    - {x: 0.5654292, y: 0.71801734}
     normalizedUvs:
     - {x: 0, y: 0}
-    - {x: 0.99999994, y: 0}
     - {x: 0, y: 1}
-    - {x: 0.99999994, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
     materialId: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     regionY: 0
     regionW: 0
     regionH: 0
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
     physicsEngine: 0
     colliderType: 0
@@ -118,10 +118,10 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: 0.58398485, y: 0.16333032}
-    - {x: 0.92626905, y: 0.16333032}
-    - {x: 0.58398485, y: 0.32153296}
-    - {x: 0.92626905, y: 0.32153296}
+    - {x: 0.58398485, y: 0.32690454}
+    - {x: 0.92626905, y: 0.32690454}
+    - {x: 0.58398485, y: 0.48510718}
+    - {x: 0.92626905, y: 0.48510718}
     normalizedUvs:
     - {x: 0, y: 0}
     - {x: 1, y: 0}
@@ -212,15 +212,15 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: 0.58398485, y: 0.4504397}
-    - {x: 0.9462886, y: 0.4504397}
-    - {x: 0.58398485, y: 0.5529783}
-    - {x: 0.9462886, y: 0.5529783}
+    - {x: 0.0009770507, y: 0.5375979}
+    - {x: 0.36328077, y: 0.5375979}
+    - {x: 0.0009770507, y: 0.6401365}
+    - {x: 0.36328077, y: 0.6401365}
     normalizedUvs:
     - {x: 0, y: 0}
-    - {x: 1, y: 0}
+    - {x: 0.99999994, y: 0}
     - {x: 0, y: 1}
-    - {x: 1, y: 1}
+    - {x: 0.99999994, y: 1}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
     materialId: 0
@@ -292,24 +292,24 @@ MonoBehaviour:
     attachPoints: []
   - name: MailFish_Placeholder_01
     boundsData:
-    - {x: 0.014999986, y: -0.32999992, z: 0}
+    - {x: 0.014999986, y: 2.6, z: 0}
     - {x: 6.99, y: 5.2, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 2.9299998, z: 0}
     - {x: 7.5, y: 5.8599997, z: 0}
     texelSize: {x: 0.01, y: 0.01}
     positions:
-    - {x: -3.48, y: -2.9299998, z: 0}
-    - {x: 3.51, y: -2.9299998, z: 0}
-    - {x: -3.48, y: 2.27, z: 0}
-    - {x: 3.51, y: 2.27, z: 0}
+    - {x: -3.48, y: 0, z: 0}
+    - {x: 3.51, y: 0, z: 0}
+    - {x: -3.48, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: 0.58398485, y: 0.32251}
-    - {x: 0.9252925, y: 0.32251}
-    - {x: 0.58398485, y: 0.44946265}
-    - {x: 0.9252925, y: 0.44946265}
+    - {x: 0.58398485, y: 0.48608422}
+    - {x: 0.9252925, y: 0.48608422}
+    - {x: 0.58398485, y: 0.6130369}
+    - {x: 0.9252925, y: 0.6130369}
     normalizedUvs:
     - {x: 0, y: 0}
     - {x: 1, y: 0}
@@ -319,6 +319,100 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
     materialId: 0
     sourceTextureGUID: deeaeebde36e6c9489bac89732528475
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Sub_Placeholder_01
+    boundsData:
+    - {x: -0.035000086, y: 2.145, z: 0}
+    - {x: 7.35, y: 3.83, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.04, z: 0}
+    - {x: 7.5, y: 4.08, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.23, z: 0}
+    - {x: 3.6399999, y: 0.23, z: 0}
+    - {x: -3.71, y: 4.06, z: 0}
+    - {x: 3.6399999, y: 4.06, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.6411135}
+    - {x: 0.3598628, y: 0.6411135}
+    - {x: 0.0009770507, y: 0.7346189}
+    - {x: 0.3598628, y: 0.7346189}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
+    materialId: 0
+    sourceTextureGUID: 57a281e9d7f678047a63b9d65526ebe2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Placeholder
+    boundsData:
+    - {x: -0.03000009, y: 3.46, z: 0}
+    - {x: 7.2200003, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.13, z: 0}
+    - {x: 3.58, y: 0.13, z: 0}
+    - {x: -3.64, y: 6.79, z: 0}
+    - {x: 3.58, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.58398485, y: 0.16333032}
+    - {x: 0.93652296, y: 0.16333032}
+    - {x: 0.58398485, y: 0.3259275}
+    - {x: 0.93652296, y: 0.3259275}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
+    materialId: 0
+    sourceTextureGUID: b9132b4ad7137d84cb8a489449c3e109
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -354,7 +448,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 50
-  buildKey: 1003085
+  buildKey: 2142947721
   dataGuid: 6da6f4ec9c555f342b7f40600f8c5318
   managedSpriteCollection: 0
   hasPlatformData: 0
