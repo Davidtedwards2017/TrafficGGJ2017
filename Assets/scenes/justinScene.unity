@@ -129,11 +129,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: 8b4b790214e3621428a3470e635fd90f,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b4b790214e3621428a3470e635fd90f, type: 2}
   m_IsPrefabParent: 0
@@ -474,11 +469,6 @@ Prefab:
     - target: {fileID: 4000010585741198, guid: 5a5634efd482fea4591f58d639c9bcc4, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: 5a5634efd482fea4591f58d639c9bcc4,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a5634efd482fea4591f58d639c9bcc4, type: 2}
@@ -929,11 +919,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: 6b2bb7167f0bd6b438487be2acbf3d7d,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b2bb7167f0bd6b438487be2acbf3d7d, type: 2}
   m_IsPrefabParent: 0
@@ -981,11 +966,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: b355557ac3e8d3642a7d1a17e1d12d23,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b355557ac3e8d3642a7d1a17e1d12d23, type: 2}
   m_IsPrefabParent: 0
@@ -1032,11 +1012,6 @@ Prefab:
     - target: {fileID: 4000010585741198, guid: 9072c438940eaf542a62aa722b14b478, type: 2}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: 9072c438940eaf542a62aa722b14b478,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9072c438940eaf542a62aa722b14b478, type: 2}
@@ -1550,11 +1525,6 @@ Prefab:
     - target: {fileID: 4000010585741198, guid: 1453f56720a98ef47a71d4fd2117a4ec, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: 1453f56720a98ef47a71d4fd2117a4ec,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1453f56720a98ef47a71d4fd2117a4ec, type: 2}
@@ -2109,11 +2079,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 33000010420043034, guid: 91db100956f1a3644acdb0786009f3e5,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91db100956f1a3644acdb0786009f3e5, type: 2}
   m_IsPrefabParent: 0
@@ -2160,11 +2125,6 @@ Prefab:
     - target: {fileID: 4000010585741198, guid: c33ca3587444b564f88c1dd7e8abf7ae, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 33000013541691538, guid: c33ca3587444b564f88c1dd7e8abf7ae,
-        type: 2}
-      propertyPath: m_Mesh
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c33ca3587444b564f88c1dd7e8abf7ae, type: 2}
@@ -3361,7 +3321,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: aa90e0d6ef0bc8a4c98c39e1eddfa3b1, type: 3}
   - {fileID: 8300000, guid: cd16b9a9f2762ed40b2c0bc961491b06, type: 3}
   - {fileID: 8300000, guid: ae4140cb3208d0044a3d188032781494, type: 3}
-  skids: []
+  skids:
+  - {fileID: 8300000, guid: 67c61aec767b388479b1c8db18ddec9e, type: 3}
+  - {fileID: 8300000, guid: ba70a35eb34eff84dadc844eef81f1e9, type: 3}
   crashes:
   - {fileID: 8300000, guid: e2e3caf7327387a418d1784839dd803f, type: 3}
   - {fileID: 8300000, guid: 79b782496604a3c49bf7e43d771ccf37, type: 3}
