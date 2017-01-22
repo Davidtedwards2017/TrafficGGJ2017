@@ -2,8 +2,10 @@
 using System.Collections;
 using DG.Tweening;
 
-public class Vehicle : MonoBehaviour {
-    
+[RequireComponent(typeof(AudioSource))]
+public class Vehicle : MonoBehaviour
+{
+
     public bool ShowDebugLines = true;
 
     public float TaleGatingDistance = 1;
@@ -11,15 +13,18 @@ public class Vehicle : MonoBehaviour {
     public StreetController Street;
     public Vehicle NextVehicle;
 
-    private Rigidbody RidgetBody;
+    public AudioSource audioSource;
+    private Rigidbody rigidbody;
     private Collider collider;
 
-    public float Patience = 2.0f;
+    public MinMaxEventFloat patience = new MinMaxEventFloat(0f, 3f, 3f);
 
     VehicleStateController StateCtrl = new VehicleStateController();
 
     public VehicleAnimatorController anim;
     //public DataTypes.Direction direction;
+
+    public GameObject crashFX;
 
     public Tween MovementTween;
     private Vector3 m_TargetPosition;
@@ -28,11 +33,11 @@ public class Vehicle : MonoBehaviour {
         get { return m_TargetPosition; }
         set
         {
-            if(value.Equals(m_TargetPosition))
+            if (value.Equals(m_TargetPosition))
             {
                 return;
             }
-            
+
             m_TargetPosition = value;
             var distance = Vector3.Distance(transform.position, m_TargetPosition);
 
@@ -49,21 +54,45 @@ public class Vehicle : MonoBehaviour {
         return (distanceTraveled > Street.LanePathData.DistanceFromStartToStopLight);
     }
 
-	// Use this for initialization
-	void Start () {
-        RidgetBody = GetComponent<Rigidbody>();
+    void Awake()
+    {
+        rigidbody = GetComponent<Rigidbody>();
         collider = GetComponent<Collider>();
+    }
 
-        MessageController.StartListening("LaneOpened", LaneOpened);
-        MessageController.StartListening("LaneClosed", LaneClosed);
+    // Use this for initialization
+    void Start()
+    {
+
 
         DrivingTowardsIntersection.Init(this);
         StoppingAtIntersection.Init(this);
         DrivingPastIntersection.Init(this);
         Crashing.Init(this);
 
+        MessageController.StartListening("LaneOpened", LaneOpened);
+        MessageController.StartListening("LaneClosed", LaneClosed);
+
+
         StateCtrl.ChangeState(DrivingTowardsIntersection);
-	}
+    }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.gameObject.layer == LayerMask.NameToLayer("Vehicle"))
+        {
+            Crash();
+        }
+    }
+
+    void Crash()
+    {
+        rigidbody.useGravity = true;
+        anim.HandleCollision();
+
+        Instantiate(crashFX, transform.position, Quaternion.identity);
+        audioSource.PlayOneShot(AudioManager.instance.crashes.PickRandom());
+    }
 
     public void InitializeAnimator(DataTypes.Direction direction)
     {
@@ -75,7 +104,7 @@ public class Vehicle : MonoBehaviour {
     {
         StateCtrl.UpdateState();
         PastStopLight = HasPassedStopLight();
-        
+
         if (ShowDebugLines)
         {
             Debug.DrawLine(transform.position, GetTaleGatingPostion(), Color.yellow);
@@ -100,7 +129,7 @@ public class Vehicle : MonoBehaviour {
         }
         StateCtrl.OnLaneClosed();
     }
-    
+
     public Vector3 GetTaleGatingPostion()
     {
         return transform.position - (Street.LanePathData.LaneVectorDirection * TaleGatingDistance);
@@ -128,12 +157,12 @@ public class Vehicle : MonoBehaviour {
                     Vehicle.TargetPosition = Vehicle.NextVehicle.GetTaleGatingPostion();
                 }
             }
-            
+
             if (Vehicle.HasPassedStopLight())
             {
                 Vehicle.StateCtrl.ChangeState(Vehicle.DrivingPastIntersection);
             }
-            else if(!Vehicle.Street.Open)
+            else if (!Vehicle.Street.Open)
             {
                 Vehicle.StateCtrl.ChangeState(Vehicle.StoppingAtIntersection);
             }
@@ -142,7 +171,7 @@ public class Vehicle : MonoBehaviour {
 
     public StoppingAtIntersectionState StoppingAtIntersection = new StoppingAtIntersectionState();
     public class StoppingAtIntersectionState : VehicleStateController.VehicleState
-    {   
+    {
         public override void OnEnter()
         {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.StopLightPosition;
@@ -150,9 +179,9 @@ public class Vehicle : MonoBehaviour {
 
         public override void OnUpdate()
         {
-            Vehicle.Patience -= Time.deltaTime;
+            Vehicle.patience.value -= Time.deltaTime;
 
-            if(Vehicle.Patience <= 0)
+            if (Vehicle.patience.value <= 0)
             {
                 MessageController.SendMessage("VehicleLostPatience", Vehicle);
                 Vehicle.StateCtrl.ChangeState(Vehicle.DrivingPastIntersection);
@@ -165,7 +194,7 @@ public class Vehicle : MonoBehaviour {
                     Vehicle.TargetPosition = Vehicle.NextVehicle.GetTaleGatingPostion();
                 }
 
-                if(Vehicle.NextVehicle.HasPassedStopLight())
+                if (Vehicle.NextVehicle.HasPassedStopLight())
                 {
                     Vehicle.TargetPosition = Vehicle.Street.LanePathData.StopLightPosition;
                 }
@@ -200,7 +229,7 @@ public class Vehicle : MonoBehaviour {
                 Vehicle.TargetPosition = Vehicle.Street.LanePathData.LaneEndPosition;
             }
 
-            if(Vector3.Distance(Vehicle.TargetPosition, Vehicle.transform.position) < 0.1f)
+            if (Vector3.Distance(Vehicle.TargetPosition, Vehicle.transform.position) < 0.1f)
             {
                 MessageController.SendMessage("VehicleReachedDestination", Vehicle);
                 Destroy(Vehicle.gameObject);
@@ -213,7 +242,7 @@ public class Vehicle : MonoBehaviour {
     {
         public override void OnEnter()
         {
-            this.Vehicle.RidgetBody.useGravity = true;
+            this.Vehicle.rigidbody.useGravity = true;
             MessageController.SendMessage("VehicleCrashed", Vehicle);
         }
     }

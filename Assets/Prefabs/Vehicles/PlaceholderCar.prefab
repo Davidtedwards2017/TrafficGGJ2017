@@ -223,8 +223,13 @@ MonoBehaviour:
   PastStopLight: 0
   Street: {fileID: 0}
   NextVehicle: {fileID: 0}
-  Patience: 5
+  audioSource: {fileID: 0}
+  patience:
+    _min: 0
+    _value: 3
+    _max: 3
   anim: {fileID: 114000013699643892}
+  crashFX: {fileID: 0}
   Speed: 10
 --- !u!114 &114000013699643892
 MonoBehaviour:

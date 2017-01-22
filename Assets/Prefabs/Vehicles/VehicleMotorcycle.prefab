@@ -23,7 +23,7 @@ GameObject:
   - 23: {fileID: 23000013572685204}
   - 114: {fileID: 114000010562330202}
   - 114: {fileID: 114000013699643892}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,8 @@ GameObject:
   - 114: {fileID: 114000011912658938}
   - 65: {fileID: 65000011635447348}
   - 54: {fileID: 54000013057447880}
-  m_Layer: 0
+  - 82: {fileID: 82000010420745232}
+  m_Layer: 9
   m_Name: VehicleMotorcycle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +58,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011364493688}
   - 119: {fileID: 119000012344370082}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BlobShadowProjector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +71,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011713047694}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.919752, y: 1.4364038e-16, z: -6.4689875}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.919752, y: 0, z: -6.4689875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -168,6 +169,80 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1.3}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!82 &82000010420745232
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011713047694}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114000010562330202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -208,8 +283,13 @@ MonoBehaviour:
   PastStopLight: 0
   Street: {fileID: 0}
   NextVehicle: {fileID: 0}
-  Patience: 5
+  audioSource: {fileID: 82000010420745232}
+  patience:
+    _min: 0
+    _value: 3
+    _max: 3
   anim: {fileID: 114000013699643892}
+  crashFX: {fileID: 1000010694773694, guid: bdc86fda0e7d6ee4b950f809e45a2f26, type: 2}
   Speed: 5
 --- !u!114 &114000013699643892
 MonoBehaviour:
@@ -233,7 +313,7 @@ Projector:
   m_Enabled: 1
   serializedVersion: 2
   m_NearClipPlane: 0.1
-  m_FarClipPlane: 50
+  m_FarClipPlane: 6
   m_FieldOfView: 30
   m_AspectRatio: 1.7
   m_Orthographic: 1

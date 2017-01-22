@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
+using DG.Tweening;
 
 public class VehicleAnimatorController : MonoBehaviour
 {
@@ -75,6 +76,10 @@ public class VehicleAnimatorController : MonoBehaviour
         sprite.FlipX = (direction == DataTypes.Direction.East || direction == DataTypes.Direction.North);
     }
 
+    internal void HandleCollision()
+    {
+        //sprite.enabled = false;
+    }
 
     void HandleAnimationEvent(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip, int frameNumber)
     {

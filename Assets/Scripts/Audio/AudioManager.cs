@@ -16,30 +16,14 @@ public class AudioManager : Singleton<AudioManager> {
 	[Header("General")]
 	public AudioClip victory;
 	public AudioClip pause;
-	
-	[Header("Impacts")]
-	public AudioClip player;
-	public AudioClip wall;
-	public AudioClip brick;
-    public AudioClip trapTrigger;
-    public AudioClip trapReset;
+
+    [Header("Impacts")]
+    public AudioClip[] crashes;
 
     [Header("Player")]
-    public AudioClip dash;
-    public AudioClip hit;
-    public AudioClip whack;
-    public AudioClip whackHit;
+    public AudioClip whistle;
+    public AudioClip whistlelong;
 
-    public AudioClip lumaBite;
-    public AudioClip lumaBiteHit;
-    public AudioClip lumaShellHit;
-    public AudioClip lumaSpin;
-
-
-    [Header("Actions")]
-    public AudioClip grenadeLaunch;
-    public AudioClip grenadeDetonate;
-    public AudioClip homingShot;    
 
     // Use this for initialization
     void Awake () {
