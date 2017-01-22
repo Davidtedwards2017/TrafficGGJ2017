@@ -218,19 +218,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DestructionAmount: 0
   ShowDebugLines: 1
   TaleGatingDistance: 2
   PastStopLight: 0
   Street: {fileID: 0}
   NextVehicle: {fileID: 0}
   audioSource: {fileID: 0}
+  lastPosition: {x: 0, y: 0, z: 0}
+  AccelThreshold: 1
+  DecelThreshold: -0.5
+  AccelerationCheckInterval: 0.1
   patience:
     _min: 0
     _value: 3
     _max: 3
   anim: {fileID: 114000013699643892}
   crashFX: {fileID: 0}
+  honkSound: {fileID: 0}
+  movementSound: {fileID: 0}
+  startSound: {fileID: 0}
+  stopSound: {fileID: 0}
   Speed: 10
+  DiffDistance: 0
 --- !u!114 &114000013699643892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -244,6 +254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010562330202}
   groundFxPoint: {fileID: 4000013575413228}
+  crashMaterial: {fileID: 0}
+  MaxAngerIntensity: 0.3
+  wiggle: {fileID: 0}
 --- !u!119 &119000012344370082
 Projector:
   m_ObjectHideFlags: 1

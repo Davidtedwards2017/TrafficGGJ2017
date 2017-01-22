@@ -104,8 +104,6 @@ public class Vehicle : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
-
         DrivingTowardsIntersection.Init(this);
         StoppingAtIntersection.Init(this);
         DrivingPastIntersection.Init(this);
@@ -242,7 +240,10 @@ public class Vehicle : MonoBehaviour
 
         public override void OnUpdate()
         {
-            Vehicle.patience.value -= Time.deltaTime;
+            if(Vector3.Distance(Vehicle.transform.position, Vehicle.Street.LanePathData.StopLightPosition) < 1.0f)
+            {
+                Vehicle.patience.value -= Time.deltaTime;
+            }
 
             if (Vehicle.patience.value <= 0)
             {

@@ -28,6 +28,7 @@ public class VehicleAnimatorController : MonoBehaviour
 
     public Material crashMaterial;
 
+    public float MaxAngerIntensity = 0.3f;
     public Wiggle wiggle;
 
     //private Player player;
@@ -88,7 +89,8 @@ public class VehicleAnimatorController : MonoBehaviour
         sprite.color = newColor;
 
         //wiggle.Intensity = 0.1f + 0.6f * (1 / patience);
-        wiggle.Intensity = (1 / patience);
+
+        wiggle.Intensity = Mathf.Lerp(0, MaxAngerIntensity, 1 / patience + 0.01f);
     }
 
     internal void HandleCrash()
