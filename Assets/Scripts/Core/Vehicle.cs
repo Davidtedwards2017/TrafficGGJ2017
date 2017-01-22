@@ -11,6 +11,9 @@ public class Vehicle : MonoBehaviour {
     public StreetController Street;
     public Vehicle NextVehicle;
 
+    private Rigidbody RidgetBody;
+    private Collider collider;
+
     public float Patience = 2.0f;
 
     VehicleStateController StateCtrl = new VehicleStateController();
@@ -48,7 +51,8 @@ public class Vehicle : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+        RidgetBody = GetComponent<Rigidbody>();
+        collider = GetComponent<Collider>();
 
         MessageController.StartListening("LaneOpened", LaneOpened);
         MessageController.StartListening("LaneClosed", LaneClosed);
@@ -160,6 +164,11 @@ public class Vehicle : MonoBehaviour {
                 {
                     Vehicle.TargetPosition = Vehicle.NextVehicle.GetTaleGatingPostion();
                 }
+
+                if(Vehicle.NextVehicle.HasPassedStopLight())
+                {
+                    Vehicle.TargetPosition = Vehicle.Street.LanePathData.StopLightPosition;
+                }
             }
         }
 
@@ -204,6 +213,7 @@ public class Vehicle : MonoBehaviour {
     {
         public override void OnEnter()
         {
+            this.Vehicle.RidgetBody.useGravity = true;
             MessageController.SendMessage("VehicleCrashed", Vehicle);
         }
     }
