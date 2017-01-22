@@ -23,6 +23,7 @@ GameObject:
   - 23: {fileID: 23000013572685204}
   - 114: {fileID: 114000010562330202}
   - 114: {fileID: 114000013699643892}
+  - 114: {fileID: 114000012515743742}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -210,7 +211,20 @@ MonoBehaviour:
   NextVehicle: {fileID: 0}
   Patience: 5
   anim: {fileID: 114000013699643892}
-  Speed: 10
+  Speed: 5
+--- !u!114 &114000012515743742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011038759236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176cafc99c29791458e5421aff6735f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitude: 0.25
+  speed: 1
 --- !u!114 &114000013699643892
 MonoBehaviour:
   m_ObjectHideFlags: 1
