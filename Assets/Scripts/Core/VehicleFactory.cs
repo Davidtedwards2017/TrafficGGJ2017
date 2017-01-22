@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class VehicleFactory : Singleton<VehicleFactory> {
     
-    public VehicleData[] Vehicles;
+    public GameObject[] spawnableVehicles;
 
     public float DifficultyIncreaseAmt = 0.005f;
     public int MaxVehicles = 10;
@@ -84,31 +84,33 @@ public class VehicleFactory : Singleton<VehicleFactory> {
 
     public void SpawnRandomVehicle(DataTypes.Direction direction)
     {
-        var vehicle = GetRandomVehicleData(direction);
-        if(vehicle == null)
-        {
-            return;
-        }
+        //GameObject vehicle = ;
+        //if(vehicle == null)
+        //{
+        //    return;
+        //}
 
         var street = IntersectionController.instance.GetStreet(direction);
 
-        var go = Instantiate(vehicle.Asset, street.LanePathData.LaneStartPosition, Quaternion.identity) as GameObject;
-        var vehicleInstance = go.GetComponent<Vehicle>();
+        //Debug.Log(vehicle);
 
-        vehicleInstance.InitializeAnimator(direction);
-        street.VehicleSpawned(vehicleInstance);
+        GameObject go = Instantiate(instance.spawnableVehicles.PickRandom(), street.LanePathData.LaneStartPosition, Quaternion.identity) as GameObject;
+        //var vehicleInstance = go;
+        Vehicle newVehicle = go.GetComponent<Vehicle>();
+        newVehicle.InitializeAnimator(direction);
+        street.VehicleSpawned(newVehicle);
         //SpawnedVehicles.Add(vehicle);
     }
 
-    private VehicleData GetRandomVehicleData(DataTypes.Direction direction)
-    {
-        var validCars = Vehicles.Where(v => v.Direction.Equals(direction)).ToArray();
+    //private VehicleData GetRandomVehicleData(DataTypes.Direction direction)
+    //{
+    //    var validCars = Vehicles.Where(v => v.Direction.Equals(direction)).ToArray();
 
-        if(!validCars.Any())
-        {
-            return null;
-        }
+    //    if(!validCars.Any())
+    //    {
+    //        return null;
+    //    }
 
-        return Vehicles.PickRandom();
-    }
+    //    return Vehicles.PickRandom();
+    //}
 }
