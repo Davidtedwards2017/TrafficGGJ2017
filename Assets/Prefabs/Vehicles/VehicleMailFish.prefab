@@ -210,7 +210,7 @@ MonoBehaviour:
   NextVehicle: {fileID: 0}
   Patience: 5
   anim: {fileID: 114000013699643892}
-  Speed: 10
+  Speed: 5
 --- !u!114 &114000013699643892
 MonoBehaviour:
   m_ObjectHideFlags: 1
