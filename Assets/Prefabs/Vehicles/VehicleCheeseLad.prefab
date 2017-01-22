@@ -305,8 +305,8 @@ MonoBehaviour:
   NextVehicle: {fileID: 0}
   audioSource: {fileID: 82000010476297618}
   lastPosition: {x: 0, y: 0, z: 0}
-  AccelThreshold: 1
-  DecelThreshold: -0.5
+  AccelThreshold: 0.3
+  DecelThreshold: -1
   AccelerationCheckInterval: 0.1
   patience:
     _min: 0
