@@ -83,10 +83,12 @@ public class Vehicle : MonoBehaviour
     
     public void OnAcceleration()
     {
+        //PlayStartMotor();
     }
 
     public void OnDeceleration()
     {
+        //PlayHitBrakes();
     }
 
     public bool HasPassedStopLight()
@@ -127,6 +129,7 @@ public class Vehicle : MonoBehaviour
         if(collision.collider.gameObject.layer == LayerMask.NameToLayer("Vehicle"))
         {
             Crash();
+            rigidbody.AddExplosionForce(700f, collision.contacts[0].point, 5f);
         }
     }
 
@@ -137,6 +140,10 @@ public class Vehicle : MonoBehaviour
 
         Instantiate(crashFX, transform.position, Quaternion.identity);
         audioSource.PlayOneShot(AudioManager.instance.crashes.PickRandom());
+        MovementTween.Pause();
+
+        
+        
     }
 
     void PlayHonk()
