@@ -304,10 +304,10 @@ MonoBehaviour:
   Street: {fileID: 0}
   NextVehicle: {fileID: 0}
   audioSource: {fileID: 82000013098845334}
-  DecelThreshold: -1
-  AccelerationCheckInterval: 0.1
-  AccelThreshold: 0.3
   lastPosition: {x: 0, y: 0, z: 0}
+  AccelThreshold: 1
+  DecelThreshold: -0.5
+  AccelerationCheckInterval: 0.1
   patience:
     _min: 0
     _value: 3

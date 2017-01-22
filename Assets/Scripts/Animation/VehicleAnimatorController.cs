@@ -96,7 +96,7 @@ public class VehicleAnimatorController : MonoBehaviour
     internal void HandleCrash()
     {
         //sprite.enabled = false;
-        GetComponent<MeshRenderer>().material = crashMaterial;
+        //GetComponent<MeshRenderer>().material = crashMaterial;
     }
 
     void HandleAnimationEvent(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip, int frameNumber)
