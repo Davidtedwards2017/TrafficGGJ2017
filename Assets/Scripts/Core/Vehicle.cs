@@ -316,7 +316,17 @@ public class Vehicle : MonoBehaviour
             this.Vehicle.rigidbody.useGravity = true;
             GameController.instance.Destruction.value += Vehicle.DestructionAmount;
             MessageController.SendMessage("VehicleCrashed", Vehicle);
+            Vehicle.StartCoroutine(Dying());
+            
         }
+
+        IEnumerator Dying()
+        {
+            yield return new WaitForSeconds(1.5f);
+            Destroy(Vehicle.gameObject);
+        }
+
+       
     }
 
 

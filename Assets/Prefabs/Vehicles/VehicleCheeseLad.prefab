@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestructionAmount: 0
+  DestructionAmount: 0.01
   ShowDebugLines: 1
   TaleGatingDistance: 2
   PastStopLight: 0
