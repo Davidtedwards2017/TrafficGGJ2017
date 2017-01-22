@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using DG.Tweening;
+
 
 public class DestructionController : MonoBehaviour {
 
-    public ParticleSystem[] Fires;
+    public tk2dSprite[] Fires;
 
 	// Use this for initialization
 	void Start () {
@@ -19,14 +21,14 @@ public class DestructionController : MonoBehaviour {
 
         for(int i = 0; i < Fires.Length; i ++)
         {
-            var particle = Fires[i];
+            var fire = Fires[i];
             if(i < count)
             {
-                particle.Play();
+                fire.DOFade(1, 0.1f);
             }
             else
             {
-                particle.Stop();
+                fire.DOFade(0, 0.1f);
             }
         }
     }

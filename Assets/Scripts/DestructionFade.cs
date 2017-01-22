@@ -5,6 +5,8 @@ using DG.Tweening;
 
 public class DestructionFade : MonoBehaviour {
 
+    [Range(0,1)]
+    public float Max;
     Image fadeImage;
 	// Use this for initialization
 	void Start () {
@@ -18,11 +20,6 @@ public class DestructionFade : MonoBehaviour {
     {
         var destruction = GameController.instance.Destruction.value;
 
-        fadeImage.DOFade(destruction, 0.1f);
+        fadeImage.DOFade(Mathf.Lerp(0, Max, destruction), 0.1f);
     }
-
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
