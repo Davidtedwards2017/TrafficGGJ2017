@@ -5,7 +5,7 @@ using DG.Tweening;
 [RequireComponent(typeof(AudioSource))]
 public class Vehicle : MonoBehaviour
 {
-
+    public float DestructionAmount = 0.0f;
     public bool ShowDebugLines = true;
 
     public float TaleGatingDistance = 1;
@@ -16,6 +16,11 @@ public class Vehicle : MonoBehaviour
     public AudioSource audioSource;
     private Rigidbody rigidbody;
     private Collider collider;
+
+    public Vector3 lastPosition;
+    public float AccelThreshold = 1;
+    public float DecelThreshold = -0.5f;
+    public float AccelerationCheckInterval = 0.1f;
 
     public MinMaxEventFloat patience = new MinMaxEventFloat(0f, 3f, 3f);
 
@@ -52,6 +57,37 @@ public class Vehicle : MonoBehaviour
     }
 
     public float Speed = 1;
+    public float DiffDistance;
+
+    IEnumerator AccelCheck()
+    {
+        while(true)
+        {
+            var lastDistance = Vector3.Distance(lastPosition, transform.position);
+            lastPosition = transform.position;
+            yield return new WaitForSeconds(AccelerationCheckInterval);
+            var newDistance = Vector3.Distance(lastPosition, transform.position);
+
+            DiffDistance = (newDistance - lastDistance);
+            if (DiffDistance > AccelThreshold)
+            {
+                OnAcceleration();
+            }
+            else if(DiffDistance < DecelThreshold)
+            {
+                OnDeceleration();
+            }
+            
+        }
+    }
+    
+    public void OnAcceleration()
+    {
+    }
+
+    public void OnDeceleration()
+    {
+    }
 
     public bool HasPassedStopLight()
     {
@@ -78,6 +114,7 @@ public class Vehicle : MonoBehaviour
         MessageController.StartListening("LaneOpened", LaneOpened);
         MessageController.StartListening("LaneClosed", LaneClosed);
 
+        StartCoroutine(AccelCheck());
 
         StateCtrl.ChangeState(DrivingTowardsIntersection);
 
@@ -271,6 +308,7 @@ public class Vehicle : MonoBehaviour
         public override void OnEnter()
         {
             this.Vehicle.rigidbody.useGravity = true;
+            GameController.instance.Destruction.value += Vehicle.DestructionAmount;
             MessageController.SendMessage("VehicleCrashed", Vehicle);
         }
     }
