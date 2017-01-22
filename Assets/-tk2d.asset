@@ -26,7 +26,7 @@ MonoBehaviour:
     - a09d4b66352ce4345af70f44d18e8656
     spriteTextureTimeStamps:
     - 0
-    - 1484999921
+    - 1485005898.88075
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
@@ -40,18 +40,70 @@ MonoBehaviour:
     - DickCheney_Placeholder_01
     - Banana_Placeholder_01
     - ChillBird_Placeholder_01
+    - MailFish_Placeholder_01
     spriteTextureGUIDs:
     - 30900a46f25d3cc48965338f4e0fa585
     - fce016ebffae8a049aa5c2da921b94de
     - 9b6507bf6e421634095c73bb6ed81025
     - 6a5200660374c7c49821d585a7653d11
     - 0c6567acb3418764ba654d193de1ed4a
+    - deeaeebde36e6c9489bac89732528475
     spriteTextureTimeStamps:
     - 1485005899.06706
     - 1485005899.09108
     - 1485002154
     - 1485008068
     - 1485008091
+    - 1485008084
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BackgroundPropSpriteCollection
+    spriteCollectionGUID: 2ac99bd52fe82d84293f4344ce429a3b
+    spriteCollectionDataGUID: 90b0557008a7cec4fbbac1c2c75af692
+    spriteNames:
+    - TopHouse
+    - LampPost1
+    - AStreetSign_02
+    - SStreetSign_02
+    - DStreetSign_01
+    - WStreetSign_01
+    - WStreetSign_02
+    - DStreetSign_02
+    - SStreetSign_01
+    - AStreetSign_01
+    - CrosswalkLayer
+    - BottomHouse
+    - LampPost2
+    spriteTextureGUIDs:
+    - 56dd00707a7ce504eb2aca7db9d7839a
+    - 2d4fecfe3bcb00a449a6b240a8c08656
+    - baf2a72330036824d84e6d934a1f38e4
+    - 03c4b6041195e7b43a254ae1801dd1aa
+    - 12ce7308c4e648749a70a9200b9b6f4a
+    - 6e08140994cdfb047a3a13e04e4b72cb
+    - 75dfdcba1312fe945b62efe2de52571a
+    - a265a87d2a7e94c4ca939d5fe45e33b6
+    - db9767addb4734249a53b6f99da616e0
+    - e7b4129e2f49d8c4db36d54e650a9f30
+    - 3fb0e22fc6580784d813467d9599002f
+    - 9a8be1cfeab69504fab697cc58b950e9
+    - be9b281edbd7ad9498493ef847982727
+    spriteTextureTimeStamps:
+    - 1484999914
+    - 1485013932
+    - 1484999907
+    - 1484999914
+    - 1484999909
+    - 1484999914
+    - 1484999921
+    - 1484999910
+    - 1484999912
+    - 1484999907
+    - 1485010765
+    - 1484999909
+    - 1485013932
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

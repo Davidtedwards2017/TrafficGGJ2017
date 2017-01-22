@@ -71,15 +71,15 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: 0.58398485, y: 0.42602563}
-    - {x: 0.94482374, y: 0.42602563}
-    - {x: 0.58398485, y: 0.5261228}
-    - {x: 0.94482374, y: 0.5261228}
+    - {x: 0.0009770507, y: 0.5375979}
+    - {x: 0.36181593, y: 0.5375979}
+    - {x: 0.0009770507, y: 0.6376951}
+    - {x: 0.36181593, y: 0.6376951}
     normalizedUvs:
     - {x: 0, y: 0}
-    - {x: 1, y: 0}
+    - {x: 0.99999994, y: 0}
     - {x: 0, y: 1}
-    - {x: 1, y: 1}
+    - {x: 0.99999994, y: 1}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
     materialId: 0
@@ -212,10 +212,10 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: 0.58398485, y: 0.32251}
-    - {x: 0.9462886, y: 0.32251}
-    - {x: 0.58398485, y: 0.4250486}
-    - {x: 0.9462886, y: 0.4250486}
+    - {x: 0.58398485, y: 0.4504397}
+    - {x: 0.9462886, y: 0.4504397}
+    - {x: 0.58398485, y: 0.5529783}
+    - {x: 0.9462886, y: 0.5529783}
     normalizedUvs:
     - {x: 0, y: 0}
     - {x: 1, y: 0}
@@ -290,6 +290,53 @@ MonoBehaviour:
     polygonCollider2D: []
     edgeCollider2D: []
     attachPoints: []
+  - name: MailFish_Placeholder_01
+    boundsData:
+    - {x: 0.014999986, y: -0.32999992, z: 0}
+    - {x: 6.99, y: 5.2, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: -2.9299998, z: 0}
+    - {x: 3.51, y: -2.9299998, z: 0}
+    - {x: -3.48, y: 2.27, z: 0}
+    - {x: 3.51, y: 2.27, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.58398485, y: 0.32251}
+    - {x: 0.9252925, y: 0.32251}
+    - {x: 0.58398485, y: 0.44946265}
+    - {x: 0.9252925, y: 0.44946265}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 4d927b51daa7cdf4e937c300608ed709, type: 2}
+    materialId: 0
+    sourceTextureGUID: deeaeebde36e6c9489bac89732528475
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
   premultipliedAlpha: 0
   material: {fileID: 0}
   materials:
@@ -307,7 +354,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 50
-  buildKey: 475178132
+  buildKey: 1003085
   dataGuid: 6da6f4ec9c555f342b7f40600f8c5318
   managedSpriteCollection: 0
   hasPlatformData: 0
