@@ -11,6 +11,8 @@ public class StreetController : MonoBehaviour {
 
     private Vehicle m_LastVehicle;
 
+    public GameObject signHighlight;
+
     // Use this for initialization
     void Start () {
         MessageController.StartListening("DirectionInputChanged", OnDirectionInputChanged);
@@ -48,5 +50,7 @@ public class StreetController : MonoBehaviour {
             Debug.Log(string.Format("{0} lane closed", Direction));
             MessageController.SendMessage("LaneClosed", Direction);
         }
+
+        signHighlight.SetActive(Open);
     }
 }
