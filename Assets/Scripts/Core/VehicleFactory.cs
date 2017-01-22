@@ -8,16 +8,54 @@ public class VehicleFactory : Singleton<VehicleFactory> {
     
     public GameObject[] spawnableVehicles;
 
+    public float DifficultyIncreaseAmt = 0.005f;
     public int MaxVehicles = 10;
     public float Interval = 1.5f;
+
+    public MinMaxEventFloat Difficulty = new MinMaxEventFloat(0, 1, 0);
+    private MinMaxFloat SpawnInterval = new MinMaxFloat(0.1f, 3.0f, 3.0f);
     
     public List<Vehicle> SpawnedVehicles;
+    public CoroutineManager.Item spawningSequence = new CoroutineManager.Item();
+
+    public void IncreseDifficulty()
+    {
+        Difficulty.value += DifficultyIncreaseAmt;
+    }
+
+    public void Reset()
+    {
+        Difficulty.value = 0;
+
+        foreach(var vehicle in FindObjectsOfType<Vehicle>())
+        {
+            Destroy(vehicle.gameObject);
+        }
+    }
 
     void Start()
     {
-        StartCoroutine(SpawnNext());
+        Difficulty.OnValueChangeTo += (val) => {
+            SpawnInterval.SetToPercent(1 - val);
+        };
+
+        GameController.state.values[GameController.State.Playing].OnEnter += OnEnterPlayingState;
+        GameController.state.values[GameController.State.Playing].OnExit += OnExitPlayingState;
+
+        //StartCoroutine(SpawnNext());
         MessageController.StartListening("VehicleReachedDestination", OnVehicleLeavingPlay);
         MessageController.StartListening("VehicleCrashed", OnVehicleLeavingPlay);
+       
+    }
+
+    public void OnEnterPlayingState()
+    {
+        spawningSequence.value = SpawnNext();
+    }
+
+    public void OnExitPlayingState()
+    {
+        spawningSequence.value = null;
     }
     
     public void OnVehicleLeavingPlay(object[] args)
@@ -28,7 +66,7 @@ public class VehicleFactory : Singleton<VehicleFactory> {
 
     public IEnumerator SpawnNext()
     {
-        while(SpawnedVehicles.Count >= MaxVehicles)
+        while(FindObjectsOfType<Vehicle>().Length >= MaxVehicles)
         {
             yield return new WaitForEndOfFrame();
         }
@@ -39,9 +77,9 @@ public class VehicleFactory : Singleton<VehicleFactory> {
     
         SpawnRandomVehicle(rndDir);
 
-        yield return new WaitForSeconds(Interval);
-    
-        StartCoroutine(SpawnNext());
+        yield return new WaitForSeconds(SpawnInterval.value);
+
+        spawningSequence.value = SpawnNext();
     }
 
     public void SpawnRandomVehicle(DataTypes.Direction direction)

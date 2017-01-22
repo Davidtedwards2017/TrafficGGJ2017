@@ -77,9 +77,8 @@ public class UIManager : Singleton<UIManager> {
 	void OnEnable() {
         GameController.state.values[GameController.State.MainMenu].OnEnter += ShowMenu;
         GameController.state.values[GameController.State.MainMenu].OnExit += HideMenu;
-
-        GameController.state.values[GameController.State.MatchStart].OnEnter += Initialize;
-        GameController.state.values[GameController.State.MatchEnd].OnExit += Uninitialize;
+        
+        GameController.state.values[GameController.State.EndPlaying].OnExit += Uninitialize;
 
         GameController.OnPause += pauseFader.FadeIn;
         GameController.OnUnPause += pauseFader.FadeOut;

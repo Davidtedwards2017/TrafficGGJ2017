@@ -39,8 +39,13 @@ public class InputController : Singleton<InputController> {
 
 	// Use this for initialization
 	void Start () {
-	
-	}
+        DirectionInputs = new DirectionInput[4];
+        DirectionInputs[0] = new DirectionInput { Key = "a", Direction = DataTypes.Direction.West };
+        DirectionInputs[1] = new DirectionInput { Key = "w", Direction = DataTypes.Direction.North };
+        DirectionInputs[2] = new DirectionInput { Key = "d", Direction = DataTypes.Direction.East };
+        DirectionInputs[3] = new DirectionInput { Key = "s", Direction = DataTypes.Direction.South };
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
