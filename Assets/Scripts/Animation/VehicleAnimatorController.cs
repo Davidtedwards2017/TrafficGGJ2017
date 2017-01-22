@@ -7,7 +7,7 @@ public class VehicleAnimatorController : MonoBehaviour
 {
 
     // Link to the animated sprite
-    private tk2dSpriteAnimator anim;
+    //private tk2dSpriteAnimator anim;
 
     public tk2dSprite sprite;
 
@@ -31,10 +31,10 @@ public class VehicleAnimatorController : MonoBehaviour
     {
         //player = GetComponentInParent<Player>();
         // This script must be attached to the sprite to work.
-        anim = GetComponent<tk2dSpriteAnimator>();
+        //anim = GetComponent<tk2dSpriteAnimator>();
         sprite = GetComponent<tk2dSprite>();
         vehicle = GetComponentInParent<Vehicle>();
-        anim.AnimationEventTriggered += HandleAnimationEvent;
+        //anim.AnimationEventTriggered += HandleAnimationEvent;
     }
 
     void Update()
@@ -159,9 +159,9 @@ public class VehicleAnimatorController : MonoBehaviour
 
     void PlayAnimation(string name, bool mayTransitionToSameAnimation = false)
     {
-        if (anim.IsPlaying(name) && !mayTransitionToSameAnimation) return;
+        //if (anim.IsPlaying(name) && !mayTransitionToSameAnimation) return;
 
-        anim.Play(name);
+        //anim.Play(name);
     }
 
     public void SetColor(Color newColor)
