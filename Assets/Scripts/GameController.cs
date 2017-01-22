@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 public class GameController : Singleton<GameController>
 {
 
-    public enum State { MainMenu, Adventure, MatchStart, Match, MatchEnd };
+    public enum State { None, MainMenu, Playing, EndPlaying };
 
     public static StateManager<State> state = StateManager<State>.CreateNew();
 
@@ -37,6 +37,7 @@ public class GameController : Singleton<GameController>
 
     public MinMaxEventFloat matchTimer = new MinMaxEventFloat(0f, 60f, 60f);
 
+    public MinMaxEventFloat Destruction = new MinMaxEventFloat(0, 1, 0);
     CoroutineManager.Item matchTimerSequence = new CoroutineManager.Item();
 
     [Space(10)]
@@ -48,7 +49,10 @@ public class GameController : Singleton<GameController>
     {
 
         Initialize();
+        state.value = State.MainMenu;
     }
+
+    public static CoroutineManager.Item CurrentSequence = new CoroutineManager.Item();
 
     /// <summary>
     /// Call any necessary Initialize functions in other classes. The order is important.
@@ -56,14 +60,12 @@ public class GameController : Singleton<GameController>
     static void Initialize()
     {
         state.values[State.MainMenu].OnEnter += OnEnterStateMainMenu;
-        state.values[State.MatchStart].OnEnter += OnEnterStateMatchStart;
 
-        state.values[State.Match].OnEnter += OnEnterStateMatch;
-        state.values[State.Match] += instance.EnterStateMatchSequence();
-        state.values[State.Match].OnExit += OnExitStateMatch;
+        state.values[State.Playing].OnEnter += OnEnterPlayingState;
+        state.values[State.Playing].OnExit += OnExitPlayingState;
 
-        state.values[State.MatchEnd].OnEnter += OnEnterStateMatchEnd;
-        state.values[State.MatchEnd].OnExit += OnExitStateMatchEnd;
+        state.values[State.EndPlaying].OnEnter += OnEnterEndPlayingState;
+        state.values[State.EndPlaying].OnExit += OnExitEndPlayingState;
 
         state.OnChanged += instance.UpdateStateString;
     }
@@ -81,43 +83,11 @@ public class GameController : Singleton<GameController>
         //OnControllerConnected(null);
     }
 
-    //// This will be called when a controller is connected
-    //void OnControllerConnected(ControllerStatusChangedEventArgs args)
-    //{
-    //    if (args != null && args.controllerType != ControllerType.Joystick) return; // skip if this isn't a Joystick
-
-    //    if (Rewired.ReInput.controllers.Joysticks.Count > 0 && Rewired.ReInput.controllers.Joysticks[0] != null &&
-    //        Rewired.ReInput.players.SystemPlayer.controllers.joystickCount == 0)
-    //    {
-    //        Rewired.ReInput.players.SystemPlayer.controllers.AddController(Rewired.ReInput.controllers.Joysticks[0], false);
-    //    }
-    //}
 
     void UpdateStateString(State value)
     {
         Debug.Log(state.value + " || " + Time.time);
         displayState = state.value.AsUpperCamelCaseName();
-    }
-
-    public void NewGame()
-    {
-        state.value = State.Adventure;
-    }
-
-    public void BeginMatch()
-    {
-        if (state.value == State.Match) return;
-        state.value = State.MatchStart;
-
-        matchTimer.OnValueMin += EndMatch;
-    }
-
-    public void EndMatch()
-    {
-        state.value = State.MatchEnd;
-        matchTimer.OnValueMin -= EndMatch;
-
-        state.value = State.Adventure;
     }
 
     // Update is called once per frame
@@ -138,58 +108,71 @@ public class GameController : Singleton<GameController>
 
     public static void OnEnterStateMainMenu()
     {
-        //StartCoroutine(RestartProcess());
+        CurrentSequence.value = instance.StartMenuSequence();
+        instance.Destruction.SetToMin();
     }
 
-    public IEnumerator RestartProcess()
+
+    public IEnumerator StartMenuSequence()
+    {
+        yield return new WaitForSeconds(1.0f);
+        yield return WaitForAnyInput();
+
+        state.value = State.Playing;
+    }
+
+    private IEnumerator WaitForAnyInput()
+    {
+        while(!Input.anyKey)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+    }
+
+    public static void OnEnterPlayingState()
+    {
+        CurrentSequence.value = instance.PlayingStateSequence();
+    }
+
+    public static void OnExitPlayingState()
     {
 
-        yield return null;
-        state.value = State.MatchStart;
-    }
-    public static void OnEnterStateMatchStart()
-    {
-
-        instance.StartCoroutine(instance.EnterStateMatchSequence());
-        instance.matchTimer.SetToMax();
-        AudioManager.PlayAudio(AudioManager.instance.confirm);
+        CurrentSequence.value = null;
     }
 
-    public static void OnEnterStateMatch()
-    {
-        instance.matchTimerSequence.value = instance.MatchTimerSequence();
-    }
-
-    IEnumerator EnterStateMatchSequence()
-    {
-
-        Debug.Log("GameController Match Start process || " + Time.time);
-
-        //AnnouncerManager.AnnounceMatchStart();
-
-        yield return new WaitForSeconds(0.5f);
-
-        state.value = State.Match;
-
-    }
-
-    public static void OnExitStateMatch()
-    {
-        instance.matchTimerSequence.value = null;
-    }
-
-    public static void OnEnterStateMatchEnd()
+    public static void OnEnterEndPlayingState()
     {
         //state.value = State.MainMenu;
         AudioManager.PlayAudio(AudioManager.instance.victory);
-        state.value = State.Adventure;
-        instance.matchTimer.OnValueMin -= instance.EndMatch;
+
+
+        CurrentSequence.value = instance.EndGameStateSequence();
     }
 
-    public static void OnExitStateMatchEnd()
+    public IEnumerator EndGameStateSequence()
+    {
+        yield return new WaitForSeconds(1.0f);
+        yield return WaitForAnyInput();
+
+        VehicleFactory.instance.Reset();
+
+        state.value = State.MainMenu;
+    }
+
+    public IEnumerator PlayingStateSequence()
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(0.1f);
+            VehicleFactory.instance.IncreseDifficulty();
+        }
+    }
+
+    public static void OnExitEndPlayingState()
     {
 
     }
+
     public void InputManager()
     {
 

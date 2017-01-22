@@ -14,8 +14,8 @@ public class MusicManager : Singleton<MusicManager>
     void Start()
     {
         //GameController.state.OnChanged += HandleGameState;
-        GameController.state.values[GameController.State.Adventure].OnEnter += PlayAdventureMusic;
-        GameController.state.values[GameController.State.Adventure].OnExit += PlayMatchMusic;
+        GameController.state.values[GameController.State.Playing].OnEnter += PlayAdventureMusic;
+        GameController.state.values[GameController.State.Playing].OnExit += PlayMatchMusic;
     }
 
     public static void Play(AudioClip clip)
@@ -39,20 +39,6 @@ public class MusicManager : Singleton<MusicManager>
 
     void HandleGameState(GameController.State state)
     {
-        switch (state)
-        {
-            case GameController.State.MainMenu:
-                break;
-            case GameController.State.Adventure:
-                Play(adventureMode.PickRandom());
-                break;
-            case GameController.State.MatchStart:
-                Play(shmexMatchMode.PickRandom());
-                break;
-            case GameController.State.Match:
-                break;
-            case GameController.State.MatchEnd:
-                break;                
-        }
+        
     }
 }

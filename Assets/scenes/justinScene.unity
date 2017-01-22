@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692504, g: 0.4967869, b: 0.57508504, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2790,6 +2790,8 @@ GameObject:
   - 114: {fileID: 1851289599}
   - 114: {fileID: 1851289598}
   - 114: {fileID: 1851289602}
+  - 114: {fileID: 1851289604}
+  - 114: {fileID: 1851289603}
   m_Layer: 0
   m_Name: Controllers
   m_TagString: Untagged
@@ -2841,6 +2843,10 @@ MonoBehaviour:
     _min: 0
     _value: 60
     _max: 60
+  Destruction:
+    _min: 0
+    _value: 0
+    _max: 1
   paused: 0
 --- !u!114 &1851289600
 MonoBehaviour:
@@ -2882,9 +2888,60 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7c9d8f9aac65d8f4fa94c43ca14e2307, type: 2}
   - {fileID: 11400000, guid: 8e9b9dc9b49a6c549bb22080e95cccac, type: 2}
   - {fileID: 11400000, guid: b29d94104a155b2429be908aeba48ea8, type: 2}
+  DifficultyIncreaseAmt: 0.005
   MaxVehicles: 10
   Interval: 0.5
+  Difficulty:
+    _min: 0
+    _value: 0
+    _max: 1
   SpawnedVehicles: []
+--- !u!114 &1851289603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851289597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d33367dba016ae04aab3a3c18b734bac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: 1
+  audioSourceIndex: 0
+  audioSources: []
+  select: {fileID: 0}
+  confirm: {fileID: 0}
+  cancel: {fileID: 0}
+  victory: {fileID: 0}
+  pause: {fileID: 0}
+  player: {fileID: 0}
+  wall: {fileID: 0}
+  brick: {fileID: 0}
+  trapTrigger: {fileID: 0}
+  trapReset: {fileID: 0}
+  dash: {fileID: 0}
+  hit: {fileID: 0}
+  whack: {fileID: 0}
+  whackHit: {fileID: 0}
+  lumaBite: {fileID: 0}
+  lumaBiteHit: {fileID: 0}
+  lumaShellHit: {fileID: 0}
+  lumaSpin: {fileID: 0}
+  grenadeLaunch: {fileID: 0}
+  grenadeDetonate: {fileID: 0}
+  homingShot: {fileID: 0}
+--- !u!114 &1851289604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851289597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2b22aa4434e244981668d062953d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1857943315
 Prefab:
   m_ObjectHideFlags: 0
