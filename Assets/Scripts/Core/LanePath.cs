@@ -2,6 +2,7 @@
 using System.Collections;
 using DG.Tweening;
 
+[ExecuteInEditMode]
 public class LanePath : MonoBehaviour {
 
     public bool ShowDebugLines = true;
@@ -11,6 +12,7 @@ public class LanePath : MonoBehaviour {
     public Transform EndNode;
 
     public Vector3 StopLightPosition;
+    [Range(0f, 1f)]
     public float PercentTowardStop = 0.5f;
 
     public Vector3 LaneStartPosition

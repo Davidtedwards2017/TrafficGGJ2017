@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 /// Manages game state and player input.
 public class GameController : Singleton<GameController>
 {
 
-    public enum State { None, MainMenu, Playing, EndPlaying };
+    [Flags]
+    public enum State { None = 1, MainMenu = 2, Playing = 4, EndPlaying = 8 };
 
     public static StateManager<State> state = StateManager<State>.CreateNew();
 
