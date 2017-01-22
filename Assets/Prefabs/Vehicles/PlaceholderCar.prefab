@@ -22,6 +22,8 @@ GameObject:
   - 33: {fileID: 33000010420043034}
   - 23: {fileID: 23000013572685204}
   - 114: {fileID: 114000010562330202}
+  - 114: {fileID: 114000013699643892}
+  - 114: {fileID: 114000011045635616}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -368,6 +370,20 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
+--- !u!114 &114000011045635616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011038759236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 0}
+  defaultClipId: 0
+  playAutomatically: 0
 --- !u!114 &114000011912658938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -385,7 +401,21 @@ MonoBehaviour:
   Street: {fileID: 0}
   NextVehicle: {fileID: 0}
   Patience: 5
+  anim: {fileID: 114000013699643892}
   Speed: 10
+--- !u!114 &114000013699643892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011038759236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caab06a9138a8ee4d86ba2aefc2b8915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 114000010562330202}
+  groundFxPoint: {fileID: 4000013575413228}
 --- !u!119 &119000011804317856
 Projector:
   m_ObjectHideFlags: 1

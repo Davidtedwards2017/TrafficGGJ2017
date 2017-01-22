@@ -14,7 +14,10 @@ public class Vehicle : MonoBehaviour {
     public float Patience = 2.0f;
 
     VehicleStateController StateCtrl = new VehicleStateController();
-    
+
+    public VehicleAnimatorController anim;
+    //public DataTypes.Direction direction;
+
     public Tween MovementTween;
     private Vector3 m_TargetPosition;
     public Vector3 TargetPosition
@@ -57,6 +60,11 @@ public class Vehicle : MonoBehaviour {
 
         StateCtrl.ChangeState(DrivingTowardsIntersection);
 	}
+
+    public void InitializeAnimator(DataTypes.Direction direction)
+    {
+        anim.Initialize(direction);
+    }
 
     // Update is called once per frame
     void Update()

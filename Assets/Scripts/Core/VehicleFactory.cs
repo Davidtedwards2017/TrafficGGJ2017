@@ -57,6 +57,7 @@ public class VehicleFactory : Singleton<VehicleFactory> {
         var go = Instantiate(vehicle.Asset, street.LanePathData.LaneStartPosition, Quaternion.identity) as GameObject;
         var vehicleInstance = go.GetComponent<Vehicle>();
 
+        vehicleInstance.InitializeAnimator(direction);
         street.VehicleSpawned(vehicleInstance);
         //SpawnedVehicles.Add(vehicle);
     }

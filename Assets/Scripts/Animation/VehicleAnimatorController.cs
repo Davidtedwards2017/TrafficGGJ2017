@@ -70,6 +70,12 @@ public class VehicleAnimatorController : MonoBehaviour
         //}
     }
 
+    internal void Initialize(DataTypes.Direction direction)
+    {
+        sprite.FlipX = (direction == DataTypes.Direction.East || direction == DataTypes.Direction.North);
+    }
+
+
     void HandleAnimationEvent(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip, int frameNumber)
     {
         if (onAnimationEventTriggered != null) onAnimationEventTriggered(animator, clip, frameNumber);
