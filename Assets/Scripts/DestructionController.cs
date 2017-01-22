@@ -9,7 +9,7 @@ public class DestructionController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
+        Fires.Shuffle();
         GameController.instance.Destruction.OnValueChanged += OnDestructionChanged;
 	}
 	

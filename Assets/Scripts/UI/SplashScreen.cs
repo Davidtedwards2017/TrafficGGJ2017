@@ -7,19 +7,19 @@ public class SplashScreen : Singleton<SplashScreen> {
 
     public float FadeDuration = 1.0f;
     public float HoldDuration = 2.0f;
-    Image image;
+    CanvasGroup group;
     
     void Awake()
     {
-        image = GetComponent<Image>();
+        group = GetComponent<CanvasGroup>();
     }
 
 
     public IEnumerator DisplaySequence()
     {
-        yield return image.DOFade(1, 0);
+        yield return group.DOFade(1, 0.1f);
         yield return new WaitForSeconds(HoldDuration);
-        yield return image.DOFade(0, FadeDuration);
+        yield return group.DOFade(0, FadeDuration);
     }
 
 }
