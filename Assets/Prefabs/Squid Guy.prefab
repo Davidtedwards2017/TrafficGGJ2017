@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 114000011611569546, guid: 546ad20afc3c01843ab64542ee9c6cf4, type: 2}
-  defaultClipId: 0
+  defaultClipId: 7
   playAutomatically: 1
 --- !u!114 &114000011414939852
 MonoBehaviour:
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 114000011611569546, guid: 546ad20afc3c01843ab64542ee9c6cf4, type: 2}
-  defaultClipId: 0
+  defaultClipId: 8
   playAutomatically: 1
 --- !u!114 &114000011781264464
 MonoBehaviour:
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 114000011611569546, guid: 546ad20afc3c01843ab64542ee9c6cf4, type: 2}
-  defaultClipId: 0
+  defaultClipId: 6
   playAutomatically: 1
 --- !u!114 &114000012356827316
 MonoBehaviour:
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 114000011611569546, guid: 546ad20afc3c01843ab64542ee9c6cf4, type: 2}
-  defaultClipId: 0
+  defaultClipId: 5
   playAutomatically: 1
 --- !u!114 &114000013894310904
 MonoBehaviour:
