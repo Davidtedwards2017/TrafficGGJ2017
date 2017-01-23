@@ -2,7 +2,6 @@
 using System.Collections;
 using DG.Tweening;
 
-
 public class DestructionController : MonoBehaviour {
 
     public tk2dSprite[] Fires;

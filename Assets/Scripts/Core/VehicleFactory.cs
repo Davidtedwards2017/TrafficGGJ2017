@@ -12,6 +12,8 @@ public class VehicleFactory : Singleton<VehicleFactory> {
     public int MaxVehicles = 10;
     public float Interval = 1.5f;
 
+    public int VehiclesSurvived = 0;
+
     public MinMaxEventFloat Difficulty = new MinMaxEventFloat(0, 1, 0);
     private MinMaxFloat SpawnInterval = new MinMaxFloat(0.1f, 3.0f, 3.0f);
     
@@ -27,7 +29,9 @@ public class VehicleFactory : Singleton<VehicleFactory> {
     {
         Difficulty.value = 0;
 
-        foreach(var vehicle in FindObjectsOfType<Vehicle>())
+        VehiclesSurvived = 0;
+
+        foreach (var vehicle in FindObjectsOfType<Vehicle>())
         {
             Destroy(vehicle.gameObject);
         }
@@ -62,6 +66,8 @@ public class VehicleFactory : Singleton<VehicleFactory> {
     {
         var vehicle = (Vehicle)args[0];
         SpawnedVehicles.SafeRemove(vehicle);
+
+        VehiclesSurvived++;
     }
 
     public IEnumerator SpawnNext()
