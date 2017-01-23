@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011915081454}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011915081454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013433612210}
+  - 114: {fileID: 114000012437093836}
+  m_Layer: 0
+  m_Name: Cheeseboy_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013433612210
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011915081454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012437093836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011915081454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Cheeseboy_drive_00000
+    boundsData:
+    - {x: 0.029999971, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.66, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.66, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7243655, y: 0.0004885254}
+    - {x: 0.9045408, y: 0.0004885254}
+    - {x: 0.7243655, y: 0.10522436}
+    - {x: 0.9045408, y: 0.10522436}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4f695f7356378f74cbc3f22e1c25f909
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00002
+    boundsData:
+    - {x: 0.049999833, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.7399998, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.7399998, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7243655, y: 0.10620142}
+    - {x: 0.9045408, y: 0.10620142}
+    - {x: 0.7243655, y: 0.21093726}
+    - {x: 0.9045408, y: 0.21093726}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 08603983d45bb024c90f00af4da0315e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00008
+    boundsData:
+    - {x: 0.034999967, y: 2.23, z: 0}
+    - {x: 7.37, y: 4.3599997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.05, z: 0}
+    - {x: 3.72, y: 0.05, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36254907, y: 0.0004885254}
+    - {x: 0.54248023, y: 0.0004885254}
+    - {x: 0.36254907, y: 0.10693335}
+    - {x: 0.54248023, y: 0.10693335}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1b62745a916701945b1fb011a526bfa0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00015
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7551272, y: 0.39306664}
+    - {x: 0.93505836, y: 0.39306664}
+    - {x: 0.7551272, y: 0.4978025}
+    - {x: 0.93505836, y: 0.4978025}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 067a555a5938f2643a422433f4c937ed
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00012
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.57397485, y: 0.42334008}
+    - {x: 0.753906, y: 0.42334008}
+    - {x: 0.57397485, y: 0.52807593}
+    - {x: 0.753906, y: 0.52807593}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1ae6032cfa6cc3d4fabb31954bae4190
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00019
+    boundsData:
+    - {x: 0.049999833, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.7399998, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.7399998, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.54345727, y: 0.10766626}
+    - {x: 0.54345727, y: 0.28784156}
+    - {x: 0.6481931, y: 0.10766626}
+    - {x: 0.6481931, y: 0.28784156}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 118cc19d37d48874499e2a0d808502c9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00002
+    boundsData:
+    - {x: 0.049999833, y: 2.31, z: 0}
+    - {x: 7.38, y: 4.2, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.21000001, z: 0}
+    - {x: 3.7399998, y: 0.21000001, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.7399998, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7546389, y: 0.6044924}
+    - {x: 0.9348142, y: 0.6044924}
+    - {x: 0.7546389, y: 0.707031}
+    - {x: 0.9348142, y: 0.707031}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d7566ad8cce0eb4a9e609a705b69867
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00009
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.75488305, y: 0.49877954}
+    - {x: 0.9348142, y: 0.49877954}
+    - {x: 0.75488305, y: 0.6035154}
+    - {x: 0.9348142, y: 0.6035154}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 03ab1a9e29bc77a46b5d904c4f4f1149
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00014
+    boundsData:
+    - {x: 0.03999996, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36254907, y: 0.1079104}
+    - {x: 0.36254907, y: 0.2880857}
+    - {x: 0.46728492, y: 0.1079104}
+    - {x: 0.46728492, y: 0.2880857}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 030fb1ce528f45d4ea64c5bc501ae087
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00001
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.46997094}
+    - {x: 0.0004885254, y: 0.6499021}
+    - {x: 0.10522436, y: 0.46997094}
+    - {x: 0.10522436, y: 0.6499021}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5d50d95ffa10b304eb4ab5bfa47c679e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00008
+    boundsData:
+    - {x: 0.034999967, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.28906274}
+    - {x: 0.0004885254, y: 0.4689939}
+    - {x: 0.10522436, y: 0.28906274}
+    - {x: 0.10522436, y: 0.4689939}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 50df1fefe09f8b9458160f663ecacdfc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00007
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.10815454}
+    - {x: 0.0004885254, y: 0.2880857}
+    - {x: 0.10522436, y: 0.10815454}
+    - {x: 0.10522436, y: 0.2880857}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 99cf93f0ab6e68e4b856e55617c4d319
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00003
+    boundsData:
+    - {x: 0.034999967, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.10620142, y: 0.10815454}
+    - {x: 0.28613257, y: 0.10815454}
+    - {x: 0.10620142, y: 0.21289039}
+    - {x: 0.28613257, y: 0.21289039}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: ab1af813f9db6fe488839da6c3f3449f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00013
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.10620142, y: 0.21386743}
+    - {x: 0.28613257, y: 0.21386743}
+    - {x: 0.10620142, y: 0.31860328}
+    - {x: 0.28613257, y: 0.31860328}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8b059c2410a71ee418a44bd677a70d85
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00004
+    boundsData:
+    - {x: 0.03999996, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.64917016, y: 0.2119143}
+    - {x: 0.82934546, y: 0.2119143}
+    - {x: 0.64917016, y: 0.31665015}
+    - {x: 0.82934546, y: 0.31665015}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9d4c8aa774beec043a269d5305829410
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00000
+    boundsData:
+    - {x: 0.029999971, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.66, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.66, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7243655, y: 0.0004885254}
+    - {x: 0.9045408, y: 0.0004885254}
+    - {x: 0.7243655, y: 0.10522436}
+    - {x: 0.9045408, y: 0.10522436}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7fb47d586ea00f448b54f811d71b56d0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00004
+    boundsData:
+    - {x: 0.03999996, y: 2.225, z: 0}
+    - {x: 7.38, y: 4.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.040000003, z: 0}
+    - {x: 3.73, y: 0.040000003, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.18066382, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.10717749}
+    - {x: 0.18066382, y: 0.10717749}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6de03288843a2b34cad3e6a3f2ef8c14
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00009
+    boundsData:
+    - {x: 0.044999957, y: 2.225, z: 0}
+    - {x: 7.37, y: 4.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.040000003, z: 0}
+    - {x: 3.73, y: 0.040000003, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18164086, y: 0.0004885254}
+    - {x: 0.36157203, y: 0.0004885254}
+    - {x: 0.18164086, y: 0.10717749}
+    - {x: 0.36157203, y: 0.10717749}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 948ccad8bc8f02b4cbb6ad2f51be9855
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00001
+    boundsData:
+    - {x: 0.044999957, y: 2.335, z: 0}
+    - {x: 7.37, y: 4.1499996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.26000002, z: 0}
+    - {x: 3.73, y: 0.26000002, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7546389, y: 0.70800805}
+    - {x: 0.9345701, y: 0.70800805}
+    - {x: 0.7546389, y: 0.80932593}
+    - {x: 0.9345701, y: 0.80932593}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 704345ba67777eb4ba7f278f3e2d90a3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00016
+    boundsData:
+    - {x: 0.029999971, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.66, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.66, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.46826196, y: 0.2888186}
+    - {x: 0.46826196, y: 0.4689939}
+    - {x: 0.5729978, y: 0.2888186}
+    - {x: 0.5729978, y: 0.4689939}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 95fc7f6bd86037344a1a73f403cf8043
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00005
+    boundsData:
+    - {x: 0.034999967, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2871096, y: 0.28906274}
+    - {x: 0.46704078, y: 0.28906274}
+    - {x: 0.2871096, y: 0.3937986}
+    - {x: 0.46704078, y: 0.3937986}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 88f208fb34d985f49991396c5bc755d8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00017
+    boundsData:
+    - {x: 0.044999957, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.10620142, y: 0.31958032}
+    - {x: 0.28613257, y: 0.31958032}
+    - {x: 0.10620142, y: 0.42431617}
+    - {x: 0.28613257, y: 0.42431617}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: 73a21faedf6da474caf961ad05ff5b84
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00018
+    boundsData:
+    - {x: 0.03999996, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8303225, y: 0.2119143}
+    - {x: 0.8303225, y: 0.3920896}
+    - {x: 0.93505836, y: 0.2119143}
+    - {x: 0.93505836, y: 0.3920896}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: b3051b9fab4d131469257f9aacfa1738
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00003
+    boundsData:
+    - {x: 0.034999967, y: 2.235, z: 0}
+    - {x: 7.37, y: 4.35, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.060000002, z: 0}
+    - {x: 3.72, y: 0.060000002, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.54345727, y: 0.0004885254}
+    - {x: 0.72338843, y: 0.0004885254}
+    - {x: 0.54345727, y: 0.10668921}
+    - {x: 0.72338843, y: 0.10668921}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: d35bf8e1bd9a7414fa7677740b23c5bb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00007
+    boundsData:
+    - {x: 0.044999957, y: 2.3149998, z: 0}
+    - {x: 7.37, y: 4.19, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.22000001, z: 0}
+    - {x: 3.73, y: 0.22000001, z: 0}
+    - {x: -3.64, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5737307, y: 0.63476586}
+    - {x: 0.7536619, y: 0.63476586}
+    - {x: 0.5737307, y: 0.7370603}
+    - {x: 0.7536619, y: 0.7370603}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: ccf98fd2bda57cb4d889fe13b887c513
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00006
+    boundsData:
+    - {x: 0.034999967, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2871096, y: 0.39477563}
+    - {x: 0.46704078, y: 0.39477563}
+    - {x: 0.2871096, y: 0.49951148}
+    - {x: 0.46704078, y: 0.49951148}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: fdaad4044eabbb44b86cbe8bef594971
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00011
+    boundsData:
+    - {x: 0.025000095, y: 2.2649999, z: 0}
+    - {x: 7.3700004, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.66, y: 0.120000005, z: 0}
+    - {x: 3.7100003, y: 0.120000005, z: 0}
+    - {x: -3.66, y: 4.41, z: 0}
+    - {x: 3.7100003, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.46801782, y: 0.46997094}
+    - {x: 0.46801782, y: 0.6499021}
+    - {x: 0.57275367, y: 0.46997094}
+    - {x: 0.57275367, y: 0.6499021}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: cf4e620887dacbd49bf09a1dfa78033d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_drive_00006
+    boundsData:
+    - {x: 0.034999967, y: 2.335, z: 0}
+    - {x: 7.37, y: 4.1499996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.26000002, z: 0}
+    - {x: 3.72, y: 0.26000002, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.10620142, y: 0.4252932}
+    - {x: 0.28613257, y: 0.4252932}
+    - {x: 0.10620142, y: 0.5266111}
+    - {x: 0.28613257, y: 0.5266111}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: eb9f36d823a56544db5d2ee2f1fc5dbd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00010
+    boundsData:
+    - {x: 0.03999996, y: 2.2649999, z: 0}
+    - {x: 7.38, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.73, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.73, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.57397485, y: 0.3176272}
+    - {x: 0.75415015, y: 0.3176272}
+    - {x: 0.57397485, y: 0.42236304}
+    - {x: 0.75415015, y: 0.42236304}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: d617afface8dd9448af9f3a4fa9376f7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Cheeseboy_Idle_00005
+    boundsData:
+    - {x: 0.034999967, y: 2.2649999, z: 0}
+    - {x: 7.37, y: 4.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.120000005, z: 0}
+    - {x: 3.72, y: 0.120000005, z: 0}
+    - {x: -3.65, y: 4.41, z: 0}
+    - {x: 3.72, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5737307, y: 0.529053}
+    - {x: 0.7536619, y: 0.529053}
+    - {x: 0.5737307, y: 0.6337888}
+    - {x: 0.7536619, y: 0.6337888}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+    materialId: 0
+    sourceTextureGUID: f4adeb3fe88693b4a97b4185ac84b42f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 30b7688bec1d73544b8a5d5db4fcfa39, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 4e2fafafe31e4d54dbd5969ce200746e
+  spriteCollectionName: Cheeseboy_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1271953194
+  dataGuid: c3c4ee6eebc91ac469327ab1e411cae3
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

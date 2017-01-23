@@ -60,6 +60,7 @@ GameObject:
   - 114: {fileID: 114000012092725450}
   - 114: {fileID: 114000010639213884}
   - 114: {fileID: 114000011600747498}
+  - 114: {fileID: 114000012593702472}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -121,7 +122,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c983eadaa76dd394e8424f88de6a79ba, type: 2}
+  - {fileID: 2100000, guid: b14acabaf41d4c544b3c4354b8ece4fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -269,11 +270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
+  collection: {fileID: 114000011561113638, guid: 96a879710153dd045bfe4ec7fcc34156,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.3, y: 0.3, z: 0.3}
-  _spriteId: 79
+  _spriteId: 4
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -312,11 +313,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000011145296422}
-  anim: {fileID: 0}
+  anim: {fileID: 114000012593702472}
+  vehicle: {fileID: 114000013115382970}
   groundFxPoint: {fileID: 4000011530793632}
-  crashMaterial: {fileID: 2100000, guid: 4187ae589cfb1544fa000ddb928071a5, type: 2}
+  crashMaterial: {fileID: 2100000, guid: a1adf03ad7b047b40b64862d91ff4e4a, type: 2}
   MaxAngerIntensity: 0.4
-  wiggle: {fileID: 0}
+  wiggle: {fileID: 114000011600747498}
+  meshRenderer: {fileID: 23000010324863054}
+--- !u!114 &114000012593702472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013241875708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 114000011383462840, guid: 6789d72fae687bd40ad6fa5617b44809, type: 2}
+  defaultClipId: 15
+  playAutomatically: 1
 --- !u!114 &114000013115382970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -328,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehicleName: Sub
+  vehicleName: PirateShip
   DestructionAmount: 0.01
   ShowDebugLines: 1
   TaleGatingDistance: 2

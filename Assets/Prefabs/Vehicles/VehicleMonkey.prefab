@@ -24,6 +24,7 @@ GameObject:
   - 114: {fileID: 114000010562330202}
   - 114: {fileID: 114000013699643892}
   - 114: {fileID: 114000010372312046}
+  - 114: {fileID: 114000012799443272}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 4066c7a85878c1246b0311f8a978c6a2, type: 2}
+  - {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -273,11 +274,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
+  collection: {fileID: 114000010369353308, guid: c58ecc2f6d1226e44ad148173a1b1267,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.2, y: 0.2, z: 0.2}
-  _spriteId: 214
+  _spriteId: 15
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -321,6 +322,20 @@ MonoBehaviour:
   stopSound: {fileID: 0}
   Speed: 5
   DiffDistance: 0
+--- !u!114 &114000012799443272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011038759236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 114000011383462840, guid: 6789d72fae687bd40ad6fa5617b44809, type: 2}
+  defaultClipId: 19
+  playAutomatically: 1
 --- !u!114 &114000013699643892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -333,11 +348,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010562330202}
-  anim: {fileID: 0}
+  anim: {fileID: 114000012799443272}
+  vehicle: {fileID: 114000011912658938}
   groundFxPoint: {fileID: 4000013575413228}
-  crashMaterial: {fileID: 2100000, guid: 1b69d13789cc6324b9c63d9e943440dc, type: 2}
+  crashMaterial: {fileID: 2100000, guid: fc298e533f1b3b14db29451949818e8d, type: 2}
   MaxAngerIntensity: 0.4
-  wiggle: {fileID: 0}
+  wiggle: {fileID: 114000010372312046}
+  meshRenderer: {fileID: 23000013572685204}
 --- !u!119 &119000012344370082
 Projector:
   m_ObjectHideFlags: 1

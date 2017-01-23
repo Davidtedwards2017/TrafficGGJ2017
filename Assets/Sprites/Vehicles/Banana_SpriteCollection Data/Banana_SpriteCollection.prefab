@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010638886274}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010638886274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013991849858}
+  - 114: {fileID: 114000013248009034}
+  m_Layer: 0
+  m_Name: Banana_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013991849858
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010638886274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000013248009034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010638886274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Banana_Drive_00007
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652346, y: 0.0004885254}
+    - {x: 0.5466306, y: 0.0004885254}
+    - {x: 0.3652346, y: 0.1030271}
+    - {x: 0.5466306, y: 0.1030271}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 655b4a32326932942b7a60eb1103552e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00003
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.54760766, y: 0.0004885254}
+    - {x: 0.72900367, y: 0.0004885254}
+    - {x: 0.54760766, y: 0.1030271}
+    - {x: 0.72900367, y: 0.1030271}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3d7b4b555dcecf446b14525f580e529e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00002
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7299807, y: 0.0004885254}
+    - {x: 0.9113767, y: 0.0004885254}
+    - {x: 0.7299807, y: 0.1030271}
+    - {x: 0.9113767, y: 0.1030271}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2af81be57040bdf4c91eb07e6bb44fb4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00005
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652346, y: 0.10400415}
+    - {x: 0.5466306, y: 0.10400415}
+    - {x: 0.3652346, y: 0.20654273}
+    - {x: 0.5466306, y: 0.20654273}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 18dfe45662775824a9960b9127324369
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00009
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.10839868}
+    - {x: 0.18188453, y: 0.10839868}
+    - {x: 0.0004885254, y: 0.21093726}
+    - {x: 0.18188453, y: 0.21093726}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 36c655c6a29c5e6429f13fa593f58eaa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00002
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.10839868}
+    - {x: 0.36425757, y: 0.10839868}
+    - {x: 0.18286157, y: 0.21093726}
+    - {x: 0.36425757, y: 0.21093726}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1deae5e641375944d939bbc898fed782
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00018
+    boundsData:
+    - {x: -0.004999876, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.72, y: 0, z: 0}
+    - {x: 3.7100003, y: 0, z: 0}
+    - {x: -3.72, y: 4.2000003, z: 0}
+    - {x: 3.7100003, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.54760766, y: 0.10400415}
+    - {x: 0.72900367, y: 0.10400415}
+    - {x: 0.54760766, y: 0.20654273}
+    - {x: 0.72900367, y: 0.20654273}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0e387f28b35cbbc4a9ef97b2d0645400
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00004
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7299807, y: 0.10400415}
+    - {x: 0.9113767, y: 0.10400415}
+    - {x: 0.7299807, y: 0.20654273}
+    - {x: 0.9113767, y: 0.20654273}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 560886ca61d6d8b4aa7a340eacd13dbb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00000
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652346, y: 0.20751977}
+    - {x: 0.5466306, y: 0.20751977}
+    - {x: 0.3652346, y: 0.31005836}
+    - {x: 0.5466306, y: 0.31005836}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6193590b0d6018146bf0f3a0840784eb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00005
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.2119143}
+    - {x: 0.18188453, y: 0.2119143}
+    - {x: 0.0004885254, y: 0.3144529}
+    - {x: 0.18188453, y: 0.3144529}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 09e6de9dcf3ce4a43a624a55cc8a8d28
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00004
+    boundsData:
+    - {x: 0.004999995, y: 2.1650002, z: 0}
+    - {x: 7.4300003, y: 4.07, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.13000001, z: 0}
+    - {x: 3.72, y: 0.13000001, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.7294924}
+    - {x: 0.0004885254, y: 0.91088843}
+    - {x: 0.09985327, y: 0.7294924}
+    - {x: 0.09985327, y: 0.91088843}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1adaad7ed68dd4d4794aa42d3cab1271
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00015
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.2119143}
+    - {x: 0.36425757, y: 0.2119143}
+    - {x: 0.18286157, y: 0.3144529}
+    - {x: 0.36425757, y: 0.3144529}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7a33173050d8b4246b09b2facb12de21
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00008
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.54760766, y: 0.20751977}
+    - {x: 0.72900367, y: 0.20751977}
+    - {x: 0.54760766, y: 0.31005836}
+    - {x: 0.72900367, y: 0.31005836}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 76af373077796454abaec6e396e2723a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00016
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7299807, y: 0.20751977}
+    - {x: 0.9113767, y: 0.20751977}
+    - {x: 0.7299807, y: 0.31005836}
+    - {x: 0.9113767, y: 0.31005836}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: b77b148076ab40d45a769b92c57c45fa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00010
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652346, y: 0.3110354}
+    - {x: 0.5466306, y: 0.3110354}
+    - {x: 0.3652346, y: 0.41357398}
+    - {x: 0.5466306, y: 0.41357398}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: a06fea22218170d429b86ca8068f12a4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00001
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.31542993}
+    - {x: 0.18188453, y: 0.31542993}
+    - {x: 0.0004885254, y: 0.4179685}
+    - {x: 0.18188453, y: 0.4179685}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 99a81bf2322bf1243bd7b59527b39d9e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00019
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.31542993}
+    - {x: 0.36425757, y: 0.31542993}
+    - {x: 0.18286157, y: 0.4179685}
+    - {x: 0.36425757, y: 0.4179685}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: a6ec0d2384ad0094e87183a7252d3911
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00003
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.54760766, y: 0.3110354}
+    - {x: 0.72900367, y: 0.3110354}
+    - {x: 0.54760766, y: 0.41357398}
+    - {x: 0.72900367, y: 0.41357398}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: b40173f3dcba7f046aa5fd79791fd02c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00006
+    boundsData:
+    - {x: 0.004999995, y: 2.19, z: 0}
+    - {x: 7.4300003, y: 4.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.38, z: 0}
+    - {x: 3.72, y: 4.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.18188453, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.10742163}
+    - {x: 0.18188453, y: 0.10742163}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: b051a15400b7e594ca3738581321a05c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00001
+    boundsData:
+    - {x: 0.004999995, y: 2.19, z: 0}
+    - {x: 7.4300003, y: 4.38, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.38, z: 0}
+    - {x: 3.72, y: 4.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.0004885254}
+    - {x: 0.36425757, y: 0.0004885254}
+    - {x: 0.18286157, y: 0.10742163}
+    - {x: 0.36425757, y: 0.10742163}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: a904146abb210db44a33f5adf8d1a053
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00006
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7299807, y: 0.3110354}
+    - {x: 0.9113767, y: 0.3110354}
+    - {x: 0.7299807, y: 0.41357398}
+    - {x: 0.9113767, y: 0.41357398}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9b9fadccc52a28b43bfbb4dba98faa08
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00009
+    boundsData:
+    - {x: 0.024999857, y: 2.1650002, z: 0}
+    - {x: 7.43, y: 4.07, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.13000001, z: 0}
+    - {x: 3.7399998, y: 0.13000001, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.100830324, y: 0.7294924}
+    - {x: 0.28222632, y: 0.7294924}
+    - {x: 0.100830324, y: 0.8288572}
+    - {x: 0.28222632, y: 0.8288572}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: ac1fbfccfc4df08429865824d874e7e9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00013
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652346, y: 0.41455102}
+    - {x: 0.3652346, y: 0.595947}
+    - {x: 0.4677732, y: 0.41455102}
+    - {x: 0.4677732, y: 0.595947}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7ea52e2e5f5f2b84eb6607e8ec23f3f7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00008
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.41894555}
+    - {x: 0.18188453, y: 0.41894555}
+    - {x: 0.0004885254, y: 0.52148414}
+    - {x: 0.18188453, y: 0.52148414}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: edc6b041926a07f40b1ed5dce04c720b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00007
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.41894555}
+    - {x: 0.36425757, y: 0.41894555}
+    - {x: 0.18286157, y: 0.52148414}
+    - {x: 0.36425757, y: 0.52148414}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: efcd23c239644aa408170a1a63bb8e30
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Drive_00000
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.5224612}
+    - {x: 0.18188453, y: 0.5224612}
+    - {x: 0.0004885254, y: 0.62499976}
+    - {x: 0.18188453, y: 0.62499976}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: c40e8ef60cff85040bd4fbcb57696f8c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00014
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.5224612}
+    - {x: 0.36425757, y: 0.5224612}
+    - {x: 0.18286157, y: 0.62499976}
+    - {x: 0.36425757, y: 0.62499976}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: c280672911ee4674baf88494fc4bf4de
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00011
+    boundsData:
+    - {x: 0.004999995, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0, z: 0}
+    - {x: 3.72, y: 0, z: 0}
+    - {x: -3.71, y: 4.2000003, z: 0}
+    - {x: 3.72, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3652346, y: 0.59692407}
+    - {x: 0.3652346, y: 0.7783201}
+    - {x: 0.4677732, y: 0.59692407}
+    - {x: 0.4677732, y: 0.7783201}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: efb2d66b4b092814ba71702b8b097be2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00017
+    boundsData:
+    - {x: 0.024999857, y: 2.1000001, z: 0}
+    - {x: 7.43, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0, z: 0}
+    - {x: 3.7399998, y: 0, z: 0}
+    - {x: -3.69, y: 4.2000003, z: 0}
+    - {x: 3.7399998, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.6259768}
+    - {x: 0.18188453, y: 0.6259768}
+    - {x: 0.0004885254, y: 0.7285154}
+    - {x: 0.18188453, y: 0.7285154}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: fd103cacc3d9dfe4bb019faf01f283e0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Banana_Idle_00012
+    boundsData:
+    - {x: 0.014999986, y: 2.1000001, z: 0}
+    - {x: 7.4300003, y: 4.2000003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.21, z: 0}
+    - {x: 7.5, y: 4.42, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0, z: 0}
+    - {x: 3.73, y: 0, z: 0}
+    - {x: -3.7, y: 4.2000003, z: 0}
+    - {x: 3.73, y: 4.2000003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18286157, y: 0.6259768}
+    - {x: 0.36425757, y: 0.6259768}
+    - {x: 0.18286157, y: 0.7285154}
+    - {x: 0.36425757, y: 0.7285154}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+    materialId: 0
+    sourceTextureGUID: bd46526e457b5c3428958310f5962b1f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 74dca91651d4cef47ae726345805d902, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a9d01c7acdeef9340a29f91a25b75654, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: a72f2e135bee60e4aa57605b4ca690f7
+  spriteCollectionName: Banana_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 411253358
+  dataGuid: e2dbce12f35bab143afb9748355110ba
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

@@ -1,0 +1,1020 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010491323170}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010491323170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011010471474}
+  - 114: {fileID: 114000012363333736}
+  m_Layer: 0
+  m_Name: DickCheney_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011010471474
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010491323170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012363333736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010491323170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: DickCheney_Drive_00006
+    boundsData:
+    - {x: 0.049999952, y: 3.7699997, z: 0}
+    - {x: 6.8399997, y: 7.18, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.37, y: 0.18, z: 0}
+    - {x: 3.4699998, y: 0.18, z: 0}
+    - {x: -3.37, y: 7.3599997, z: 0}
+    - {x: 3.4699998, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.16577172, y: 0.35693383}
+    - {x: 0.33276343, y: 0.35693383}
+    - {x: 0.16577172, y: 0.5322263}
+    - {x: 0.33276343, y: 0.5322263}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3081b64333990be4588c258f57d19e60
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00003
+    boundsData:
+    - {x: 0.029999971, y: 3.705, z: 0}
+    - {x: 6.7799997, y: 7.3099995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.05, z: 0}
+    - {x: 3.4199998, y: 0.05, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.4199998, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.16821313, y: 0.0004885254}
+    - {x: 0.33374, y: 0.0004885254}
+    - {x: 0.16821313, y: 0.17895484}
+    - {x: 0.33374, y: 0.17895484}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 16dcce5321942cb4dba073cced8deb61
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00007
+    boundsData:
+    - {x: 0.029999971, y: 3.7299998, z: 0}
+    - {x: 6.7799997, y: 7.2599998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.1, z: 0}
+    - {x: 3.4199998, y: 0.1, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.4199998, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.53662133}
+    - {x: 0.16601539, y: 0.53662133}
+    - {x: 0.0004885254, y: 0.71386695}
+    - {x: 0.16601539, y: 0.71386695}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 26b4a1749b8fb7c41abe27454cd710b0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00000
+    boundsData:
+    - {x: -0.049999952, y: 3.7549999, z: 0}
+    - {x: 6.62, y: 7.2099996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.26, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.49633813, y: 0.3422854}
+    - {x: 0.65795875, y: 0.3422854}
+    - {x: 0.49633813, y: 0.5183103}
+    - {x: 0.65795875, y: 0.5183103}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1d4cd156a6efb4d4898af4c741d0cfe8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00005
+    boundsData:
+    - {x: -0.049999952, y: 3.8, z: 0}
+    - {x: 6.62, y: 7.2999997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.45, z: 0}
+    - {x: 3.26, y: 7.45, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.714844}
+    - {x: 0.16210914, y: 0.714844}
+    - {x: 0.0004885254, y: 0.89306617}
+    - {x: 0.16210914, y: 0.89306617}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 19115ed74d1afcb4fb873dcc441ddea6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00002
+    boundsData:
+    - {x: 0.004999995, y: 3.7299998, z: 0}
+    - {x: 6.7299995, y: 7.2599998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.1, z: 0}
+    - {x: 3.37, y: 0.1, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.37, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.16943383, y: 0.17993188}
+    - {x: 0.16943383, y: 0.34423804}
+    - {x: 0.34667945, y: 0.17993188}
+    - {x: 0.34667945, y: 0.34423804}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ba00a5af4bac1b4e89946225095d2da
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00004
+    boundsData:
+    - {x: 0.054999948, y: 3.705, z: 0}
+    - {x: 6.83, y: 7.3099995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.05, z: 0}
+    - {x: 3.4699998, y: 0.05, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.4699998, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.16723609, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.17895484}
+    - {x: 0.16723609, y: 0.17895484}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 0.99999994, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5cb5a02b56fc5644a8342ed2b6cf0d3f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00007
+    boundsData:
+    - {x: -0.049999952, y: 3.785, z: 0}
+    - {x: 6.62, y: 7.27, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.42, z: 0}
+    - {x: 3.26, y: 7.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.32959008, y: 0.53320336}
+    - {x: 0.4912107, y: 0.53320336}
+    - {x: 0.32959008, y: 0.7106931}
+    - {x: 0.4912107, y: 0.7106931}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1d27f30cee678eb42acbdbc4c7fc35ca
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00008
+    boundsData:
+    - {x: -0.049999952, y: 3.775, z: 0}
+    - {x: 6.62, y: 7.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.4, z: 0}
+    - {x: 3.26, y: 7.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3476565, y: 0.17968774}
+    - {x: 0.3476565, y: 0.34130836}
+    - {x: 0.52465796, y: 0.17968774}
+    - {x: 0.52465796, y: 0.34130836}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1033cfde20f7a9745ae34341fd2736ba
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00001
+    boundsData:
+    - {x: -0.049999952, y: 3.765, z: 0}
+    - {x: 6.62, y: 7.23, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.38, z: 0}
+    - {x: 3.26, y: 7.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4895022, y: 0.71167016}
+    - {x: 0.6511228, y: 0.71167016}
+    - {x: 0.4895022, y: 0.88818336}
+    - {x: 0.6511228, y: 0.88818336}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: a9374aa0f2e754048adf405b2b118362
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00003
+    boundsData:
+    - {x: -0.049999952, y: 3.785, z: 0}
+    - {x: 6.62, y: 7.27, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.42, z: 0}
+    - {x: 3.26, y: 7.42, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.33374047, y: 0.34521508}
+    - {x: 0.4953611, y: 0.34521508}
+    - {x: 0.33374047, y: 0.52270484}
+    - {x: 0.4953611, y: 0.52270484}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: a8d7b132bb2a82d44af12d120f193136
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00000
+    boundsData:
+    - {x: -0.049999952, y: 3.7549999, z: 0}
+    - {x: 6.62, y: 7.2099996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.26, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.49633813, y: 0.3422854}
+    - {x: 0.65795875, y: 0.3422854}
+    - {x: 0.49633813, y: 0.5183103}
+    - {x: 0.65795875, y: 0.5183103}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6aeabeb7a4050e947b4c454c9bb49ecc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00002
+    boundsData:
+    - {x: -0.049999952, y: 3.775, z: 0}
+    - {x: 6.62, y: 7.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.4, z: 0}
+    - {x: 3.26, y: 7.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4985354, y: 0.0004885254}
+    - {x: 0.660156, y: 0.0004885254}
+    - {x: 0.4985354, y: 0.17749}
+    - {x: 0.660156, y: 0.17749}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 77f5e82912d6d26468085da67dc2367a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00008
+    boundsData:
+    - {x: 0.004999995, y: 3.6999998, z: 0}
+    - {x: 6.7299995, y: 7.3199997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.04, z: 0}
+    - {x: 3.37, y: 0.04, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.37, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.35693383}
+    - {x: 0.16479468, y: 0.35693383}
+    - {x: 0.0004885254, y: 0.5356443}
+    - {x: 0.16479468, y: 0.5356443}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7dc4614caa1ba8240ab8677cbb620bfb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00004
+    boundsData:
+    - {x: -0.049999952, y: 3.795, z: 0}
+    - {x: 6.62, y: 7.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.44, z: 0}
+    - {x: 3.26, y: 7.44, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.16308618, y: 0.714844}
+    - {x: 0.3247068, y: 0.714844}
+    - {x: 0.16308618, y: 0.892822}
+    - {x: 0.3247068, y: 0.892822}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: a1f4229ccf441c24ea88e01eec9b589c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00009
+    boundsData:
+    - {x: -0.025000095, y: 3.7099998, z: 0}
+    - {x: 6.6699996, y: 7.2999997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.060000002, z: 0}
+    - {x: 3.3099997, y: 0.060000002, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.3099997, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.33471704, y: 0.0004885254}
+    - {x: 0.49755836, y: 0.0004885254}
+    - {x: 0.33471704, y: 0.1787107}
+    - {x: 0.49755836, y: 0.1787107}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: 927340cc2aa88944a976fc604bf8b7d7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00006
+    boundsData:
+    - {x: -0.049999952, y: 3.795, z: 0}
+    - {x: 6.62, y: 7.29, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.44, z: 0}
+    - {x: 3.26, y: 7.44, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.16699243, y: 0.53320336}
+    - {x: 0.32861304, y: 0.53320336}
+    - {x: 0.16699243, y: 0.7111814}
+    - {x: 0.32861304, y: 0.7111814}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: b24e34afb8565304db8c37afef58b4fd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Idle_00009
+    boundsData:
+    - {x: -0.049999952, y: 3.765, z: 0}
+    - {x: 6.62, y: 7.23, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.26, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.38, z: 0}
+    - {x: 3.26, y: 7.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.49218774, y: 0.5236819}
+    - {x: 0.65380836, y: 0.5236819}
+    - {x: 0.49218774, y: 0.7001951}
+    - {x: 0.65380836, y: 0.7001951}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: d950b061cdb48fc4fa1584dbb3f87dea
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00005
+    boundsData:
+    - {x: 0.079999804, y: 3.7549999, z: 0}
+    - {x: 6.879999, y: 7.2099996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14999999, z: 0}
+    - {x: 3.5199995, y: 0.14999999, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.5199995, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.17993188}
+    - {x: 0.1684568, y: 0.17993188}
+    - {x: 0.0004885254, y: 0.3559568}
+    - {x: 0.1684568, y: 0.3559568}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: e08e088e0c3d3f04080a451084fcbd67
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: DickCheney_Drive_00001
+    boundsData:
+    - {x: -0.025000095, y: 3.7499998, z: 0}
+    - {x: 6.6699996, y: 7.22, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.004999876, y: 3.75, z: 0}
+    - {x: 7.1499996, y: 7.5, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.36, y: 0.14, z: 0}
+    - {x: 3.3099997, y: 0.14, z: 0}
+    - {x: -3.36, y: 7.3599997, z: 0}
+    - {x: 3.3099997, y: 7.3599997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.32568383, y: 0.71215844}
+    - {x: 0.48852515, y: 0.71215844}
+    - {x: 0.32568383, y: 0.8884275}
+    - {x: 0.48852515, y: 0.8884275}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+    materialId: 0
+    sourceTextureGUID: f72a03afa3760e94fb6a2a7d49a26098
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 12cf28d149163914db5b1be69bb1bfb3, type: 2}
+  textures:
+  - {fileID: 2800000, guid: cdd324ca486a91147b12562c25d53c5e, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: f88dda3487766834fa3707b2915e001b
+  spriteCollectionName: DickCheney_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 290752079
+  dataGuid: 0f7a3641be2514f46aff43d5da6c0a7d
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

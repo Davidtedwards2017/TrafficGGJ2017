@@ -44,6 +44,7 @@ GameObject:
   - 114: {fileID: 114000013253010580}
   - 114: {fileID: 114000010554532898}
   - 114: {fileID: 114000012211304910}
+  - 114: {fileID: 114000011576243160}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -121,7 +122,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a8de363468e908f4e9ff6591b9a26df3, type: 2}
+  - {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -256,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehicleName: Sub
+  vehicleName: Train
   DestructionAmount: 0.01
   ShowDebugLines: 1
   TaleGatingDistance: 2
@@ -293,6 +294,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.15
   speed: 1
+--- !u!114 &114000011576243160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012819385508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 114000011383462840, guid: 6789d72fae687bd40ad6fa5617b44809, type: 2}
+  defaultClipId: 23
+  playAutomatically: 1
 --- !u!114 &114000012211304910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -323,11 +338,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000013862017270}
-  anim: {fileID: 0}
+  anim: {fileID: 114000011576243160}
+  vehicle: {fileID: 114000010425645938}
   groundFxPoint: {fileID: 4000011659500056}
-  crashMaterial: {fileID: 2100000, guid: 0724e6cfd2c142541b8d9aca3ef9522a, type: 2}
+  crashMaterial: {fileID: 2100000, guid: 22cba1db1588e2141b832b35d10f49b1, type: 2}
   MaxAngerIntensity: 0.4
-  wiggle: {fileID: 0}
+  wiggle: {fileID: 114000012211304910}
+  meshRenderer: {fileID: 23000011572498248}
 --- !u!114 &114000013862017270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -339,11 +356,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
+  collection: {fileID: 114000014197287020, guid: f5950409b28499145b09240e1a5f4a86,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.3, y: 0.3, z: 0.3}
-  _spriteId: 65
+  _spriteId: 5
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []

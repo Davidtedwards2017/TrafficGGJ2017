@@ -86,11 +86,13 @@ public class Vehicle : MonoBehaviour
     public void OnAcceleration()
     {
         //PlayStartMotor();
+        //anim.PlayDrive();
     }
 
     public void OnDeceleration()
     {
         //PlayHitBrakes();
+        //anim.PlayIdle();
     }
 
     public bool HasPassedStopLight()
@@ -209,6 +211,7 @@ public class Vehicle : MonoBehaviour
         public override void OnEnter()
         {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.LaneEndPosition;
+            Vehicle.anim.PlayDrive();
         }
 
         public override void OnLaneClosed()
@@ -243,6 +246,7 @@ public class Vehicle : MonoBehaviour
         public override void OnEnter()
         {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.StopLightPosition;
+            Vehicle.anim.PlayIdle();
         }
 
         public override void OnUpdate()
@@ -284,6 +288,7 @@ public class Vehicle : MonoBehaviour
         public override void OnEnter()
         {
             Vehicle.TargetPosition = Vehicle.Street.LanePathData.LaneEndPosition;
+            Vehicle.anim.PlayDrive();
         }
 
         public override void OnUpdate()

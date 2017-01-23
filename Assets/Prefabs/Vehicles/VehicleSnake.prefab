@@ -60,6 +60,7 @@ GameObject:
   - 114: {fileID: 114000013842167908}
   - 114: {fileID: 114000013395964402}
   - 114: {fileID: 114000010623621222}
+  - 114: {fileID: 114000012558171006}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -121,7 +122,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 75c5c5e576f13f2408cf134f91e49180, type: 2}
+  - {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -274,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd925070169570249a43241adaa0de84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vehicleName: Sub
+  vehicleName: Snake
   DestructionAmount: 0.01
   ShowDebugLines: 1
   TaleGatingDistance: 2
@@ -309,11 +310,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
+  collection: {fileID: 114000010587132540, guid: 67459a61eac96944482885a6e9d3d42e,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.3, y: 0.3, z: 0.3}
-  _spriteId: 126
+  _spriteId: 14
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -322,6 +323,20 @@ MonoBehaviour:
   meshColliderPositions: []
   meshColliderMesh: {fileID: 0}
   renderLayer: 0
+--- !u!114 &114000012558171006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014184720436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 114000011383462840, guid: 6789d72fae687bd40ad6fa5617b44809, type: 2}
+  defaultClipId: 17
+  playAutomatically: 1
 --- !u!114 &114000013395964402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -347,11 +362,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010946625270}
-  anim: {fileID: 0}
+  anim: {fileID: 114000012558171006}
+  vehicle: {fileID: 114000010912491826}
   groundFxPoint: {fileID: 4000011954375268}
-  crashMaterial: {fileID: 2100000, guid: bc97e0eb68d78144cbdd5710e3ef1561, type: 2}
+  crashMaterial: {fileID: 2100000, guid: d7e7f2315a55a704691012f1e720c3c3, type: 2}
   MaxAngerIntensity: 0.4
-  wiggle: {fileID: 0}
+  wiggle: {fileID: 114000010623621222}
+  meshRenderer: {fileID: 23000011844172718}
 --- !u!119 &119000014231942922
 Projector:
   m_ObjectHideFlags: 1
