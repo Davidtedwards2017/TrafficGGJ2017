@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012530585810}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012530585810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010361809530}
+  - 114: {fileID: 114000014197287020}
+  m_Layer: 0
+  m_Name: Train_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010361809530
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012530585810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000014197287020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012530585810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Train_Drive_00000
+    boundsData:
+    - {x: 0.045000076, y: 2.4299998, z: 0}
+    - {x: 7.27, y: 4.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.7, z: 0}
+    - {x: 3.68, y: 4.7, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.17797828, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.11132788}
+    - {x: 0.17797828, y: 0.11132788}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1197adc08724226489f674919d3258a2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00003
+    boundsData:
+    - {x: 0, y: 2.3899999, z: 0}
+    - {x: 7.36, y: 4.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.17, z: 0}
+    - {x: 3.68, y: 0.17, z: 0}
+    - {x: -3.68, y: 4.6099997, z: 0}
+    - {x: 3.68, y: 4.6099997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5358889, y: 0.22143579}
+    - {x: 0.5358889, y: 0.4011228}
+    - {x: 0.6442869, y: 0.22143579}
+    - {x: 0.6442869, y: 0.4011228}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 53cf7c02766d34e499b059a7db11607a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00016
+    boundsData:
+    - {x: 0.045000076, y: 2.3549998, z: 0}
+    - {x: 7.27, y: 4.39, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.5499997, z: 0}
+    - {x: 3.68, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.57934594}
+    - {x: 0.0004885254, y: 0.7568357}
+    - {x: 0.10766577, y: 0.57934594}
+    - {x: 0.10766577, y: 0.7568357}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 68d32453dfdfa9741b1fec63a78d8f19
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00006
+    boundsData:
+    - {x: 0.045000076, y: 2.37, z: 0}
+    - {x: 7.27, y: 4.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.58, z: 0}
+    - {x: 3.68, y: 4.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2888186, y: 0.44165063}
+    - {x: 0.46630836, y: 0.44165063}
+    - {x: 0.2888186, y: 0.5495603}
+    - {x: 0.46630836, y: 0.5495603}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0e283ec5fe78c3e48a11b5fa9d67572d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00019
+    boundsData:
+    - {x: 0.045000076, y: 2.4149997, z: 0}
+    - {x: 7.27, y: 4.5099998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.6699996, z: 0}
+    - {x: 3.68, y: 4.6699996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.716553, y: 0.0004885254}
+    - {x: 0.89404273, y: 0.0004885254}
+    - {x: 0.716553, y: 0.11059546}
+    - {x: 0.89404273, y: 0.11059546}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0cdebb0a67e6fa34cae62b14c7f3bc0e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00000
+    boundsData:
+    - {x: 0.045000076, y: 2.4299998, z: 0}
+    - {x: 7.27, y: 4.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.7, z: 0}
+    - {x: 3.68, y: 4.7, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.17797828, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.11132788}
+    - {x: 0.17797828, y: 0.11132788}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 641d099ad4d01c74faa42c5e9694a65a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00013
+    boundsData:
+    - {x: 0.045000076, y: 2.3999999, z: 0}
+    - {x: 7.27, y: 4.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.64, z: 0}
+    - {x: 3.68, y: 4.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6452639, y: 0.33227563}
+    - {x: 0.82275367, y: 0.33227563}
+    - {x: 0.6452639, y: 0.44165015}
+    - {x: 0.82275367, y: 0.44165015}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d7fc3abbe76b5946b9b691a80c613c7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00009
+    boundsData:
+    - {x: 0.035000086, y: 2.41, z: 0}
+    - {x: 7.29, y: 4.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.61, y: 0.17, z: 0}
+    - {x: 3.68, y: 0.17, z: 0}
+    - {x: -3.61, y: 4.65, z: 0}
+    - {x: 3.68, y: 4.65, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6452639, y: 0.22192407}
+    - {x: 0.82324195, y: 0.22192407}
+    - {x: 0.6452639, y: 0.3312986}
+    - {x: 0.82324195, y: 0.3312986}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 364238ebbaa8c2e4e9aea0e46bb37522
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00009
+    boundsData:
+    - {x: 0.045000076, y: 2.405, z: 0}
+    - {x: 7.27, y: 4.4900002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.65, z: 0}
+    - {x: 3.68, y: 4.65, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.824219, y: 0.22192407}
+    - {x: 0.824219, y: 0.39941382}
+    - {x: 0.93383765, y: 0.22192407}
+    - {x: 0.93383765, y: 0.39941382}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5994af0c262dc044ebf2aff8c7c390bd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00001
+    boundsData:
+    - {x: 0.045000076, y: 2.4149997, z: 0}
+    - {x: 7.27, y: 4.5099998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.6699996, z: 0}
+    - {x: 3.68, y: 4.6699996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5358889, y: 0.11035181}
+    - {x: 0.71337867, y: 0.11035181}
+    - {x: 0.5358889, y: 0.22045875}
+    - {x: 0.71337867, y: 0.22045875}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0f41487c0c115a44ea6451e3ee59ffdd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00003
+    boundsData:
+    - {x: 0.045000076, y: 2.3849998, z: 0}
+    - {x: 7.27, y: 4.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.6099997, z: 0}
+    - {x: 3.68, y: 4.6099997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.35717797, y: 0.22290063}
+    - {x: 0.53466773, y: 0.22290063}
+    - {x: 0.35717797, y: 0.33154273}
+    - {x: 0.53466773, y: 0.33154273}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0cbfc0ed29b80c44ca203d076f2ebd38
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00007
+    boundsData:
+    - {x: 0.05000007, y: 2.3799999, z: 0}
+    - {x: 7.26, y: 4.44, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.58, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.58, y: 4.6, z: 0}
+    - {x: 3.68, y: 4.6, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.4011233}
+    - {x: 0.0004885254, y: 0.5783689}
+    - {x: 0.10888647, y: 0.4011233}
+    - {x: 0.10888647, y: 0.5783689}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5c27ab1e03afab84192e4c6bc42504ea
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00005
+    boundsData:
+    - {x: 0.045000076, y: 2.3549998, z: 0}
+    - {x: 7.27, y: 4.39, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.5499997, z: 0}
+    - {x: 3.68, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.57934594}
+    - {x: 0.0004885254, y: 0.7568357}
+    - {x: 0.10766577, y: 0.57934594}
+    - {x: 0.10766577, y: 0.7568357}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 396c30ceff03f674da40aeba5802e7c2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00002
+    boundsData:
+    - {x: 0.05000007, y: 2.3999999, z: 0}
+    - {x: 7.26, y: 4.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.58, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.58, y: 4.64, z: 0}
+    - {x: 3.68, y: 4.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.11230493}
+    - {x: 0.17773414, y: 0.11230493}
+    - {x: 0.0004885254, y: 0.22167945}
+    - {x: 0.17773414, y: 0.22167945}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2c0a696f56360cd498f53183865325d4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00015
+    boundsData:
+    - {x: 0.045000076, y: 2.37, z: 0}
+    - {x: 7.27, y: 4.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.58, z: 0}
+    - {x: 3.68, y: 4.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.10986353, y: 0.44189477}
+    - {x: 0.28735328, y: 0.44189477}
+    - {x: 0.10986353, y: 0.54980445}
+    - {x: 0.28735328, y: 0.54980445}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: ac8b128135a8d5648b99d592a9ea9c68
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00008
+    boundsData:
+    - {x: 0, y: 2.4, z: 0}
+    - {x: 7.36, y: 4.46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.17, z: 0}
+    - {x: 3.68, y: 0.17, z: 0}
+    - {x: -3.68, y: 4.63, z: 0}
+    - {x: 3.68, y: 4.63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5358889, y: 0.0004885254}
+    - {x: 0.71557593, y: 0.0004885254}
+    - {x: 0.5358889, y: 0.109374754}
+    - {x: 0.71557593, y: 0.109374754}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: aa85dec3596bf61469c235fa08e4a39b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00001
+    boundsData:
+    - {x: 0.025000095, y: 2.4299998, z: 0}
+    - {x: 7.31, y: 4.4799995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.19, z: 0}
+    - {x: 3.68, y: 0.19, z: 0}
+    - {x: -3.6299999, y: 4.6699996, z: 0}
+    - {x: 3.68, y: 4.6699996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7143557, y: 0.11157251}
+    - {x: 0.892822, y: 0.11157251}
+    - {x: 0.7143557, y: 0.22094703}
+    - {x: 0.892822, y: 0.22094703}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 95a571f41376b1340bc8619555eee94d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00002
+    boundsData:
+    - {x: 0.045000076, y: 2.3999999, z: 0}
+    - {x: 7.27, y: 4.48, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.64, z: 0}
+    - {x: 3.68, y: 4.64, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8237307, y: 0.40039086}
+    - {x: 0.8237307, y: 0.5778806}
+    - {x: 0.93310523, y: 0.40039086}
+    - {x: 0.93310523, y: 0.5778806}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 87e559f431649d14fb2a28cade6cd578
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00012
+    boundsData:
+    - {x: 0.045000076, y: 2.4149997, z: 0}
+    - {x: 7.27, y: 4.5099998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.6699996, z: 0}
+    - {x: 3.68, y: 4.6699996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3574221, y: 0.11181665}
+    - {x: 0.5349119, y: 0.11181665}
+    - {x: 0.3574221, y: 0.22192359}
+    - {x: 0.5349119, y: 0.22192359}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 845788958254e6b4c90edc47776a6190
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00010
+    boundsData:
+    - {x: 0.045000076, y: 2.4199998, z: 0}
+    - {x: 7.27, y: 4.52, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.68, z: 0}
+    - {x: 3.68, y: 4.68, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3574221, y: 0.0004885254}
+    - {x: 0.5349119, y: 0.0004885254}
+    - {x: 0.3574221, y: 0.1108396}
+    - {x: 0.5349119, y: 0.1108396}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: a3f8e866036aef64d8a3b1a10ce4b44a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00007
+    boundsData:
+    - {x: 0.045000076, y: 2.3799999, z: 0}
+    - {x: 7.27, y: 4.44, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.6, z: 0}
+    - {x: 3.68, y: 4.6, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.11035181, y: 0.33251977}
+    - {x: 0.28784156, y: 0.33251977}
+    - {x: 0.11035181, y: 0.44091773}
+    - {x: 0.28784156, y: 0.44091773}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6b799c5799521334d91174f860996181
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00017
+    boundsData:
+    - {x: 0.045000076, y: 2.375, z: 0}
+    - {x: 7.27, y: 4.4300003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.59, z: 0}
+    - {x: 3.68, y: 4.59, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2888186, y: 0.33251977}
+    - {x: 0.46630836, y: 0.33251977}
+    - {x: 0.2888186, y: 0.4406736}
+    - {x: 0.46630836, y: 0.4406736}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: a0f63e98a0e056546b10eaadfb6cc1f9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00011
+    boundsData:
+    - {x: 0.045000076, y: 2.4299998, z: 0}
+    - {x: 7.27, y: 4.54, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.7, z: 0}
+    - {x: 3.68, y: 4.7, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17895532, y: 0.0004885254}
+    - {x: 0.35644507, y: 0.0004885254}
+    - {x: 0.17895532, y: 0.11132788}
+    - {x: 0.35644507, y: 0.11132788}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9810bbeb9c8f2bb41b45c618af739f12
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00005
+    boundsData:
+    - {x: 0.045000076, y: 2.3549998, z: 0}
+    - {x: 7.27, y: 4.39, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.5499997, z: 0}
+    - {x: 3.68, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.57934594}
+    - {x: 0.0004885254, y: 0.7568357}
+    - {x: 0.10766577, y: 0.57934594}
+    - {x: 0.10766577, y: 0.7568357}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9a6dce2cc1285ce44aed36caed6cff97
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00008
+    boundsData:
+    - {x: 0.045000076, y: 2.395, z: 0}
+    - {x: 7.27, y: 4.4700003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.63, z: 0}
+    - {x: 3.68, y: 4.63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17871118, y: 0.11230493}
+    - {x: 0.35620093, y: 0.11230493}
+    - {x: 0.17871118, y: 0.22143531}
+    - {x: 0.35620093, y: 0.22143531}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 79d0b06e5d603834b8e25bcb1b7697bf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00014
+    boundsData:
+    - {x: 0.045000076, y: 2.3899999, z: 0}
+    - {x: 7.27, y: 4.46, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.62, z: 0}
+    - {x: 3.68, y: 4.62, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.22265649}
+    - {x: 0.0004885254, y: 0.40014625}
+    - {x: 0.109374754, y: 0.22265649}
+    - {x: 0.109374754, y: 0.40014625}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7d3d78af81fec164f933f1efecf68b04
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00004
+    boundsData:
+    - {x: 0.035000086, y: 2.375, z: 0}
+    - {x: 7.29, y: 4.41, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.61, y: 0.17, z: 0}
+    - {x: 3.68, y: 0.17, z: 0}
+    - {x: -3.61, y: 4.58, z: 0}
+    - {x: 3.68, y: 4.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4672854, y: 0.40209985}
+    - {x: 0.4672854, y: 0.5800779}
+    - {x: 0.57495093, y: 0.40209985}
+    - {x: 0.57495093, y: 0.5800779}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: d40aa5f6588ab2347ac13e34d8eeb7fb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00004
+    boundsData:
+    - {x: 0.045000076, y: 2.37, z: 0}
+    - {x: 7.27, y: 4.42, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.58, z: 0}
+    - {x: 3.68, y: 4.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.28833032, y: 0.55053735}
+    - {x: 0.46582007, y: 0.55053735}
+    - {x: 0.28833032, y: 0.658447}
+    - {x: 0.46582007, y: 0.658447}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: c1dc421b77f3c2946896230c1df5bef3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Idle_00018
+    boundsData:
+    - {x: 0.045000076, y: 2.395, z: 0}
+    - {x: 7.27, y: 4.4700003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.59, y: 0.16, z: 0}
+    - {x: 3.68, y: 0.16, z: 0}
+    - {x: -3.59, y: 4.63, z: 0}
+    - {x: 3.68, y: 4.63, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17871118, y: 0.22241235}
+    - {x: 0.35620093, y: 0.22241235}
+    - {x: 0.17871118, y: 0.33154273}
+    - {x: 0.35620093, y: 0.33154273}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: f5df2cfccf6b79240ba350e8c0a7ff9f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Train_Drive_00006
+    boundsData:
+    - {x: 0.025000095, y: 2.385, z: 0}
+    - {x: 7.31, y: 4.39, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.425, z: 0}
+    - {x: 7.5, y: 4.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.19, z: 0}
+    - {x: 3.68, y: 0.19, z: 0}
+    - {x: -3.6299999, y: 4.58, z: 0}
+    - {x: 3.68, y: 4.58, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.10986353, y: 0.5507815}
+    - {x: 0.10986353, y: 0.7292478}
+    - {x: 0.21704078, y: 0.5507815}
+    - {x: 0.21704078, y: 0.7292478}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+    materialId: 0
+    sourceTextureGUID: db44372eac1bffb47b1d09e3847c49ff
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: dc517cc7bd26b654896da88663f63935, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 009459a5d5670ac49a406fbe2bafa683, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: b9194d1c168fbae4b9b9aeb783711613
+  spriteCollectionName: Train_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1011503456
+  dataGuid: f5950409b28499145b09240e1a5f4a86
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

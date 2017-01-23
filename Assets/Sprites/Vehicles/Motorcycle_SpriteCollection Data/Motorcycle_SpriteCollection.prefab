@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010723173760}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010723173760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012763350266}
+  - 114: {fileID: 114000010210373050}
+  m_Layer: 0
+  m_Name: Motorcycle_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012763350266
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010723173760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010210373050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010723173760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Motorcycle_Idle_00000
+    boundsData:
+    - {x: -0.044999957, y: 3.4599998, z: 0}
+    - {x: 7.2300005, y: 6.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.66, y: 0.14, z: 0}
+    - {x: 3.5700002, y: 0.14, z: 0}
+    - {x: -3.66, y: 6.7799997, z: 0}
+    - {x: 3.5700002, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5046389, y: 0.8327639}
+    - {x: 0.6811521, y: 0.8327639}
+    - {x: 0.5046389, y: 0.9948728}
+    - {x: 0.6811521, y: 0.9948728}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5fbee0206217fa0409b76785dbc8ca85
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00012
+    boundsData:
+    - {x: -0.0149998665, y: 3.465, z: 0}
+    - {x: 7.23, y: 6.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.14, z: 0}
+    - {x: 3.6000001, y: 0.14, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.355469, y: 0.4919436}
+    - {x: 0.5319822, y: 0.4919436}
+    - {x: 0.355469, y: 0.65429664}
+    - {x: 0.5319822, y: 0.65429664}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 01b4c9025667b204db55823d5137c3c8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00006
+    boundsData:
+    - {x: -0.055000067, y: 3.4650002, z: 0}
+    - {x: 7.23, y: 6.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.67, y: 0.13, z: 0}
+    - {x: 3.56, y: 0.13, z: 0}
+    - {x: -3.67, y: 6.8, z: 0}
+    - {x: 3.56, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5329592, y: 0.0004885254}
+    - {x: 0.7094724, y: 0.0004885254}
+    - {x: 0.5329592, y: 0.16332984}
+    - {x: 0.7094724, y: 0.16332984}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 086329a24ef4ffb448b4c0e5b0187b04
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00002
+    boundsData:
+    - {x: -0.0149998665, y: 3.465, z: 0}
+    - {x: 7.23, y: 6.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.14, z: 0}
+    - {x: 3.6000001, y: 0.14, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.49267602}
+    - {x: 0.17700171, y: 0.49267602}
+    - {x: 0.0004885254, y: 0.65502906}
+    - {x: 0.17700171, y: 0.65502906}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 42d29153b62002041834628790f8d9eb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00017
+    boundsData:
+    - {x: -0.035000086, y: 3.46, z: 0}
+    - {x: 7.23, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.13, z: 0}
+    - {x: 3.58, y: 0.13, z: 0}
+    - {x: -3.65, y: 6.79, z: 0}
+    - {x: 3.58, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5329592, y: 0.32812524}
+    - {x: 0.7094724, y: 0.32812524}
+    - {x: 0.5329592, y: 0.49072242}
+    - {x: 0.7094724, y: 0.49072242}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 51664ec4e54a45a4d924f0ad5449a694
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00002
+    boundsData:
+    - {x: -0.0149998665, y: 3.465, z: 0}
+    - {x: 7.23, y: 6.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.14, z: 0}
+    - {x: 3.6000001, y: 0.14, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17797875, y: 0.49267602}
+    - {x: 0.35449195, y: 0.49267602}
+    - {x: 0.17797875, y: 0.65502906}
+    - {x: 0.35449195, y: 0.65502906}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 677cce35725496d49ba646f789a1b3a0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00003
+    boundsData:
+    - {x: -0.035000086, y: 3.445, z: 0}
+    - {x: 7.23, y: 6.6699996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.11, z: 0}
+    - {x: 3.58, y: 0.11, z: 0}
+    - {x: -3.65, y: 6.7799997, z: 0}
+    - {x: 3.58, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.71044946, y: 0.0004885254}
+    - {x: 0.88696265, y: 0.0004885254}
+    - {x: 0.71044946, y: 0.16332984}
+    - {x: 0.88696265, y: 0.16332984}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2c62bfa645a49004e8e2acdd6be59beb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00007
+    boundsData:
+    - {x: -0.025000095, y: 3.455, z: 0}
+    - {x: 7.23, y: 6.6499996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.13, z: 0}
+    - {x: 3.59, y: 0.13, z: 0}
+    - {x: -3.64, y: 6.7799997, z: 0}
+    - {x: 3.59, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.355469, y: 0.6552737}
+    - {x: 0.355469, y: 0.8317869}
+    - {x: 0.517822, y: 0.6552737}
+    - {x: 0.517822, y: 0.8317869}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 39487f87c45794a41849b06d1f315063
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00016
+    boundsData:
+    - {x: -0.055000067, y: 3.46, z: 0}
+    - {x: 7.23, y: 6.6800003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.67, y: 0.12, z: 0}
+    - {x: 3.56, y: 0.12, z: 0}
+    - {x: -3.67, y: 6.8, z: 0}
+    - {x: 3.56, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.355469, y: 0.0004885254}
+    - {x: 0.5319822, y: 0.0004885254}
+    - {x: 0.355469, y: 0.16357398}
+    - {x: 0.5319822, y: 0.16357398}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 202488f95214bd04a93d8bdea4aed4b7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00008
+    boundsData:
+    - {x: -0.025000095, y: 3.4599998, z: 0}
+    - {x: 7.23, y: 6.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.14, z: 0}
+    - {x: 3.59, y: 0.14, z: 0}
+    - {x: -3.64, y: 6.7799997, z: 0}
+    - {x: 3.59, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.51879907, y: 0.6552737}
+    - {x: 0.51879907, y: 0.8317869}
+    - {x: 0.68090796, y: 0.6552737}
+    - {x: 0.68090796, y: 0.8317869}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 556d90bc44595c049bd376a111fbf70b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00019
+    boundsData:
+    - {x: -0.055000067, y: 3.455, z: 0}
+    - {x: 7.23, y: 6.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.67, y: 0.12, z: 0}
+    - {x: 3.56, y: 0.12, z: 0}
+    - {x: -3.67, y: 6.79, z: 0}
+    - {x: 3.56, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5329592, y: 0.16430688}
+    - {x: 0.7094724, y: 0.16430688}
+    - {x: 0.5329592, y: 0.3271482}
+    - {x: 0.7094724, y: 0.3271482}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4a0b2f1fa0d41224cbc750a079d70a1d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00018
+    boundsData:
+    - {x: -0.0149998665, y: 3.46, z: 0}
+    - {x: 7.23, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.13, z: 0}
+    - {x: 3.6000001, y: 0.13, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.355469, y: 0.32836938}
+    - {x: 0.5319822, y: 0.32836938}
+    - {x: 0.355469, y: 0.49096656}
+    - {x: 0.5319822, y: 0.49096656}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: b54411e13277eb7458389ee5d8e8e4f7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00003
+    boundsData:
+    - {x: -0.035000086, y: 3.445, z: 0}
+    - {x: 7.23, y: 6.6699996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.11, z: 0}
+    - {x: 3.58, y: 0.11, z: 0}
+    - {x: -3.65, y: 6.7799997, z: 0}
+    - {x: 3.58, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.355469, y: 0.16455102}
+    - {x: 0.5319822, y: 0.16455102}
+    - {x: 0.355469, y: 0.32739234}
+    - {x: 0.5319822, y: 0.32739234}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 767ca182708bacc488d9d1fde93d11fe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00015
+    boundsData:
+    - {x: -0.025000095, y: 3.455, z: 0}
+    - {x: 7.23, y: 6.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.12, z: 0}
+    - {x: 3.59, y: 0.12, z: 0}
+    - {x: -3.64, y: 6.79, z: 0}
+    - {x: 3.59, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.71044946, y: 0.16430688}
+    - {x: 0.88696265, y: 0.16430688}
+    - {x: 0.71044946, y: 0.3271482}
+    - {x: 0.88696265, y: 0.3271482}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6df46492523820b4094f019d1cbf6c8d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00008
+    boundsData:
+    - {x: -0.025000095, y: 3.4599998, z: 0}
+    - {x: 7.23, y: 6.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.14, z: 0}
+    - {x: 3.59, y: 0.14, z: 0}
+    - {x: -3.64, y: 6.7799997, z: 0}
+    - {x: 3.59, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.681885, y: 0.6552737}
+    - {x: 0.681885, y: 0.8317869}
+    - {x: 0.8439939, y: 0.6552737}
+    - {x: 0.8439939, y: 0.8317869}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 900ba51388b59e04aaface816ba533e2
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00004
+    boundsData:
+    - {x: -0.0149998665, y: 3.465, z: 0}
+    - {x: 7.23, y: 6.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.14, z: 0}
+    - {x: 3.6000001, y: 0.14, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.6560061}
+    - {x: 0.0004885254, y: 0.8325193}
+    - {x: 0.16284156, y: 0.6560061}
+    - {x: 0.16284156, y: 0.8325193}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9e5e1d748cbb2e14fbdd5aea5ac7e7e9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00006
+    boundsData:
+    - {x: -0.055000067, y: 3.4650002, z: 0}
+    - {x: 7.23, y: 6.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.67, y: 0.13, z: 0}
+    - {x: 3.56, y: 0.13, z: 0}
+    - {x: -3.67, y: 6.8, z: 0}
+    - {x: 3.56, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.16528344}
+    - {x: 0.17700171, y: 0.16528344}
+    - {x: 0.0004885254, y: 0.32812476}
+    - {x: 0.17700171, y: 0.32812476}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7dabf50549487f24995efbf72506f088
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00010
+    boundsData:
+    - {x: -0.035000086, y: 3.4499998, z: 0}
+    - {x: 7.23, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.12, z: 0}
+    - {x: 3.58, y: 0.12, z: 0}
+    - {x: -3.65, y: 6.7799997, z: 0}
+    - {x: 3.58, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.71044946, y: 0.32812524}
+    - {x: 0.88696265, y: 0.32812524}
+    - {x: 0.71044946, y: 0.49072242}
+    - {x: 0.88696265, y: 0.49072242}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: b24764f7878caad4884658f07d5e406e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00004
+    boundsData:
+    - {x: -0.0149998665, y: 3.465, z: 0}
+    - {x: 7.23, y: 6.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.14, z: 0}
+    - {x: 3.6000001, y: 0.14, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1638186, y: 0.6560061}
+    - {x: 0.3403318, y: 0.6560061}
+    - {x: 0.1638186, y: 0.81835914}
+    - {x: 0.3403318, y: 0.81835914}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 736f6d790a2bce34595c86d73ee673a5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00005
+    boundsData:
+    - {x: -0.025000095, y: 3.47, z: 0}
+    - {x: 7.23, y: 6.6600003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.14, z: 0}
+    - {x: 3.59, y: 0.14, z: 0}
+    - {x: -3.64, y: 6.8, z: 0}
+    - {x: 3.59, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5329592, y: 0.49169946}
+    - {x: 0.7094724, y: 0.49169946}
+    - {x: 0.5329592, y: 0.65429664}
+    - {x: 0.7094724, y: 0.65429664}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: a211d3ebe5f27484e9f0da6b63d6fb74
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00014
+    boundsData:
+    - {x: -0.025000095, y: 3.46, z: 0}
+    - {x: 7.23, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.13, z: 0}
+    - {x: 3.59, y: 0.13, z: 0}
+    - {x: -3.64, y: 6.79, z: 0}
+    - {x: 3.59, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.71044946, y: 0.49169946}
+    - {x: 0.88696265, y: 0.49169946}
+    - {x: 0.71044946, y: 0.65429664}
+    - {x: 0.88696265, y: 0.65429664}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6d60d4dc5179fa04485e0dab769bfc9e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00001
+    boundsData:
+    - {x: -0.0149998665, y: 3.46, z: 0}
+    - {x: 7.23, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.13, z: 0}
+    - {x: 3.6000001, y: 0.13, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.3291018}
+    - {x: 0.17700171, y: 0.3291018}
+    - {x: 0.0004885254, y: 0.49169898}
+    - {x: 0.17700171, y: 0.49169898}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7e0eee5dfdaab4a4f99d7562b92b35cd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00013
+    boundsData:
+    - {x: -0.035000086, y: 3.465, z: 0}
+    - {x: 7.23, y: 6.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.65, y: 0.14, z: 0}
+    - {x: 3.58, y: 0.14, z: 0}
+    - {x: -3.65, y: 6.79, z: 0}
+    - {x: 3.58, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1638186, y: 0.8193362}
+    - {x: 0.1638186, y: 0.9958494}
+    - {x: 0.32617164, y: 0.8193362}
+    - {x: 0.32617164, y: 0.9958494}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: b7fcb05e025a7a84d94b728a913f67d8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00000
+    boundsData:
+    - {x: -0.044999957, y: 3.4599998, z: 0}
+    - {x: 7.2300005, y: 6.64, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.66, y: 0.14, z: 0}
+    - {x: 3.5700002, y: 0.14, z: 0}
+    - {x: -3.66, y: 6.7799997, z: 0}
+    - {x: 3.5700002, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5046389, y: 0.8327639}
+    - {x: 0.6811521, y: 0.8327639}
+    - {x: 0.5046389, y: 0.9948728}
+    - {x: 0.6811521, y: 0.9948728}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: dd58d1101c1fc6345bfa5b83719ba86d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00009
+    boundsData:
+    - {x: -0.025000095, y: 3.4450002, z: 0}
+    - {x: 7.23, y: 6.71, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.09, z: 0}
+    - {x: 3.59, y: 0.09, z: 0}
+    - {x: -3.64, y: 6.8, z: 0}
+    - {x: 3.59, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.17700171, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.1643064}
+    - {x: 0.17700171, y: 0.1643064}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 0.99999994, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: e5c21ee01fb4f3543bca591ab21bb4e6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00001
+    boundsData:
+    - {x: -0.0149998665, y: 3.46, z: 0}
+    - {x: 7.23, y: 6.66, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.13, z: 0}
+    - {x: 3.6000001, y: 0.13, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17797875, y: 0.3291018}
+    - {x: 0.35449195, y: 0.3291018}
+    - {x: 0.17797875, y: 0.49169898}
+    - {x: 0.35449195, y: 0.49169898}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: f2aad441a6d774445b60b5a36ac715c1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00005
+    boundsData:
+    - {x: -0.025000095, y: 3.47, z: 0}
+    - {x: 7.23, y: 6.6600003, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.14, z: 0}
+    - {x: 3.59, y: 0.14, z: 0}
+    - {x: -3.64, y: 6.8, z: 0}
+    - {x: 3.59, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5329592, y: 0.49169946}
+    - {x: 0.7094724, y: 0.49169946}
+    - {x: 0.5329592, y: 0.65429664}
+    - {x: 0.7094724, y: 0.65429664}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: ed5196713233acc4cbbca0db39d771d6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Drive_00007
+    boundsData:
+    - {x: -0.025000095, y: 3.455, z: 0}
+    - {x: 7.23, y: 6.6499996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.13, z: 0}
+    - {x: 3.59, y: 0.13, z: 0}
+    - {x: -3.64, y: 6.7799997, z: 0}
+    - {x: 3.59, y: 6.7799997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.32714868, y: 0.8327639}
+    - {x: 0.5036619, y: 0.8327639}
+    - {x: 0.32714868, y: 0.99511695}
+    - {x: 0.5036619, y: 0.99511695}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: cfa174731b51d64488a997ff63ec4de6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00009
+    boundsData:
+    - {x: -0.025000095, y: 3.4450002, z: 0}
+    - {x: 7.23, y: 6.71, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.64, y: 0.09, z: 0}
+    - {x: 3.59, y: 0.09, z: 0}
+    - {x: -3.64, y: 6.8, z: 0}
+    - {x: 3.59, y: 6.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17797875, y: 0.0004885254}
+    - {x: 0.35449195, y: 0.0004885254}
+    - {x: 0.17797875, y: 0.1643064}
+    - {x: 0.35449195, y: 0.1643064}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: e5c5616729d3c404ab7ae1067f27e55d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Motorcycle_Idle_00011
+    boundsData:
+    - {x: -0.0149998665, y: 3.455, z: 0}
+    - {x: 7.23, y: 6.67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.425, z: 0}
+    - {x: 7.5, y: 6.85, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.6299999, y: 0.12, z: 0}
+    - {x: 3.6000001, y: 0.12, z: 0}
+    - {x: -3.6299999, y: 6.79, z: 0}
+    - {x: 3.6000001, y: 6.79, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17797875, y: 0.16528344}
+    - {x: 0.35449195, y: 0.16528344}
+    - {x: 0.17797875, y: 0.32812476}
+    - {x: 0.35449195, y: 0.32812476}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+    materialId: 0
+    sourceTextureGUID: d55369dffb122874b9d4960b1cdc6e80
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 656cd2140c55ddd4ca8be498d0182e28, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 7bbdda1dfe311e64da5099fa51df5bb8
+  spriteCollectionName: Motorcycle_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 962918064
+  dataGuid: 78813d878f7be994c8fb9649081dd04b
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

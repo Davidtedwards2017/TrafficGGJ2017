@@ -59,6 +59,7 @@ GameObject:
   - 114: {fileID: 114000010326091468}
   - 114: {fileID: 114000010474761064}
   - 114: {fileID: 114000011444306992}
+  - 114: {fileID: 114000013413284042}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c670322c0ce65404784ba61bcb7b3c00, type: 2}
+  - {fileID: 2100000, guid: 7502f9cfacfb6ba469dc0623f5efe209, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -255,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
+  collection: {fileID: 114000010210373050, guid: 78813d878f7be994c8fb9649081dd04b,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.2, y: 0.2, z: 0.2}
@@ -280,11 +281,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010326091468}
-  anim: {fileID: 0}
+  anim: {fileID: 114000013413284042}
+  vehicle: {fileID: 114000011912658938}
   groundFxPoint: {fileID: 4000013931853786}
-  crashMaterial: {fileID: 2100000, guid: 9ac561e2df167bd43b69ef67101a128c, type: 2}
+  crashMaterial: {fileID: 2100000, guid: ac3f6ed0507502642b3314e19cf4818d, type: 2}
   MaxAngerIntensity: 0.4
-  wiggle: {fileID: 0}
+  wiggle: {fileID: 114000011444306992}
+  meshRenderer: {fileID: 23000011681713892}
 --- !u!114 &114000011444306992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -338,6 +341,20 @@ MonoBehaviour:
   stopSound: {fileID: 0}
   Speed: 5
   DiffDistance: 0
+--- !u!114 &114000013413284042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013756497136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 114000011383462840, guid: 6789d72fae687bd40ad6fa5617b44809, type: 2}
+  defaultClipId: 13
+  playAutomatically: 1
 --- !u!119 &119000012344370082
 Projector:
   m_ObjectHideFlags: 1

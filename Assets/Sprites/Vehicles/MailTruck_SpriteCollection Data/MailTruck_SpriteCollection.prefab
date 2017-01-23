@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012005059676}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012005059676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013744527532}
+  - 114: {fileID: 114000011330195172}
+  m_Layer: 0
+  m_Name: MailTruck_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013744527532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012005059676}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011330195172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012005059676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: MailTruc_Idle_00002
+    boundsData:
+    - {x: 0.025000095, y: 2.79, z: 0}
+    - {x: 6.9900002, y: 4.8599997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.35999998, z: 0}
+    - {x: 3.5200002, y: 0.35999998, z: 0}
+    - {x: -3.47, y: 5.22, z: 0}
+    - {x: 3.5200002, y: 5.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5158694, y: 0.0004885254}
+    - {x: 0.6865232, y: 0.0004885254}
+    - {x: 0.5158694, y: 0.11914038}
+    - {x: 0.6865232, y: 0.11914038}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 53d7d3756e14a074cbc5270f07d5d206
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00006
+    boundsData:
+    - {x: 0.004999876, y: 2.82, z: 0}
+    - {x: 6.99, y: 4.7599998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.44, z: 0}
+    - {x: 3.4999998, y: 0.44, z: 0}
+    - {x: -3.49, y: 5.2, z: 0}
+    - {x: 3.4999998, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8063967, y: 0.5153811}
+    - {x: 0.97705054, y: 0.5153811}
+    - {x: 0.8063967, y: 0.63159156}
+    - {x: 0.97705054, y: 0.63159156}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 38160159e17d9214e8f61ac0681efdbe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00002
+    boundsData:
+    - {x: 0.025000095, y: 2.8449998, z: 0}
+    - {x: 6.9900002, y: 4.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.46999997, z: 0}
+    - {x: 3.5200002, y: 0.46999997, z: 0}
+    - {x: -3.47, y: 5.22, z: 0}
+    - {x: 3.5200002, y: 5.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.29101586, y: 0.4775393}
+    - {x: 0.46166968, y: 0.4775393}
+    - {x: 0.29101586, y: 0.5935056}
+    - {x: 0.46166968, y: 0.5935056}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 50eb5a69ae06051419d2e9117624332a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00000
+    boundsData:
+    - {x: 0.004999876, y: 2.7749999, z: 0}
+    - {x: 6.99, y: 4.8299994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.4999998, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.1899996, z: 0}
+    - {x: 3.4999998, y: 5.1899996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.29150414, y: 0.35864282}
+    - {x: 0.46215796, y: 0.35864282}
+    - {x: 0.29150414, y: 0.47656226}
+    - {x: 0.46215796, y: 0.47656226}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5a30b21b222a00d4aa871572e77390fa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00007
+    boundsData:
+    - {x: 0.014999986, y: 2.78, z: 0}
+    - {x: 6.99, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17236352, y: 0.23974633}
+    - {x: 0.17236352, y: 0.41040015}
+    - {x: 0.2905271, y: 0.23974633}
+    - {x: 0.2905271, y: 0.41040015}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5401dcbbc1d8c574d9bcc6c754e8ce51
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00000
+    boundsData:
+    - {x: 0.004999876, y: 2.7749999, z: 0}
+    - {x: 6.99, y: 4.8299994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.4999998, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.1899996, z: 0}
+    - {x: 3.4999998, y: 5.1899996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17211938, y: 0.4113772}
+    - {x: 0.17211938, y: 0.582031}
+    - {x: 0.29003882, y: 0.4113772}
+    - {x: 0.29003882, y: 0.582031}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 17a6b1acb97d5f04d96a97fbe88d803c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00007
+    boundsData:
+    - {x: 0.014999986, y: 2.855, z: 0}
+    - {x: 6.99, y: 4.6899996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.51, z: 0}
+    - {x: 3.51, y: 0.51, z: 0}
+    - {x: -3.48, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.713135}
+    - {x: 0.17114234, y: 0.713135}
+    - {x: 0.0004885254, y: 0.8276365}
+    - {x: 0.17114234, y: 0.8276365}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6264283f572906849b672b923ffeb68b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00005
+    boundsData:
+    - {x: 0.014999986, y: 2.7849998, z: 0}
+    - {x: 6.99, y: 4.8499994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2099996, z: 0}
+    - {x: 3.51, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8591311, y: 0.0004885254}
+    - {x: 0.8591311, y: 0.17114234}
+    - {x: 0.9775388, y: 0.0004885254}
+    - {x: 0.9775388, y: 0.17114234}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 58c3d44f71130f64ea284f7c274dd4ed
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00008
+    boundsData:
+    - {x: 0.025000095, y: 2.84, z: 0}
+    - {x: 6.9900002, y: 4.72, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.48, z: 0}
+    - {x: 3.5200002, y: 0.48, z: 0}
+    - {x: -3.47, y: 5.2, z: 0}
+    - {x: 3.5200002, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.59692407}
+    - {x: 0.17114234, y: 0.59692407}
+    - {x: 0.0004885254, y: 0.71215796}
+    - {x: 0.17114234, y: 0.71215796}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0fd8d1efbb5994a428358c6c4a7e0eea
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00009
+    boundsData:
+    - {x: 0.029999852, y: 2.7949998, z: 0}
+    - {x: 7, y: 4.8699994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.35999998, z: 0}
+    - {x: 3.5299997, y: 0.35999998, z: 0}
+    - {x: -3.47, y: 5.2299995, z: 0}
+    - {x: 3.5299997, y: 5.2299995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.17138648, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.11938452}
+    - {x: 0.17138648, y: 0.11938452}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 77e9f6b10cb1c6e4cb87444f40ab2d3b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00011
+    boundsData:
+    - {x: 0.004999876, y: 2.7849998, z: 0}
+    - {x: 6.99, y: 4.8499994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.4999998, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.2099996, z: 0}
+    - {x: 3.4999998, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5158694, y: 0.12011743}
+    - {x: 0.6865232, y: 0.12011743}
+    - {x: 0.5158694, y: 0.23852515}
+    - {x: 0.6865232, y: 0.23852515}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6f240f5254b84c749ba4feb5f46ae9cb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00005
+    boundsData:
+    - {x: 0.014999986, y: 2.7849998, z: 0}
+    - {x: 6.99, y: 4.8499994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2099996, z: 0}
+    - {x: 3.51, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.68750024, y: 0.12011743}
+    - {x: 0.85815406, y: 0.12011743}
+    - {x: 0.68750024, y: 0.23852515}
+    - {x: 0.85815406, y: 0.23852515}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: b58bbd93b1590c44697542e6c2a1c1c7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00008
+    boundsData:
+    - {x: 0.025000095, y: 2.78, z: 0}
+    - {x: 6.9900002, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.35999998, z: 0}
+    - {x: 3.5200002, y: 0.35999998, z: 0}
+    - {x: -3.47, y: 5.2, z: 0}
+    - {x: 3.5200002, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.35888696}
+    - {x: 0.17114234, y: 0.35888696}
+    - {x: 0.0004885254, y: 0.47705054}
+    - {x: 0.17114234, y: 0.47705054}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 71702034f05be694da7b4c2c39fc53bd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00018
+    boundsData:
+    - {x: 0.014999986, y: 2.7849998, z: 0}
+    - {x: 6.99, y: 4.8499994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2099996, z: 0}
+    - {x: 3.51, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8591311, y: 0.17211938}
+    - {x: 0.8591311, y: 0.3427732}
+    - {x: 0.9775388, y: 0.17211938}
+    - {x: 0.9775388, y: 0.3427732}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9700e10519cf5e34da103894dcc74ac0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00003
+    boundsData:
+    - {x: 0.00999999, y: 2.78, z: 0}
+    - {x: 7, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.34375024, y: 0.120361574}
+    - {x: 0.5146482, y: 0.120361574}
+    - {x: 0.34375024, y: 0.23852515}
+    - {x: 0.5146482, y: 0.23852515}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 970546991c9267b46a0fb5da1e4c4b79
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00017
+    boundsData:
+    - {x: 0.00999999, y: 2.78, z: 0}
+    - {x: 7, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.34375024, y: 0.23950219}
+    - {x: 0.5146482, y: 0.23950219}
+    - {x: 0.34375024, y: 0.35766578}
+    - {x: 0.5146482, y: 0.35766578}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 91d13ebadff044843b1af2446871f848
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00004
+    boundsData:
+    - {x: 0.034999847, y: 2.7849998, z: 0}
+    - {x: 6.99, y: 4.8499994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.35999998, z: 0}
+    - {x: 3.5299997, y: 0.35999998, z: 0}
+    - {x: -3.46, y: 5.2099996, z: 0}
+    - {x: 3.5299997, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.120361574}
+    - {x: 0.17114234, y: 0.120361574}
+    - {x: 0.0004885254, y: 0.2387693}
+    - {x: 0.17114234, y: 0.2387693}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: aaa4ac6bbfdce79468eca722ae25c97c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00016
+    boundsData:
+    - {x: 0.004999876, y: 2.7849998, z: 0}
+    - {x: 6.99, y: 4.8499994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.4999998, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.2099996, z: 0}
+    - {x: 3.4999998, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17211938, y: 0.120361574}
+    - {x: 0.3427732, y: 0.120361574}
+    - {x: 0.17211938, y: 0.2387693}
+    - {x: 0.3427732, y: 0.2387693}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8827e14cfad318940825288bc1330429
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00013
+    boundsData:
+    - {x: 0.00999999, y: 2.78, z: 0}
+    - {x: 7, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.23974633}
+    - {x: 0.17138648, y: 0.23974633}
+    - {x: 0.0004885254, y: 0.35790992}
+    - {x: 0.17138648, y: 0.35790992}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9722721e84b487545ae09c3958a8328a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00010
+    boundsData:
+    - {x: 0.014999986, y: 2.7949998, z: 0}
+    - {x: 6.99, y: 4.8699994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2299995, z: 0}
+    - {x: 3.51, y: 5.2299995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.34423852, y: 0.0004885254}
+    - {x: 0.51489234, y: 0.0004885254}
+    - {x: 0.34423852, y: 0.11938452}
+    - {x: 0.51489234, y: 0.11938452}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: aa26414e0493ffb4298974b64e70fd34
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00004
+    boundsData:
+    - {x: 0.034999847, y: 2.7949998, z: 0}
+    - {x: 6.99, y: 4.8299994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.38, z: 0}
+    - {x: 3.5299997, y: 0.38, z: 0}
+    - {x: -3.46, y: 5.2099996, z: 0}
+    - {x: 3.5299997, y: 5.2099996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.47802758}
+    - {x: 0.17114234, y: 0.47802758}
+    - {x: 0.0004885254, y: 0.595947}
+    - {x: 0.17114234, y: 0.595947}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: b8f7602fa650901479053aa31304d0c6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00001
+    boundsData:
+    - {x: 0.014999986, y: 2.78, z: 0}
+    - {x: 6.99, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.51562524, y: 0.23950219}
+    - {x: 0.68627906, y: 0.23950219}
+    - {x: 0.51562524, y: 0.35766578}
+    - {x: 0.68627906, y: 0.35766578}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7a8a6e8f68671c541a1d73ad6c827b45
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00001
+    boundsData:
+    - {x: 0.014999986, y: 2.81, z: 0}
+    - {x: 6.99, y: 4.7799997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.42, z: 0}
+    - {x: 3.51, y: 0.42, z: 0}
+    - {x: -3.48, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.63476586, y: 0.47729516}
+    - {x: 0.8054197, y: 0.47729516}
+    - {x: 0.63476586, y: 0.5939939}
+    - {x: 0.8054197, y: 0.5939939}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: d97b4af236fae794da27d7c58e4aed9d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00019
+    boundsData:
+    - {x: 0.014999986, y: 2.77, z: 0}
+    - {x: 6.99, y: 4.8199997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.18, z: 0}
+    - {x: 3.51, y: 5.18, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.63476586, y: 0.35864282}
+    - {x: 0.8054197, y: 0.35864282}
+    - {x: 0.63476586, y: 0.47631812}
+    - {x: 0.8054197, y: 0.47631812}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: f01034f3f36af8d44a5e05bb981ea6a0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00012
+    boundsData:
+    - {x: 0.025000095, y: 2.79, z: 0}
+    - {x: 6.9900002, y: 4.8599997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.35999998, z: 0}
+    - {x: 3.5200002, y: 0.35999998, z: 0}
+    - {x: -3.47, y: 5.22, z: 0}
+    - {x: 3.5200002, y: 5.22, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.68750024, y: 0.0004885254}
+    - {x: 0.85815406, y: 0.0004885254}
+    - {x: 0.68750024, y: 0.11914038}
+    - {x: 0.85815406, y: 0.11914038}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: bc73774612d7af046a51c8cc2f164392
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruck_Drive_00003
+    boundsData:
+    - {x: 0.00999999, y: 2.83, z: 0}
+    - {x: 7, y: 4.74, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.45999998, z: 0}
+    - {x: 3.51, y: 0.45999998, z: 0}
+    - {x: -3.49, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17211938, y: 0.58300805}
+    - {x: 0.17211938, y: 0.753906}
+    - {x: 0.28784156, y: 0.58300805}
+    - {x: 0.28784156, y: 0.753906}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: bf9ca7b6564966c4f974b5c9bac6c31a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00014
+    boundsData:
+    - {x: 0.014999986, y: 2.78, z: 0}
+    - {x: 6.99, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.35999998, z: 0}
+    - {x: 3.51, y: 0.35999998, z: 0}
+    - {x: -3.48, y: 5.2, z: 0}
+    - {x: 3.51, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6872561, y: 0.23950219}
+    - {x: 0.8579099, y: 0.23950219}
+    - {x: 0.6872561, y: 0.35766578}
+    - {x: 0.8579099, y: 0.35766578}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: f2ead24a0e793244cadd190c65756f2c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00009
+    boundsData:
+    - {x: 0.029999852, y: 2.7949998, z: 0}
+    - {x: 7, y: 4.8699994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.35999998, z: 0}
+    - {x: 3.5299997, y: 0.35999998, z: 0}
+    - {x: -3.47, y: 5.2299995, z: 0}
+    - {x: 3.5299997, y: 5.2299995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17236352, y: 0.0004885254}
+    - {x: 0.34326148, y: 0.0004885254}
+    - {x: 0.17236352, y: 0.11938452}
+    - {x: 0.34326148, y: 0.11938452}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: e594878da114e524fb53a6467a19f658
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00006
+    boundsData:
+    - {x: 0.004999876, y: 2.78, z: 0}
+    - {x: 6.99, y: 4.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.4999998, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.2, z: 0}
+    - {x: 3.4999998, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.85888696, y: 0.34375024}
+    - {x: 0.85888696, y: 0.51440406}
+    - {x: 0.97705054, y: 0.34375024}
+    - {x: 0.97705054, y: 0.51440406}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: e2dbd6de9643c8d4d9c99fffc2a3d2ad
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: MailTruc_Idle_00015
+    boundsData:
+    - {x: 0.004999876, y: 2.7749999, z: 0}
+    - {x: 6.99, y: 4.8299994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.9299998, z: 0}
+    - {x: 7.5, y: 5.8599997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.49, y: 0.35999998, z: 0}
+    - {x: 3.4999998, y: 0.35999998, z: 0}
+    - {x: -3.49, y: 5.1899996, z: 0}
+    - {x: 3.4999998, y: 5.1899996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.463135, y: 0.35864282}
+    - {x: 0.6337888, y: 0.35864282}
+    - {x: 0.463135, y: 0.47656226}
+    - {x: 0.6337888, y: 0.47656226}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+    materialId: 0
+    sourceTextureGUID: db3118fecadee2345aa39d406ef06a34
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 5bea83e0bafd7b74eac80415cf05a330, type: 2}
+  textures:
+  - {fileID: 2800000, guid: eeea6a72aa276c444bf1444024385f39, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 041ec76c10080e941878637979e75a0a
+  spriteCollectionName: MailTruck_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1208601032
+  dataGuid: 21ba403e283b3434694c22be7535b1af
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

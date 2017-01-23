@@ -1,0 +1,1020 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013629058042}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013629058042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000014200413398}
+  - 114: {fileID: 114000011788067556}
+  m_Layer: 0
+  m_Name: Submarine_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000014200413398
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013629058042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011788067556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013629058042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Submarine_Idle_00013
+    boundsData:
+    - {x: -0.03999996, y: 2.56, z: 0}
+    - {x: 7.34, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.64, z: 0}
+    - {x: 3.63, y: 0.64, z: 0}
+    - {x: -3.71, y: 4.48, z: 0}
+    - {x: 3.63, y: 4.48, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.2846682}
+    - {x: 0.35937452, y: 0.2846682}
+    - {x: 0.0009770507, y: 0.37841773}
+    - {x: 0.35937452, y: 0.37841773}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 67adc1b2529db954fae601c879024658
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00014
+    boundsData:
+    - {x: -0.035000086, y: 2.59, z: 0}
+    - {x: 7.35, y: 3.8399997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.67, z: 0}
+    - {x: 3.6399999, y: 0.67, z: 0}
+    - {x: -3.71, y: 4.5099998, z: 0}
+    - {x: 3.6399999, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.0004885254}
+    - {x: 0.3598628, y: 0.0004885254}
+    - {x: 0.0009770507, y: 0.094238035}
+    - {x: 0.3598628, y: 0.094238035}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 277d8754f75d62d4281e324b83f18b60
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00017
+    boundsData:
+    - {x: -0.035000086, y: 2.5700002, z: 0}
+    - {x: 7.35, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.65, z: 0}
+    - {x: 3.6399999, y: 0.65, z: 0}
+    - {x: -3.71, y: 4.4900002, z: 0}
+    - {x: 3.6399999, y: 4.4900002, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36181688, y: 0.0004885254}
+    - {x: 0.72070265, y: 0.0004885254}
+    - {x: 0.36181688, y: 0.094238035}
+    - {x: 0.72070265, y: 0.094238035}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 070988268ffa12843951d6884f06f351
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00019
+    boundsData:
+    - {x: -0.035000086, y: 2.52, z: 0}
+    - {x: 7.35, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.6, z: 0}
+    - {x: 3.6399999, y: 0.6, z: 0}
+    - {x: -3.71, y: 4.44, z: 0}
+    - {x: 3.6399999, y: 4.44, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7226567, y: 0.0004885254}
+    - {x: 0.7226567, y: 0.1799314}
+    - {x: 0.9101558, y: 0.0004885254}
+    - {x: 0.9101558, y: 0.1799314}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 045d40878e0b2164c8e7422f265ed39f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00011
+    boundsData:
+    - {x: -0.03999996, y: 2.5100002, z: 0}
+    - {x: 7.34, y: 3.8400004, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.59, z: 0}
+    - {x: 3.63, y: 0.59, z: 0}
+    - {x: -3.71, y: 4.4300003, z: 0}
+    - {x: 3.63, y: 4.4300003, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3613286, y: 0.2846682}
+    - {x: 0.7197261, y: 0.2846682}
+    - {x: 0.3613286, y: 0.37841773}
+    - {x: 0.7197261, y: 0.37841773}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 550656a88866ac34d806fcb3e16d9a21
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00012
+    boundsData:
+    - {x: -0.035000086, y: 2.54, z: 0}
+    - {x: 7.35, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.62, z: 0}
+    - {x: 3.6399999, y: 0.62, z: 0}
+    - {x: -3.71, y: 4.46, z: 0}
+    - {x: 3.6399999, y: 4.46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.09521509}
+    - {x: 0.3598628, y: 0.09521509}
+    - {x: 0.0009770507, y: 0.1889646}
+    - {x: 0.3598628, y: 0.1889646}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0a01986b8a8588b4d9e3adfb2ea523ca
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00001
+    boundsData:
+    - {x: -0.03999996, y: 2.4650002, z: 0}
+    - {x: 7.34, y: 3.8300002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.55, z: 0}
+    - {x: 3.63, y: 0.55, z: 0}
+    - {x: -3.71, y: 4.38, z: 0}
+    - {x: 3.63, y: 4.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.72192407}
+    - {x: 0.0009770507, y: 0.9011228}
+    - {x: 0.18798779, y: 0.72192407}
+    - {x: 0.18798779, y: 0.9011228}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 43076c7c8a53f534cbd6058f0c56107c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00009
+    boundsData:
+    - {x: -0.035000086, y: 2.46, z: 0}
+    - {x: 7.35, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.54, z: 0}
+    - {x: 3.6399999, y: 0.54, z: 0}
+    - {x: -3.71, y: 4.38, z: 0}
+    - {x: 3.6399999, y: 4.38, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36181688, y: 0.09521509}
+    - {x: 0.72070265, y: 0.09521509}
+    - {x: 0.36181688, y: 0.1889646}
+    - {x: 0.72070265, y: 0.1889646}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8499ad90140bde044ac4d1811ce6b9f9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00007
+    boundsData:
+    - {x: -0.035000086, y: 2.4099998, z: 0}
+    - {x: 7.35, y: 3.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.49, z: 0}
+    - {x: 3.6399999, y: 0.49, z: 0}
+    - {x: -3.71, y: 4.33, z: 0}
+    - {x: 3.6399999, y: 4.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7226567, y: 0.18090844}
+    - {x: 0.7226567, y: 0.36035132}
+    - {x: 0.9101558, y: 0.18090844}
+    - {x: 0.9101558, y: 0.36035132}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7eba22a1207d60b45b80ae419d4e406e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00006
+    boundsData:
+    - {x: -0.03999996, y: 2.38, z: 0}
+    - {x: 7.34, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.45999998, z: 0}
+    - {x: 3.63, y: 0.45999998, z: 0}
+    - {x: -3.71, y: 4.3, z: 0}
+    - {x: 3.63, y: 4.3, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.72168016, y: 0.36132836}
+    - {x: 0.72168016, y: 0.5405271}
+    - {x: 0.9091792, y: 0.36132836}
+    - {x: 0.9091792, y: 0.5405271}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 84e5874281891d948852f28ce522278e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00004
+    boundsData:
+    - {x: -0.035000086, y: 2.3899999, z: 0}
+    - {x: 7.35, y: 3.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.47, z: 0}
+    - {x: 3.6399999, y: 0.47, z: 0}
+    - {x: -3.71, y: 4.31, z: 0}
+    - {x: 3.6399999, y: 4.31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.18994164}
+    - {x: 0.3598628, y: 0.18994164}
+    - {x: 0.0009770507, y: 0.28369117}
+    - {x: 0.3598628, y: 0.28369117}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 983eaa19a0e5cb14188a88c8ca4dc2e4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00018
+    boundsData:
+    - {x: -0.03999996, y: 2.54, z: 0}
+    - {x: 7.34, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.62, z: 0}
+    - {x: 3.63, y: 0.62, z: 0}
+    - {x: -3.71, y: 4.46, z: 0}
+    - {x: 3.63, y: 4.46, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.37939477}
+    - {x: 0.35937452, y: 0.37939477}
+    - {x: 0.0009770507, y: 0.4731443}
+    - {x: 0.35937452, y: 0.4731443}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 72680429ffb5c1649b3ce2baf628577a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00015
+    boundsData:
+    - {x: -0.03999996, y: 2.615, z: 0}
+    - {x: 7.34, y: 3.8300002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.7, z: 0}
+    - {x: 3.63, y: 0.7, z: 0}
+    - {x: -3.71, y: 4.53, z: 0}
+    - {x: 3.63, y: 4.53, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.90209985}
+    - {x: 0.35937452, y: 0.90209985}
+    - {x: 0.0009770507, y: 0.99560523}
+    - {x: 0.35937452, y: 0.99560523}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: b98a4e8b4d5df77488d74088f2015454
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00008
+    boundsData:
+    - {x: -0.03999996, y: 2.4299998, z: 0}
+    - {x: 7.34, y: 3.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.51, z: 0}
+    - {x: 3.63, y: 0.51, z: 0}
+    - {x: -3.71, y: 4.35, z: 0}
+    - {x: 3.63, y: 4.35, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3613286, y: 0.37939477}
+    - {x: 0.7197261, y: 0.37939477}
+    - {x: 0.3613286, y: 0.4731443}
+    - {x: 0.7197261, y: 0.4731443}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: a4ff149bf3df72a4fa1df1a201defd85
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00010
+    boundsData:
+    - {x: -0.03999996, y: 2.4850001, z: 0}
+    - {x: 7.34, y: 3.8300002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.57, z: 0}
+    - {x: 3.63, y: 0.57, z: 0}
+    - {x: -3.71, y: 4.4, z: 0}
+    - {x: 3.63, y: 4.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.5688479}
+    - {x: 0.35937452, y: 0.5688479}
+    - {x: 0.0009770507, y: 0.6623533}
+    - {x: 0.35937452, y: 0.6623533}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: 924fd9ed9d56c394aa78e36cf208c1cb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00016
+    boundsData:
+    - {x: -0.03999996, y: 2.5949998, z: 0}
+    - {x: 7.34, y: 3.83, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.67999995, z: 0}
+    - {x: 3.63, y: 0.67999995, z: 0}
+    - {x: -3.71, y: 4.5099998, z: 0}
+    - {x: 3.63, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1899419, y: 0.6633303}
+    - {x: 0.1899419, y: 0.84252906}
+    - {x: 0.37695265, y: 0.6633303}
+    - {x: 0.37695265, y: 0.84252906}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: f3c413b10fb5b8340868858e02ec432b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00002
+    boundsData:
+    - {x: -0.035000086, y: 2.44, z: 0}
+    - {x: 7.35, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.52000004, z: 0}
+    - {x: 3.6399999, y: 0.52000004, z: 0}
+    - {x: -3.71, y: 4.36, z: 0}
+    - {x: 3.6399999, y: 4.36, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36181688, y: 0.18994164}
+    - {x: 0.72070265, y: 0.18994164}
+    - {x: 0.36181688, y: 0.28369117}
+    - {x: 0.72070265, y: 0.28369117}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: ea1c89e22e19bd54c996e0da77ef4394
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00003
+    boundsData:
+    - {x: -0.03999996, y: 2.4099998, z: 0}
+    - {x: 7.34, y: 3.84, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.49, z: 0}
+    - {x: 3.63, y: 0.49, z: 0}
+    - {x: -3.71, y: 4.33, z: 0}
+    - {x: 3.63, y: 4.33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0009770507, y: 0.47412133}
+    - {x: 0.35937452, y: 0.47412133}
+    - {x: 0.0009770507, y: 0.56787086}
+    - {x: 0.35937452, y: 0.56787086}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: d9417ff20225ea3448b5f46df93f4d87
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00000
+    boundsData:
+    - {x: -0.035000086, y: 2.4850001, z: 0}
+    - {x: 7.35, y: 3.8300002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.57, z: 0}
+    - {x: 3.6399999, y: 0.57, z: 0}
+    - {x: -3.71, y: 4.4, z: 0}
+    - {x: 3.6399999, y: 4.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.72168016, y: 0.54150414}
+    - {x: 0.72168016, y: 0.720947}
+    - {x: 0.9086909, y: 0.54150414}
+    - {x: 0.9086909, y: 0.720947}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: f95ad35bafa3d1c4ea113828282e8c1b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Submarine_Idle_00005
+    boundsData:
+    - {x: -0.03999996, y: 2.3600001, z: 0}
+    - {x: 7.34, y: 3.8400002, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.49, z: 0}
+    - {x: 7.5, y: 4.98, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.44, z: 0}
+    - {x: 3.63, y: 0.44, z: 0}
+    - {x: -3.71, y: 4.28, z: 0}
+    - {x: 3.63, y: 4.28, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3613286, y: 0.47412133}
+    - {x: 0.7197261, y: 0.47412133}
+    - {x: 0.3613286, y: 0.56787086}
+    - {x: 0.7197261, y: 0.56787086}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+    materialId: 0
+    sourceTextureGUID: fded567b05d0cde4bb520287bc619167
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 9ea50ddff815d19408af9e588bd73d90, type: 2}
+  textures:
+  - {fileID: 2800000, guid: da7b4c52fd6dad94b9f8fed54265fe70, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 4aa215ceef629d24eaa87611bda9985d
+  spriteCollectionName: Submarine_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1217238604
+  dataGuid: 2cd821d76e1db2947b50ab09d0f33240
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

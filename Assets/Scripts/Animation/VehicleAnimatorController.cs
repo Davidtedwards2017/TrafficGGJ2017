@@ -9,12 +9,11 @@ public class VehicleAnimatorController : MonoBehaviour
 
     // Link to the animated sprite
     //private tk2dSpriteAnimator anim;
-
     public tk2dSprite sprite;
 
     public tk2dSpriteAnimator anim;
 
-    private Vehicle vehicle;
+    public Vehicle vehicle;
 
     // State variable to see if the vehicle is moving.
     private bool moving = true;
@@ -28,10 +27,15 @@ public class VehicleAnimatorController : MonoBehaviour
 
     public event ColorEventHandler OnColorChanged;
 
+    //public Shader crashShader;
     public Material crashMaterial;
 
     public float MaxAngerIntensity = 0.3f;
     public Wiggle wiggle;
+
+    public MeshRenderer meshRenderer;
+
+    bool crashed = false;
 
     //private Player player;
     // Use this for initialization
@@ -39,44 +43,30 @@ public class VehicleAnimatorController : MonoBehaviour
     {
         //player = GetComponentInParent<Player>();
         // This script must be attached to the sprite to work.
-        //anim = GetComponent<tk2dSpriteAnimator>();
-        sprite = GetComponent<tk2dSprite>();
-        vehicle = GetComponentInParent<Vehicle>();
+        if(anim == null) anim = GetComponent<tk2dSpriteAnimator>();
+        if(sprite == null) sprite = GetComponent<tk2dSprite>();
+        if(vehicle == null) vehicle = GetComponentInParent<Vehicle>();
         if (wiggle == null) wiggle = GetComponent<Wiggle>();
+        if (meshRenderer == null) meshRenderer = GetComponent<MeshRenderer>();
         //anim.AnimationEventTriggered += HandleAnimationEvent;
     }
 
     void Update()
     {
-        //if (player.state.value != Player.State.Stun && player.movement.sqrMagnitude > 0f)
+        //if(crashed)
         //{
-        //    if (player.movement.x > 0f)
-        //    {
-        //        //sprite.FlipX = true;
-        //        sprite.FlipX = false;
-        //    }
-        //    else
-        //    {
-        //        //sprite.FlipX = false;
-        //        sprite.FlipX = true;
-        //    }
-
+        //    meshRenderer.material.shader = crashShader;
         //}
     }
 
-    // This is called once the hit animation has completed playing
-    // It returns to playing whatever animation was active before hit
-    // was playing.
-    void HitCompleteDelegate(tk2dSpriteAnimator sprite, tk2dSpriteAnimationClip clip)
+    public void PlayIdle()
     {
-        //if (walking)
-        //{
-        //    anim.Play("Run");
-        //    anim.AnimationEventTriggered += HandleAnimationEvent;
-        //}
-        //else {
-        //    anim.Play("Idle");
-        //}
+        PlayAnimation(vehicle.vehicleName + "_Idle");
+    }
+
+    public void PlayDrive()
+    {
+        PlayAnimation(vehicle.vehicleName + "_Drive");
     }
 
     internal void Initialize(DataTypes.Direction direction)
@@ -97,96 +87,18 @@ public class VehicleAnimatorController : MonoBehaviour
 
     internal void HandleCrash()
     {
-        //sprite.enabled = false;
-        GetComponent<MeshRenderer>().material = crashMaterial;
+        crashed = true;
+        //meshRenderer.material.shader = crashShader;
+        anim.enabled = false;
+        if (crashMaterial) meshRenderer.material = crashMaterial;
+
     }
-
-    void HandleAnimationEvent(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip, int frameNumber)
-    {
-        if (onAnimationEventTriggered != null) onAnimationEventTriggered(animator, clip, frameNumber);
-        //if(stepAnimator) stepAnimator.Play();
-
-        if (groundFxPoint)
-        {
-            //GameObject stepFX = Instantiate(Prefabs.FX.Dust.footstep);
-            //stepFX.transform.position = groundFxPoint.position;
-            //stepFX.transform.forward = -player.transform.forward;
-        }
-    }
-
-    // Update is called once per frame
-    //public void HandleStateChange(Player.State state)
-    //{
-    //    switch (state)
-    //    {
-    //        case Player.State.Idle:
-    //            PlayAnimation("Idle");
-    //            break;
-    //        case Player.State.Run:
-    //            PlayAnimation("Run");
-    //            break;
-    //        case Player.State.Primary:
-    //            PlayAnimation("Primary");
-    //            //anim.AnimationCompleted = HitCompleteDelegate;
-    //            break;
-    //        case Player.State.Secondary:
-    //            //if(Mathf.Abs(player.movement.x) > 0.01f) sprite.FlipX = !sprite.FlipX;
-    //            PlayAnimation("Secondary");
-    //            break;
-    //        case Player.State.Special:
-    //            //if(Mathf.Abs(player.movement.x) > 0.01f) sprite.FlipX = !sprite.FlipX;
-    //            PlayAnimation("Special");
-    //            break;
-    //        case Player.State.Super:
-    //            //if(Mathf.Abs(player.movement.x) > 0.01f) sprite.FlipX = !sprite.FlipX;
-    //            PlayAnimation("Super");
-    //            break;
-    //        case Player.State.Stun:
-    //            PlayAnimation("Stun");
-    //            break;
-    //        case Player.State.KO:
-    //            PlayAnimation("KO");
-    //            break;
-    //        default:
-    //            throw new ArgumentOutOfRangeException();
-    //    }
-
-        //if (Input.GetKey(KeyCode.A))
-        //{
-        //    // Only play the clip if it is not already playing.
-        //    // Calling play will restart the clip if it is already playing.
-        //    if (!anim.IsPlaying("Primary"))
-        //    {
-        //        PlayAnimation("Primary");
-
-        //        // The delegate is used here to return to the previously
-        //        // playing clip after the "hit" animation is done playing.
-        //        anim.AnimationCompleted = HitCompleteDelegate;
-        //    }
-        //}
-
-        //if (Input.GetKey(KeyCode.D))
-        //{
-        //    PlayAnimation("Run");
-        //}
-
-        //if (Input.GetKey(KeyCode.W))
-        //{
-        //    if (!anim.IsPlaying("Idle"))
-        //    {
-        //        anim.Play("Idle");
-        //        // We dont have any reason for detecting when it completes
-        //        anim.AnimationCompleted = null;
-        //        walking = false;
-        //    }
-        //}
-    //}
 
     void PlayAnimation(string name, bool mayTransitionToSameAnimation = false)
     {
-        //if (anim.IsPlaying(name) && !mayTransitionToSameAnimation) return;
+        if (anim.IsPlaying(name) && !mayTransitionToSameAnimation) return;
 
-        //anim.Play(name);
+        anim.Play(name);
     }
 
     public void SetColor(Color newColor)

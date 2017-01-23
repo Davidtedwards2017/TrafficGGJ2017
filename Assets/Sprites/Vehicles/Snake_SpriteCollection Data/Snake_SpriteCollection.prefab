@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013295692516}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013295692516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010520835680}
+  - 114: {fileID: 114000010587132540}
+  m_Layer: 0
+  m_Name: Snake_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010520835680
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013295692516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010587132540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013295692516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Snake_Drive_00003
+    boundsData:
+    - {x: 0.029999971, y: 2.3349998, z: 0}
+    - {x: 7.44, y: 4.35, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.16, z: 0}
+    - {x: 3.75, y: 0.16, z: 0}
+    - {x: -3.69, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.109375246, y: 0.21777368}
+    - {x: 0.109375246, y: 0.39941382}
+    - {x: 0.21557593, y: 0.21777368}
+    - {x: 0.21557593, y: 0.39941382}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 31cc0d40776e4694b9e5d8cca00ba0af
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00011
+    boundsData:
+    - {x: 0.034999967, y: 2.29, z: 0}
+    - {x: 7.4300003, y: 4.3199997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.45, z: 0}
+    - {x: 3.75, y: 4.45, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.39843774, y: 0.39917016}
+    - {x: 0.39843774, y: 0.58056617}
+    - {x: 0.503906, y: 0.39917016}
+    - {x: 0.503906, y: 0.58056617}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3ba839808b62c40448e6be9c03d825c9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00017
+    boundsData:
+    - {x: 0.024999976, y: 2.34, z: 0}
+    - {x: 7.45, y: 4.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.5499997, z: 0}
+    - {x: 3.75, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.18237281, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.10839819}
+    - {x: 0.18237281, y: 0.10839819}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 42da24f0d30dde747b3175bf149e42b3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00000
+    boundsData:
+    - {x: 0.024999976, y: 2.32, z: 0}
+    - {x: 7.45, y: 4.3799996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.839844}
+    - {x: 0.18237281, y: 0.839844}
+    - {x: 0.0004885254, y: 0.9467771}
+    - {x: 0.18237281, y: 0.9467771}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 30d2e6b1c4fd0a34dbbb06e1349ebc4a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00007
+    boundsData:
+    - {x: 0.034999967, y: 2.3349998, z: 0}
+    - {x: 7.4300003, y: 4.35, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.16, z: 0}
+    - {x: 3.75, y: 0.16, z: 0}
+    - {x: -3.68, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.21655297, y: 0.21777368}
+    - {x: 0.21655297, y: 0.39916968}
+    - {x: 0.32275367, y: 0.21777368}
+    - {x: 0.32275367, y: 0.39916968}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4fd70b82518dc0d4694571982ecb3c23
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00004
+    boundsData:
+    - {x: 0.024999976, y: 2.34, z: 0}
+    - {x: 7.45, y: 4.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.5499997, z: 0}
+    - {x: 3.75, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18334985, y: 0.0004885254}
+    - {x: 0.36523414, y: 0.0004885254}
+    - {x: 0.18334985, y: 0.10839819}
+    - {x: 0.36523414, y: 0.10839819}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 201d14929be57b340b74aa21d8068c56
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00013
+    boundsData:
+    - {x: 0.034999967, y: 2.28, z: 0}
+    - {x: 7.4300003, y: 4.2999997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.43, z: 0}
+    - {x: 3.75, y: 4.43, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.39868188, y: 0.87207055}
+    - {x: 0.5800779, y: 0.87207055}
+    - {x: 0.39868188, y: 0.97705054}
+    - {x: 0.5800779, y: 0.97705054}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1fe90ac4c1a400848ba7969ded29db25
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00001
+    boundsData:
+    - {x: 0.01999998, y: 2.3249998, z: 0}
+    - {x: 7.46, y: 4.37, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.13999999, z: 0}
+    - {x: 3.75, y: 0.13999999, z: 0}
+    - {x: -3.71, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.108642824, y: 0.65698266}
+    - {x: 0.29077125, y: 0.65698266}
+    - {x: 0.108642824, y: 0.76367164}
+    - {x: 0.29077125, y: 0.76367164}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 18f66987dafbcc84cbce364203b65247
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00006
+    boundsData:
+    - {x: 0.034999967, y: 2.33, z: 0}
+    - {x: 7.4300003, y: 4.3599997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.15, z: 0}
+    - {x: 3.75, y: 0.15, z: 0}
+    - {x: -3.68, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.29126, y: 0.7646487}
+    - {x: 0.29126, y: 0.9460447}
+    - {x: 0.39770484, y: 0.7646487}
+    - {x: 0.39770484, y: 0.9460447}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 287cde08cec965f489b44a2e83d1e352
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00004
+    boundsData:
+    - {x: 0.029999971, y: 2.32, z: 0}
+    - {x: 7.44, y: 4.3799996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.69, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.109131105, y: 0.4746096}
+    - {x: 0.29077125, y: 0.4746096}
+    - {x: 0.109131105, y: 0.58154273}
+    - {x: 0.29077125, y: 0.58154273}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3df6fb48818a2134b9dd81b3ca17a2c8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00008
+    boundsData:
+    - {x: 0.029999971, y: 2.2849998, z: 0}
+    - {x: 7.44, y: 4.3099995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.69, y: 4.4399996, z: 0}
+    - {x: 3.75, y: 4.4399996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.43042016, y: 0.21655297}
+    - {x: 0.43042016, y: 0.39819312}
+    - {x: 0.5356443, y: 0.21655297}
+    - {x: 0.5356443, y: 0.39819312}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 383a0cc979e67ee4896517d64c421708
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00015
+    boundsData:
+    - {x: 0.029999971, y: 2.27, z: 0}
+    - {x: 7.44, y: 4.2799997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.69, y: 4.41, z: 0}
+    - {x: 3.75, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.53662133, y: 0.21533227}
+    - {x: 0.53662133, y: 0.39697242}
+    - {x: 0.64111304, y: 0.21533227}
+    - {x: 0.64111304, y: 0.39697242}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 396874f9dc98d014884d3bf957e68731
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00009
+    boundsData:
+    - {x: 0.024999976, y: 2.3149998, z: 0}
+    - {x: 7.45, y: 4.39, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.12, z: 0}
+    - {x: 3.75, y: 0.12, z: 0}
+    - {x: -3.7, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.65698266}
+    - {x: 0.0004885254, y: 0.83886695}
+    - {x: 0.10766577, y: 0.65698266}
+    - {x: 0.10766577, y: 0.83886695}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 04c7f7ad952f3164792e55c68592706c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00009
+    boundsData:
+    - {x: 0.024999976, y: 2.29, z: 0}
+    - {x: 7.45, y: 4.3199997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.45, z: 0}
+    - {x: 3.75, y: 4.45, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2917483, y: 0.5832522}
+    - {x: 0.47363257, y: 0.5832522}
+    - {x: 0.2917483, y: 0.68872046}
+    - {x: 0.47363257, y: 0.68872046}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3eb59d8fdffdd42429a2174e511acb38
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00000
+    boundsData:
+    - {x: 0.01999998, y: 2.33, z: 0}
+    - {x: 7.46, y: 4.3999996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.71, y: 4.5299997, z: 0}
+    - {x: 3.75, y: 4.5299997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.109131105, y: 0.109375246}
+    - {x: 0.29125953, y: 0.109375246}
+    - {x: 0.109131105, y: 0.21679664}
+    - {x: 0.29125953, y: 0.21679664}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 79e955b27e9add14f8c7408bc3ed0122
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00002
+    boundsData:
+    - {x: 0.024999976, y: 2.34, z: 0}
+    - {x: 7.45, y: 4.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.5499997, z: 0}
+    - {x: 3.75, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.36621118, y: 0.0004885254}
+    - {x: 0.54809546, y: 0.0004885254}
+    - {x: 0.36621118, y: 0.10839819}
+    - {x: 0.54809546, y: 0.10839819}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6a9888a436ffb7d4080ba23fc94a0a3b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00002
+    boundsData:
+    - {x: 0.029999971, y: 2.3449998, z: 0}
+    - {x: 7.44, y: 4.33, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.17999999, z: 0}
+    - {x: 3.75, y: 0.17999999, z: 0}
+    - {x: -3.69, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3237307, y: 0.21655297}
+    - {x: 0.3237307, y: 0.39819312}
+    - {x: 0.42944312, y: 0.21655297}
+    - {x: 0.42944312, y: 0.39819312}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8f2076a5bec91df44b5a9bc7729aa497
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00014
+    boundsData:
+    - {x: 0.024999976, y: 2.2749999, z: 0}
+    - {x: 7.45, y: 4.2899995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.4199996, z: 0}
+    - {x: 3.75, y: 4.4199996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4746096, y: 0.5815432}
+    - {x: 0.6564939, y: 0.5815432}
+    - {x: 0.4746096, y: 0.68627906}
+    - {x: 0.6564939, y: 0.68627906}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: ab7f6fb50a5eb3f479e965e0451502a0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00010
+    boundsData:
+    - {x: 0.01999998, y: 2.2949998, z: 0}
+    - {x: 7.46, y: 4.3299994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.71, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.71, y: 4.4599996, z: 0}
+    - {x: 3.75, y: 4.4599996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2917483, y: 0.40014672}
+    - {x: 0.2917483, y: 0.58227515}
+    - {x: 0.3974607, y: 0.40014672}
+    - {x: 0.3974607, y: 0.58227515}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9a3a31a8fe76d0f40b21801b41d89f01
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00016
+    boundsData:
+    - {x: 0.029999971, y: 2.34, z: 0}
+    - {x: 7.44, y: 4.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.69, y: 4.5499997, z: 0}
+    - {x: 3.75, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.73193383, y: 0.0004885254}
+    - {x: 0.913574, y: 0.0004885254}
+    - {x: 0.73193383, y: 0.10839819}
+    - {x: 0.913574, y: 0.10839819}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 93e5243a1a03f2f43950bd894f4f9f5b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00012
+    boundsData:
+    - {x: 0.034999967, y: 2.2849998, z: 0}
+    - {x: 7.4300003, y: 4.3099995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.4399996, z: 0}
+    - {x: 3.75, y: 4.4399996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.39868188, y: 0.6896975}
+    - {x: 0.39868188, y: 0.8710935}
+    - {x: 0.503906, y: 0.6896975}
+    - {x: 0.503906, y: 0.8710935}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: b69da2cb569911543b610fcf4aa03dc6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00008
+    boundsData:
+    - {x: 0.034999967, y: 2.3349998, z: 0}
+    - {x: 7.4300003, y: 4.35, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.16, z: 0}
+    - {x: 3.75, y: 0.16, z: 0}
+    - {x: -3.68, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.29223657, y: 0.109375246}
+    - {x: 0.47363257, y: 0.109375246}
+    - {x: 0.29223657, y: 0.21557593}
+    - {x: 0.47363257, y: 0.21557593}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9fbc9f9c00242934798b296ed40a8ebe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00018
+    boundsData:
+    - {x: 0.024999976, y: 2.34, z: 0}
+    - {x: 7.45, y: 4.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.5499997, z: 0}
+    - {x: 3.75, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5490725, y: 0.0004885254}
+    - {x: 0.7309568, y: 0.0004885254}
+    - {x: 0.5490725, y: 0.10839819}
+    - {x: 0.7309568, y: 0.10839819}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9eaba89d282803140ad0b5b4b2f5af7a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00006
+    boundsData:
+    - {x: 0.029999971, y: 2.2749999, z: 0}
+    - {x: 7.44, y: 4.2899995, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.69, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.69, y: 4.4199996, z: 0}
+    - {x: 3.75, y: 4.4199996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.50488305, y: 0.39917016}
+    - {x: 0.6865232, y: 0.39917016}
+    - {x: 0.50488305, y: 0.503906}
+    - {x: 0.6865232, y: 0.503906}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: c25847d4fa1597e4588cac5b04866166
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00019
+    boundsData:
+    - {x: 0.024999976, y: 2.3349998, z: 0}
+    - {x: 7.45, y: 4.4099994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.5399995, z: 0}
+    - {x: 3.75, y: 4.5399995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.109375246}
+    - {x: 0.0004885254, y: 0.29125953}
+    - {x: 0.10815405, y: 0.109375246}
+    - {x: 0.10815405, y: 0.29125953}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: f8456d855f0be7f4b8a165e990bcbbbb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Drive_00005
+    boundsData:
+    - {x: 0.034999967, y: 2.32, z: 0}
+    - {x: 7.4300003, y: 4.3799996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.5099998, z: 0}
+    - {x: 3.75, y: 4.5099998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18334985, y: 0.7646487}
+    - {x: 0.18334985, y: 0.9460447}
+    - {x: 0.29028296, y: 0.7646487}
+    - {x: 0.29028296, y: 0.9460447}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: cc75e567b1a21d94199a70c18aef0776
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00001
+    boundsData:
+    - {x: 0.034999967, y: 2.3349998, z: 0}
+    - {x: 7.4300003, y: 4.4099994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.5399995, z: 0}
+    - {x: 3.75, y: 4.5399995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.4746096}
+    - {x: 0.0004885254, y: 0.6560056}
+    - {x: 0.10815405, y: 0.4746096}
+    - {x: 0.10815405, y: 0.6560056}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: bf144a97c2db524478dbb605cd226e48
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00007
+    boundsData:
+    - {x: 0.024999976, y: 2.28, z: 0}
+    - {x: 7.45, y: 4.2999997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.7, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.7, y: 4.43, z: 0}
+    - {x: 3.75, y: 4.43, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4746096, y: 0.109375246}
+    - {x: 0.6564939, y: 0.109375246}
+    - {x: 0.4746096, y: 0.21435523}
+    - {x: 0.6564939, y: 0.21435523}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: f6f9fa1ce0f873f4494558bb36945b1f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00003
+    boundsData:
+    - {x: 0.034999967, y: 2.34, z: 0}
+    - {x: 7.4300003, y: 4.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.5499997, z: 0}
+    - {x: 3.75, y: 4.5499997, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.29223657}
+    - {x: 0.0004885254, y: 0.47363257}
+    - {x: 0.10839819, y: 0.29223657}
+    - {x: 0.10839819, y: 0.47363257}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: c367b3ed0d5994245b7cfa4bfa02c532
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Snake_Idle_00005
+    boundsData:
+    - {x: 0.034999967, y: 2.27, z: 0}
+    - {x: 7.4300003, y: 4.2799997, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2.2749999, z: 0}
+    - {x: 7.5, y: 4.5499997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.68, y: 0.13, z: 0}
+    - {x: 3.75, y: 0.13, z: 0}
+    - {x: -3.68, y: 4.41, z: 0}
+    - {x: 3.75, y: 4.41, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6420901, y: 0.21533227}
+    - {x: 0.6420901, y: 0.39672828}
+    - {x: 0.7465818, y: 0.21533227}
+    - {x: 0.7465818, y: 0.39672828}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+    materialId: 0
+    sourceTextureGUID: d4174a6e67b78014bb704d6baeef3f38
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: f8a3e7dc909bb96459c634addd795810, type: 2}
+  textures:
+  - {fileID: 2800000, guid: bd207b57f836d8941a49c9d56138fb75, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: dfe05d8965bed9d48bd4c5f6812884c8
+  spriteCollectionName: Snake_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 513627607
+  dataGuid: 67459a61eac96944482885a6e9d3d42e
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

@@ -1,0 +1,1020 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010591598584}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010591598584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011595773164}
+  - 114: {fileID: 114000010369353308}
+  m_Layer: 0
+  m_Name: Spaceship_SpriteCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011595773164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010591598584}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010369353308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010591598584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: Spaceship_Drive_00003
+    boundsData:
+    - {x: 0.060000062, y: 3.5249999, z: 0}
+    - {x: 7.0200005, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.45, y: 0.30999997, z: 0}
+    - {x: 3.5700002, y: 0.30999997, z: 0}
+    - {x: -3.45, y: 6.74, z: 0}
+    - {x: 3.5700002, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.50317407}
+    - {x: 0.0004885254, y: 0.6745603}
+    - {x: 0.15747046, y: 0.50317407}
+    - {x: 0.15747046, y: 0.6745603}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 180af973ae483884f8e9d8fad39e377d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00001
+    boundsData:
+    - {x: 0.06999993, y: 3.5249999, z: 0}
+    - {x: 7.02, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.44, y: 0.30999997, z: 0}
+    - {x: 3.58, y: 0.30999997, z: 0}
+    - {x: -3.44, y: 6.74, z: 0}
+    - {x: 3.58, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.67553735}
+    - {x: 0.0004885254, y: 0.8469236}
+    - {x: 0.15747046, y: 0.67553735}
+    - {x: 0.15747046, y: 0.8469236}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0911af73a7a6fb5479c0909e2db4b1cd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00006
+    boundsData:
+    - {x: 0.060000062, y: 3.5299997, z: 0}
+    - {x: 7.0200005, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.45, y: 0.30999997, z: 0}
+    - {x: 3.5700002, y: 0.30999997, z: 0}
+    - {x: -3.45, y: 6.7499995, z: 0}
+    - {x: 3.5700002, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.0004885254}
+    - {x: 0.17187476, y: 0.0004885254}
+    - {x: 0.0004885254, y: 0.1577146}
+    - {x: 0.17187476, y: 0.1577146}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0.99999994, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 0.99999994, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 066f59e60e5b3d14db08b9819a35c78e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00002
+    boundsData:
+    - {x: 0.049999952, y: 3.5349998, z: 0}
+    - {x: 7.02, y: 6.4299994, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.32, z: 0}
+    - {x: 3.56, y: 0.32, z: 0}
+    - {x: -3.46, y: 6.7499995, z: 0}
+    - {x: 3.56, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1584475, y: 0.50317407}
+    - {x: 0.1584475, y: 0.6745603}
+    - {x: 0.31542945, y: 0.50317407}
+    - {x: 0.31542945, y: 0.6745603}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2cc6c647ed6d4a347a591d06c666756a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00005
+    boundsData:
+    - {x: 0.06999993, y: 3.5249999, z: 0}
+    - {x: 7.02, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.44, y: 0.30999997, z: 0}
+    - {x: 3.58, y: 0.30999997, z: 0}
+    - {x: -3.44, y: 6.74, z: 0}
+    - {x: 3.58, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1584475, y: 0.67553735}
+    - {x: 0.1584475, y: 0.8469236}
+    - {x: 0.31542945, y: 0.67553735}
+    - {x: 0.31542945, y: 0.8469236}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 522557688ba7002449af16fc40b7af39
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00009
+    boundsData:
+    - {x: 0.045000076, y: 3.5299997, z: 0}
+    - {x: 7.01, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.30999997, z: 0}
+    - {x: 3.5500002, y: 0.30999997, z: 0}
+    - {x: -3.46, y: 6.7499995, z: 0}
+    - {x: 3.5500002, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.33105493}
+    - {x: 0.0004885254, y: 0.502197}
+    - {x: 0.1577146, y: 0.33105493}
+    - {x: 0.1577146, y: 0.502197}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4edbbc29fd980a748a2b936c04af8711
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00004
+    boundsData:
+    - {x: 0.049999952, y: 3.5299997, z: 0}
+    - {x: 7.02, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.30999997, z: 0}
+    - {x: 3.56, y: 0.30999997, z: 0}
+    - {x: -3.46, y: 6.7499995, z: 0}
+    - {x: 3.56, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1728518, y: 0.0004885254}
+    - {x: 0.34423804, y: 0.0004885254}
+    - {x: 0.1728518, y: 0.1577146}
+    - {x: 0.34423804, y: 0.1577146}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 697fa27b129485a4290c5d3d2efc0a63
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00003
+    boundsData:
+    - {x: 0.060000062, y: 3.5249999, z: 0}
+    - {x: 7.0200005, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.45, y: 0.30999997, z: 0}
+    - {x: 3.5700002, y: 0.30999997, z: 0}
+    - {x: -3.45, y: 6.74, z: 0}
+    - {x: 3.5700002, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.15869164, y: 0.15869164}
+    - {x: 0.15869164, y: 0.3300779}
+    - {x: 0.3156736, y: 0.15869164}
+    - {x: 0.3156736, y: 0.3300779}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6a5449cc2cf64fb45a4c6e9457868f64
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00007
+    boundsData:
+    - {x: 0.04000008, y: 3.5249999, z: 0}
+    - {x: 7.0200005, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.30999997, z: 0}
+    - {x: 3.5500002, y: 0.30999997, z: 0}
+    - {x: -3.47, y: 6.74, z: 0}
+    - {x: 3.5500002, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.15869164, y: 0.33105493}
+    - {x: 0.3300779, y: 0.33105493}
+    - {x: 0.15869164, y: 0.48803687}
+    - {x: 0.3300779, y: 0.48803687}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 240e3a3f33112c548bcddf21e98190c1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00009
+    boundsData:
+    - {x: 0.045000076, y: 3.5299997, z: 0}
+    - {x: 7.01, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.30999997, z: 0}
+    - {x: 3.5500002, y: 0.30999997, z: 0}
+    - {x: -3.46, y: 6.7499995, z: 0}
+    - {x: 3.5500002, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.33105493}
+    - {x: 0.0004885254, y: 0.502197}
+    - {x: 0.1577146, y: 0.33105493}
+    - {x: 0.1577146, y: 0.502197}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: af1fb06414240904d9f5b8abf8e7ef29
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00002
+    boundsData:
+    - {x: 0.049999952, y: 3.5299997, z: 0}
+    - {x: 7.02, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.30999997, z: 0}
+    - {x: 3.56, y: 0.30999997, z: 0}
+    - {x: -3.46, y: 6.7499995, z: 0}
+    - {x: 3.56, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.34521508, y: 0.0004885254}
+    - {x: 0.5166013, y: 0.0004885254}
+    - {x: 0.34521508, y: 0.1577146}
+    - {x: 0.5166013, y: 0.1577146}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: b582a20c68c63bc49b4b1a065e98e8c6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00005
+    boundsData:
+    - {x: 0.06999993, y: 3.53, z: 0}
+    - {x: 7.02, y: 6.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.44, y: 0.32, z: 0}
+    - {x: 3.58, y: 0.32, z: 0}
+    - {x: -3.44, y: 6.74, z: 0}
+    - {x: 3.58, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4746096, y: 0.15869164}
+    - {x: 0.4746096, y: 0.3300779}
+    - {x: 0.6313474, y: 0.15869164}
+    - {x: 0.6313474, y: 0.3300779}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: a2cb9f8e9a41c664483397303dd86f3c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00008
+    boundsData:
+    - {x: 0.049999952, y: 3.53, z: 0}
+    - {x: 7.02, y: 6.4199996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.32, z: 0}
+    - {x: 3.56, y: 0.32, z: 0}
+    - {x: -3.46, y: 6.74, z: 0}
+    - {x: 3.56, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3164065, y: 0.6613772}
+    - {x: 0.3164065, y: 0.83276343}
+    - {x: 0.4731443, y: 0.6613772}
+    - {x: 0.4731443, y: 0.83276343}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 880e26eeb20faab4bb4a0884428c08e8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00006
+    boundsData:
+    - {x: 0.060000062, y: 3.5299997, z: 0}
+    - {x: 7.0200005, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.45, y: 0.30999997, z: 0}
+    - {x: 3.5700002, y: 0.30999997, z: 0}
+    - {x: -3.45, y: 6.7499995, z: 0}
+    - {x: 3.5700002, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.51757836, y: 0.0004885254}
+    - {x: 0.6889646, y: 0.0004885254}
+    - {x: 0.51757836, y: 0.1577146}
+    - {x: 0.6889646, y: 0.1577146}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: 78548e4fc0e7c1b4ca1a37c6e36200ee
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00000
+    boundsData:
+    - {x: 0.029999971, y: 3.5299997, z: 0}
+    - {x: 7.02, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.30999997, z: 0}
+    - {x: 3.54, y: 0.30999997, z: 0}
+    - {x: -3.48, y: 6.7499995, z: 0}
+    - {x: 3.54, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.68994164, y: 0.0004885254}
+    - {x: 0.8613279, y: 0.0004885254}
+    - {x: 0.68994164, y: 0.1577146}
+    - {x: 0.8613279, y: 0.1577146}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: e429f9e0deeff334ba9f414b3a6842d0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00000
+    boundsData:
+    - {x: 0.029999971, y: 3.5299997, z: 0}
+    - {x: 7.02, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.48, y: 0.30999997, z: 0}
+    - {x: 3.54, y: 0.30999997, z: 0}
+    - {x: -3.48, y: 6.7499995, z: 0}
+    - {x: 3.54, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.68994164, y: 0.0004885254}
+    - {x: 0.8613279, y: 0.0004885254}
+    - {x: 0.68994164, y: 0.1577146}
+    - {x: 0.8613279, y: 0.1577146}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0.99999994}
+    - {x: 1, y: 0.99999994}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: cfaa234101ada71438aecb62a8530385
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00008
+    boundsData:
+    - {x: 0.049999952, y: 3.5249999, z: 0}
+    - {x: 7.02, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.30999997, z: 0}
+    - {x: 3.56, y: 0.30999997, z: 0}
+    - {x: -3.46, y: 6.74, z: 0}
+    - {x: 3.56, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.31665063, y: 0.15869164}
+    - {x: 0.31665063, y: 0.3300779}
+    - {x: 0.47363257, y: 0.15869164}
+    - {x: 0.47363257, y: 0.3300779}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: cc31f032ef20c354eb624a25a96ad144
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Idle_00001
+    boundsData:
+    - {x: 0.06999993, y: 3.5249999, z: 0}
+    - {x: 7.02, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.44, y: 0.30999997, z: 0}
+    - {x: 3.58, y: 0.30999997, z: 0}
+    - {x: -3.44, y: 6.74, z: 0}
+    - {x: 3.58, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3164065, y: 0.4890139}
+    - {x: 0.3164065, y: 0.66040015}
+    - {x: 0.47338843, y: 0.4890139}
+    - {x: 0.47338843, y: 0.66040015}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: d853c682011f4be488b7d5edd33bd9c3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00004
+    boundsData:
+    - {x: 0.049999952, y: 3.5299997, z: 0}
+    - {x: 7.02, y: 6.4399996, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.46, y: 0.30999997, z: 0}
+    - {x: 3.56, y: 0.30999997, z: 0}
+    - {x: -3.46, y: 6.7499995, z: 0}
+    - {x: 3.56, y: 6.7499995, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0004885254, y: 0.15869164}
+    - {x: 0.0004885254, y: 0.3300779}
+    - {x: 0.1577146, y: 0.15869164}
+    - {x: 0.1577146, y: 0.3300779}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 0.99999994, y: 0}
+    - {x: 0.99999994, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: d6a2a0b56e9892c448dca5f21df54ed1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: Spaceship_Drive_00007
+    boundsData:
+    - {x: 0.04000008, y: 3.5249999, z: 0}
+    - {x: 7.0200005, y: 6.43, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 3.5349998, z: 0}
+    - {x: 7.5, y: 7.0699997, z: 0}
+    texelSize: {x: 0.01, y: 0.01}
+    positions:
+    - {x: -3.47, y: 0.30999997, z: 0}
+    - {x: 3.5500002, y: 0.30999997, z: 0}
+    - {x: -3.47, y: 6.74, z: 0}
+    - {x: 3.5500002, y: 6.74, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.33105493, y: 0.33105493}
+    - {x: 0.50244117, y: 0.33105493}
+    - {x: 0.33105493, y: 0.48803687}
+    - {x: 0.50244117, y: 0.48803687}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+    materialId: 0
+    sourceTextureGUID: e3bdde0d646c4c1428cd1e277a725682
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a57bbc0cdbc867d459cade93117e3e7c, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 873babf5ebbea5145b7f18be5cb45716, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 3f03a4466980c644484ac90f930bc9e2
+  spriteCollectionName: Spaceship_SpriteCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1423244478
+  dataGuid: c58ecc2f6d1226e44ad148173a1b1267
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

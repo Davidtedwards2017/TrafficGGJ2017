@@ -24,6 +24,7 @@ GameObject:
   - 114: {fileID: 114000010562330202}
   - 114: {fileID: 114000013699643892}
   - 114: {fileID: 114000010237136928}
+  - 114: {fileID: 114000013713283708}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b4256bc754109d24b85d6358d8f04e51, type: 2}
+  - {fileID: 2100000, guid: 391a9cc1425b0c749aef591eb27fb5df, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -273,11 +274,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fac570381f34f647b768dc5a5aa1364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collection: {fileID: 114000011321304382, guid: 3972e2fcb1081ca459b5e80818f451cc,
+  collection: {fileID: 114000012437093836, guid: c3c4ee6eebc91ac469327ab1e411cae3,
     type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 0.3, y: 0.3, z: 0.3}
-  _spriteId: 156
+  _spriteId: 15
   boxCollider2D: {fileID: 0}
   polygonCollider2D: []
   edgeCollider2D: []
@@ -333,11 +334,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 114000010562330202}
-  anim: {fileID: 0}
+  anim: {fileID: 114000013713283708}
+  vehicle: {fileID: 114000011912658938}
   groundFxPoint: {fileID: 4000013575413228}
-  crashMaterial: {fileID: 2100000, guid: 5697ce2cb1d2f4641afcf6d2abd21683, type: 2}
+  crashMaterial: {fileID: 2100000, guid: 341744b016786d647be691cb110c81d6, type: 2}
   MaxAngerIntensity: 0.4
-  wiggle: {fileID: 0}
+  wiggle: {fileID: 114000010237136928}
+  meshRenderer: {fileID: 23000013572685204}
+--- !u!114 &114000013713283708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011038759236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e54113e5604435b8ae87c7754f2725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  library: {fileID: 114000011383462840, guid: 6789d72fae687bd40ad6fa5617b44809, type: 2}
+  defaultClipId: 5
+  playAutomatically: 1
 --- !u!119 &119000012344370082
 Projector:
   m_ObjectHideFlags: 1
