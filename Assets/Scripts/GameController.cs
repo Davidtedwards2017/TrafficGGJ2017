@@ -176,7 +176,7 @@ public class GameController : Singleton<GameController>
 
     public IEnumerator EndGameStateSequence()
     {
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(2.5f);
         yield return WaitForAnyInput();
 
         VehicleFactory.instance.Reset();

@@ -126,6 +126,12 @@ public class Vehicle : MonoBehaviour
         patience.OnValueChangeTo += anim.HandlePatience;
     }
 
+    void OnDestroy()
+    {
+        MessageController.StopListening("LaneOpened", LaneOpened);
+        MessageController.StopListening("LaneClosed", LaneClosed);
+    }
+
     public void OnCollisionEnter(Collision collision)
     {
         if(collision.collider.gameObject.layer == LayerMask.NameToLayer("Vehicle"))
