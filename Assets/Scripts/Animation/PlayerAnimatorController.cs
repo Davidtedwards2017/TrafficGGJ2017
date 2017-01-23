@@ -14,6 +14,9 @@ public class PlayerAnimatorController : MonoBehaviour {
     public delegate void AnimationEventHandler(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip, int frameNumber);
     public event AnimationEventHandler onAnimationEventTriggered;
 
+    public AudioSource audioSource;
+    public AudioClip whistleBlow;
+
     void Awake()
     {
         //squidAnimator = GetComponent<tk2dAnimatedSprite>();
@@ -58,6 +61,9 @@ public class PlayerAnimatorController : MonoBehaviour {
         }
 
         if(tentacle != null) PlayAnimation(tentacle, animName);
+
+        //if (Random.value > 0.25f) audioSource.PlayOneShot(whistleBlow);
+        if(isOn) audioSource.PlayOneShot(whistleBlow);
     }
 
     void PlayAnimation(tk2dSpriteAnimator anim, string name, bool mayTransitionToSameAnimation = false)
