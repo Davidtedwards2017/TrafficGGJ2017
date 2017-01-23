@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 114000011519121696, guid: 23226ab133ac8244da4030ba72e409b7, type: 2}
-  defaultClipId: 1
+  defaultClipId: 2
   playAutomatically: 1
 --- !u!114 &114000012117988676
 MonoBehaviour:

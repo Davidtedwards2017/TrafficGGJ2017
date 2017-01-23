@@ -126,6 +126,7 @@ public class GameController : Singleton<GameController>
     public static void OnEnterStateMainMenu()
     {
         CurrentSequence.value = instance.StartMenuSequence();
+        instance.GameTime = 0;
         instance.Destruction.SetToMin();
     }
 

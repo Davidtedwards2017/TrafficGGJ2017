@@ -12,12 +12,12 @@ public class SplashScreen : Singleton<SplashScreen> {
     void Awake()
     {
         group = GetComponent<CanvasGroup>();
+        group.alpha = 1;
     }
 
 
     public IEnumerator DisplaySequence()
     {
-        yield return group.DOFade(1, 0.1f);
         yield return new WaitForSeconds(HoldDuration);
         yield return group.DOFade(0, FadeDuration);
     }
