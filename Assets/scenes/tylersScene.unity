@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692504, g: 0.4967869, b: 0.57508504, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -5314,10 +5314,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd8679d4dd890b43bc0f756fea14254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NorthFacingTenticle: {fileID: 0}
-  EastFacingTenticle: {fileID: 0}
-  SouthFacingTenticle: {fileID: 0}
-  WestFacingTenticle: {fileID: 0}
+  squidAnimator: {fileID: 0}
+  northFacingTentacle: {fileID: 0}
+  southFacingTentacle: {fileID: 0}
+  westFacingTentacle: {fileID: 0}
+  eastFacingTentacle: {fileID: 0}
 --- !u!1 &1980390099
 GameObject:
   m_ObjectHideFlags: 0
@@ -5646,3 +5647,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 917507972}
   m_RootOrder: 1
+--- !u!1001 &2114415189
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000010125271102, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 33000012456815036, guid: b41152c971fdb7341b3d65e2ec3b4692,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 33000010288029872, guid: b41152c971fdb7341b3d65e2ec3b4692,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 33000011935560270, guid: b41152c971fdb7341b3d65e2ec3b4692,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 33000010718826892, guid: b41152c971fdb7341b3d65e2ec3b4692,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 33000013914660486, guid: b41152c971fdb7341b3d65e2ec3b4692,
+        type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b41152c971fdb7341b3d65e2ec3b4692, type: 2}
+  m_IsPrefabParent: 0

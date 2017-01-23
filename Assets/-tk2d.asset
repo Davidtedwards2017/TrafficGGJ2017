@@ -23,22 +23,6 @@ MonoBehaviour:
     loadable: 0
   fontIndex: []
   spriteCollectionIndex:
-  - name: WorldSpriteCollection
-    spriteCollectionGUID: 3593e5cd5c92a6347883103add8f5c4b
-    spriteCollectionDataGUID: adbc947814e40004b807ff136e9f9065
-    spriteNames:
-    - 
-    - Background
-    spriteTextureGUIDs:
-    - 
-    - a09d4b66352ce4345af70f44d18e8656
-    spriteTextureTimeStamps:
-    - 0
-    - 1485005898.88075
-    managedSpriteCollection: 0
-    loadable: 0
-    assetName: 
-    version: 3
   - name: VehicleSpriteCollection
     spriteCollectionGUID: 28d626acb6e09ec4794db9e951195f4c
     spriteCollectionDataGUID: 6da6f4ec9c555f342b7f40600f8c5318
@@ -61,63 +45,14 @@ MonoBehaviour:
     - 57a281e9d7f678047a63b9d65526ebe2
     - b9132b4ad7137d84cb8a489449c3e109
     spriteTextureTimeStamps:
-    - 1485005899.06706
-    - 1485005899.09108
-    - 1485002154
-    - 1485008068
-    - 1485008091
-    - 1485008084
-    - 1485017746
-    - 1485015096
-    managedSpriteCollection: 0
-    loadable: 0
-    assetName: 
-    version: 3
-  - name: BackgroundPropSpriteCollection
-    spriteCollectionGUID: 2ac99bd52fe82d84293f4344ce429a3b
-    spriteCollectionDataGUID: 90b0557008a7cec4fbbac1c2c75af692
-    spriteNames:
-    - TopHouse
-    - LampPost1
-    - AStreetSign_02
-    - SStreetSign_02
-    - DStreetSign_01
-    - WStreetSign_01
-    - WStreetSign_02
-    - DStreetSign_02
-    - SStreetSign_01
-    - AStreetSign_01
-    - CrosswalkLayer
-    - BottomHouse
-    - LampPost2
-    spriteTextureGUIDs:
-    - 56dd00707a7ce504eb2aca7db9d7839a
-    - 2d4fecfe3bcb00a449a6b240a8c08656
-    - baf2a72330036824d84e6d934a1f38e4
-    - 03c4b6041195e7b43a254ae1801dd1aa
-    - 12ce7308c4e648749a70a9200b9b6f4a
-    - 6e08140994cdfb047a3a13e04e4b72cb
-    - 75dfdcba1312fe945b62efe2de52571a
-    - a265a87d2a7e94c4ca939d5fe45e33b6
-    - db9767addb4734249a53b6f99da616e0
-    - e7b4129e2f49d8c4db36d54e650a9f30
-    - 3fb0e22fc6580784d813467d9599002f
-    - 9a8be1cfeab69504fab697cc58b950e9
-    - be9b281edbd7ad9498493ef847982727
-    spriteTextureTimeStamps:
-    - 1484999914
-    - 1485013932
-    - 1484999907
-    - 1484999914
-    - 1484999909
-    - 1484999914
-    - 1484999921
-    - 1484999910
-    - 1484999912
-    - 1484999907
-    - 1485010765
-    - 1484999909
-    - 1485013932
+    - 1485014665.76309
+    - 1485014665.79422
+    - 1485014665.78707
+    - 1485014665.75584
+    - 1485014665.78013
+    - 1485020187.86609
+    - 1485020187.88511
+    - 1485020187.87809
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
@@ -158,21 +93,153 @@ MonoBehaviour:
     - 284ea80f6cef1374aa3fa2fbe4db1d97
     - 17039bd24a46ca445b1f683e4db134cd
     spriteTextureTimeStamps:
-    - 1485087734
-    - 1485087694
-    - 1485087684
-    - 1485087742
-    - 1485087646
-    - 1485087622
-    - 1485087672
-    - 1485087656
-    - 1485087632
-    - 1485087664
-    - 1485087704
+    - 1485093887.21806
+    - 1485093887.22758
+    - 1485093887.23009
+    - 1485093887.21606
+    - 1485093887.23871
+    - 1485093887.24272
+    - 1485093887.2321
+    - 1485093887.23611
+    - 1485093887.24072
+    - 1485093887.2341
+    - 1485093887.22558
     - 0
-    - 1485087612
-    - 1485087714
-    - 1485087596
+    - 1485093887.24526
+    - 1485093887.22357
+    - 1485093887.24724
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BackgroundPropSpriteCollection
+    spriteCollectionGUID: 2ac99bd52fe82d84293f4344ce429a3b
+    spriteCollectionDataGUID: 90b0557008a7cec4fbbac1c2c75af692
+    spriteNames:
+    - TopHouse
+    - LampPost1
+    - AStreetSign_02
+    - SStreetSign_02
+    - DStreetSign_01
+    - WStreetSign_01
+    - WStreetSign_02
+    - DStreetSign_02
+    - SStreetSign_01
+    - AStreetSign_01
+    - CrosswalkLayer
+    - BottomHouse
+    - LampPost2
+    spriteTextureGUIDs:
+    - 56dd00707a7ce504eb2aca7db9d7839a
+    - 2d4fecfe3bcb00a449a6b240a8c08656
+    - baf2a72330036824d84e6d934a1f38e4
+    - 03c4b6041195e7b43a254ae1801dd1aa
+    - 12ce7308c4e648749a70a9200b9b6f4a
+    - 6e08140994cdfb047a3a13e04e4b72cb
+    - 75dfdcba1312fe945b62efe2de52571a
+    - a265a87d2a7e94c4ca939d5fe45e33b6
+    - db9767addb4734249a53b6f99da616e0
+    - e7b4129e2f49d8c4db36d54e650a9f30
+    - 3fb0e22fc6580784d813467d9599002f
+    - 9a8be1cfeab69504fab697cc58b950e9
+    - be9b281edbd7ad9498493ef847982727
+    spriteTextureTimeStamps:
+    - 1485020187.82073
+    - 1485020187.80017
+    - 1485020187.67127
+    - 1485020187.81622
+    - 1485020187.78915
+    - 1485020187.82575
+    - 1485020187.82976
+    - 1485020187.79315
+    - 1485020187.8102
+    - 1485020187.66624
+    - 1485020187.78413
+    - 1485020187.77811
+    - 1485020187.80519
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: DestructionFXSpriteCollection
+    spriteCollectionGUID: 5e8b149d6c20e5d4eb0c36bad4433547
+    spriteCollectionDataGUID: b95a477898f553642b7f6060bf34e0a8
+    spriteNames:
+    - Fire2_animation_frame1
+    - Fire2_animation_frame2
+    - Fire2_animation_frame3
+    - fire_animation_frame1
+    - fire_animation_frame2
+    - fire_animation_frame3
+    - Smoke_explosion_frame1
+    - Smoke_explosion_frame2
+    - Smoke_explosion_frame3
+    - Smoke_explosion_frame4
+    - Smoke_explosion_frame5
+    - Smoke_explosion_frame6
+    - Smoke_explosion_frame7
+    - Smoke_explosion_frame8
+    - Smoke_explosion_frame9
+    - Smoke_explosion_frame10
+    - Smoke_explosion_frame11
+    - Smoke_explosion_frame12
+    - Smoke_explosion_frame13
+    spriteTextureGUIDs:
+    - 621af3048a5c4254e9f67617eb842b28
+    - eb51fede8c6313348910926943188624
+    - f4fed7a6a8de75a46bdb14eebbcd185e
+    - 3c6b7099277922445af9c415f4e4b827
+    - e5e2165a3a6e94c4997c704fb2dfda50
+    - f24c03315684cdb4a85325ee467f4631
+    - 8006414395854a643921817f2c568797
+    - 5d6acaa8d1e28314b99336aa99ae064c
+    - 8a3b8544947a8ce43ab0fad3485c6f24
+    - 0f7d939b8a587034bb960e7a29f6454b
+    - 7ffaf4400e3fe40448cf80674c37dcb3
+    - 9e371a6cd331b054fa40b09bebdec42e
+    - c6b4d28c2e12f3749bec94136f47730a
+    - d4ff1f1e84527824d8bf17b7b6cfbdbb
+    - 159796a7fbbd3854f95f4242e8facef8
+    - 58b2f1fbb578f124f935b96bb75c5bbb
+    - bb8f93a984e0c2f40ad64eadea7d8838
+    - 422d99af919fcab4ab6bcd737c809acd
+    - 30fa513723fbc954e9f99242249a76bd
+    spriteTextureTimeStamps:
+    - 1485093820.37928
+    - 1485093820.40337
+    - 1485093820.4249
+    - 1485093820.43693
+    - 1485093820.44846
+    - 1485093820.45899
+    - 1485093820.4655
+    - 1485093820.49818
+    - 1485093820.50505
+    - 1485093820.51006
+    - 1485093820.516
+    - 1485093820.52152
+    - 1485093820.52757
+    - 1485093820.53305
+    - 1485093820.53958
+    - 1485093820.47303
+    - 1485093820.48004
+    - 1485093820.48656
+    - 1485093820.49286
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: WorldSpriteCollection
+    spriteCollectionGUID: 3593e5cd5c92a6347883103add8f5c4b
+    spriteCollectionDataGUID: adbc947814e40004b807ff136e9f9065
+    spriteNames:
+    - 
+    - Background
+    spriteTextureGUIDs:
+    - 
+    - a09d4b66352ce4345af70f44d18e8656
+    spriteTextureTimeStamps:
+    - 0
+    - 1485020187.6883
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
