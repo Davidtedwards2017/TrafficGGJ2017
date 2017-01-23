@@ -90,13 +90,13 @@ MonoBehaviour:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
         type: 2}
       spriteId: 13
-      triggerEvent: 0
-      eventInfo: 
+      triggerEvent: 1
+      eventInfo: Done
       eventInt: 0
       eventFloat: 0
     fps: 6
     loopStart: 0
-    wrapMode: 0
+    wrapMode: 2
   - name: ArmW_Wave
     frames:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
@@ -116,13 +116,13 @@ MonoBehaviour:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
         type: 2}
       spriteId: 5
-      triggerEvent: 0
-      eventInfo: 
+      triggerEvent: 1
+      eventInfo: Done
       eventInt: 0
       eventFloat: 0
     fps: 6
     loopStart: 0
-    wrapMode: 0
+    wrapMode: 2
   - name: ArmS_Wave
     frames:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
@@ -142,13 +142,13 @@ MonoBehaviour:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
         type: 2}
       spriteId: 7
-      triggerEvent: 0
-      eventInfo: 
+      triggerEvent: 1
+      eventInfo: Done
       eventInt: 0
       eventFloat: 0
     fps: 6
     loopStart: 0
-    wrapMode: 0
+    wrapMode: 2
   - name: ArmE_Wave
     frames:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
@@ -168,13 +168,13 @@ MonoBehaviour:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,
         type: 2}
       spriteId: 2
-      triggerEvent: 0
-      eventInfo: 
+      triggerEvent: 1
+      eventInfo: Done
       eventInt: 0
       eventFloat: 0
     fps: 6
     loopStart: 0
-    wrapMode: 0
+    wrapMode: 2
   - name: ArmE_Stop
     frames:
     - spriteCollection: {fileID: 114000011351486980, guid: ae80f673d926e9f499ac65ea8960daae,

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(tk2dAnimatedSprite))]
 public class PlayerAnimatorController : MonoBehaviour {
@@ -17,9 +18,78 @@ public class PlayerAnimatorController : MonoBehaviour {
     public AudioSource audioSource;
     public AudioClip whistleBlow;
 
+    Dictionary<DataTypes.Direction, bool> lanesOpen = new Dictionary<DataTypes.Direction, bool>();
+
     void Awake()
     {
         //squidAnimator = GetComponent<tk2dAnimatedSprite>();
+
+        northFacingTentacle.AnimationCompleted += HandleAnimationComplete;
+        southFacingTentacle.AnimationCompleted += HandleAnimationComplete;
+        westFacingTentacle.AnimationCompleted += HandleAnimationComplete;
+        eastFacingTentacle.AnimationCompleted += HandleAnimationComplete;
+
+        //northFacingTentacle.AnimationEventTriggered += HandleAnimationComplete;
+        //southFacingTentacle.AnimationEventTriggered += HandleAnimationComplete;
+        //westFacingTentacle.AnimationEventTriggered += HandleAnimationComplete;
+        //eastFacingTentacle.AnimationEventTriggered += HandleAnimationComplete;
+
+        lanesOpen = new Dictionary<DataTypes.Direction, bool>
+        {
+            { DataTypes.Direction.North, false },
+                        { DataTypes.Direction.South, false },
+                                    { DataTypes.Direction.West, false },
+                                                { DataTypes.Direction.East, false },
+        };
+    }
+
+    void HandleAnimationComplete(tk2dSpriteAnimator anim, tk2dSpriteAnimationClip clip)
+    {
+
+        if(anim == northFacingTentacle)
+        {
+            if(lanesOpen[DataTypes.Direction.North])
+            {
+                PlayAnimation(anim, "ArmN_Wave");
+            } else
+            {
+                PlayAnimation(anim, "ArmN_Stop");
+            }
+        }
+        if (anim == southFacingTentacle)
+        {
+            if (lanesOpen[DataTypes.Direction.South])
+            {
+                PlayAnimation(anim, "ArmS_Wave");
+            }
+            else
+            {
+                PlayAnimation(anim, "ArmS_Stop");
+            }
+        }
+        if (anim == westFacingTentacle)
+        {
+            if (lanesOpen[DataTypes.Direction.West])
+            {
+                PlayAnimation(anim, "ArmW_Wave");
+            }
+            else
+            {
+                PlayAnimation(anim, "ArmW_Stop");
+            }
+        }
+        if (anim == eastFacingTentacle)
+        {
+            if (lanesOpen[DataTypes.Direction.East])
+            {
+                PlayAnimation(anim, "ArmE_Wave");
+            }
+            else
+            {
+                PlayAnimation(anim, "ArmE_Stop");
+            }
+        }
+
     }
 
     void Start()
@@ -37,6 +107,8 @@ public class PlayerAnimatorController : MonoBehaviour {
 
     public void Wave(DataTypes.Direction direction, bool isOn)
     {
+        lanesOpen[direction] = isOn;
+
         string animName = "";
         tk2dSpriteAnimator tentacle = null;
 
@@ -60,7 +132,7 @@ public class PlayerAnimatorController : MonoBehaviour {
                 break;
         }
 
-        if(tentacle != null) PlayAnimation(tentacle, animName);
+        if(tentacle != null && isOn) PlayAnimation(tentacle, animName);
 
         //if (Random.value > 0.25f) audioSource.PlayOneShot(whistleBlow);
         if(isOn) audioSource.PlayOneShot(whistleBlow);
